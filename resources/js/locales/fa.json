@@ -1,0 +1,2937 @@
+{
+  "nav": {
+    "signUpFree": "ثبت نام رایگان",
+    "welcome": "خوش آمدی، {name}",
+    "dashboard": "داشبورد",
+    "logOut": "خروج",
+    "signUp": "ثبت نام",
+    "logIn": "ورود",
+    "openMenu": "باز کردن منوی اصلی",
+    "news": "اخبار",
+    "tutors": "مربیان",
+    "tutees": "دانش آموزان",
+    "explore": "کاوش",
+    "institutes": "موسسات",
+    "menuItems": {
+      "useCases": "موارد استفاده",
+      "solutions": "راه حل ها",
+      "plansAndPricing": "طرح ها و قیمت گذاری"
+    },
+    "mobileMenu": {
+      "higherEducation": "آموزش عالی",
+      "aboutUs": "درباره ما",
+      "contact": "تماس با ما",
+      "team": "تیم ما"
+    }
+  },
+  "home": {
+    "getStarted": "بزن بریم",
+    "hero": {
+      "title": "کشف کنید، بازی کنید و یاد بگیرید!",
+      "subtitle": "آیهوت، تلفیقی از بازی و آموزش، بازی کن، یاد بگیر، لذت ببر.",
+      "seo": "پلتفرم آموزش مجازی، یادگیری تعاملی، آموزش بازی‌وار"
+    },
+    "features": {
+      "title": "با ویژگی‌های آیهوت آشنا شوید"
+    },
+    "creators": {
+      "title": "برترین سازندگان و موسسات",
+      "seo": "برترین معلم مجازی و مدارس مجازی",
+      "tutees": "دانش‌آموز",
+      "ayhoots": "آی‌هوت",
+      "courses": "دوره",
+      "items": [
+        {
+          "id": "1",
+          "type": "teacher",
+          "name": "سارا رضایی",
+          "image": "https://i.pravatar.cc/150?u=a042581f4e29026704d",
+          "tutees": "۱.۲ هزار",
+          "ayhoots": "۸۹",
+          "courses": "۱۲"
+        },
+        {
+          "id": "2",
+          "type": "institute",
+          "name": "آکادمی نوآوران",
+          "image": "https://i.pravatar.cc/150?u=a042581f4e29026705d",
+          "tutees": "۵.۶ هزار",
+          "ayhoots": "۴۵۰",
+          "courses": "۴۵"
+        },
+        {
+          "id": "3",
+          "type": "teacher",
+          "name": "علی محمدی",
+          "image": "https://i.pravatar.cc/150?u=a042581f4e29026706d",
+          "tutees": "۸۵۰",
+          "ayhoots": "۴۵",
+          "courses": "۸"
+        }
+      ]
+    },
+    "play": {
+      "title": "بگذارید دانش‌آموزان شما بازی کنند!",
+      "paragraph1": "آیهوت آموزش سنتی را به یک تجربه‌ی تعاملی و جذاب تبدیل می‌کند. این پلتفرم برای مؤسساتی طراحی شده که می‌خواهند شور و هیجان را وارد کلاس درس کنند. با آیهوت‌، واژه‌ای که برای بازی‌ها و آزمون‌های خود انتخاب کرده‌ایم، محتوای پویا بسازید تا دانش‌آموزان به صورت زنده بازی و رقابت کنند و روحیه‌ی همکاری و رقابت در کلاس شکل بگیرد. بازخورد بصری و جدول‌های رتبه‌بندی لحظه‌ای، همه را تا پایان بازی مشتاق و همراه نگه می‌دارد.",
+      "seo1": "آموزش مجازی برای دانش آموزان، آزمون آنلاین، آیهوت",
+      "paragraph2": "برای معلمان و مدرسان مستقل، آیهوت ابزاری قدرتمند است که ارتباط با دانش‌آموزان را به سطحی جدید می‌برد. به‌جای برگه‌های تمرین خشک و تکراری، مسیرهای یادگیری شخصی‌سازی‌شده ایجاد کنید. پلتفرم آیهوت به شما اجازه می‌دهد تا پیشرفت هر دانش‌آموز را به‌صورت جداگانه دنبال کنید، نقاطی را که نیاز به توجه دارند شناسایی کنید و بازخورد هدفمند ارائه دهید. این یعنی تبدیل یادگیری به سفری شخصی و لذت‌بخش.",
+      "seo2": "آیهوت، موسسات آموزشی، معلم های مجازی، آزمون آنلاین"
+    },
+    "testimonials": {
+      "title": "کاربران درباره آی‌هوت چه می‌گویند!",
+      "items": [
+        {
+          "name": "علی غفاری",
+          "role": "مربی زبان انگلیسی",
+          "image": "https://i.pravatar.cc/150?u=a042581f4e29026707d",
+          "text": "آی‌هوت پویایی کلاس من را کاملاً تغییر داده است. دانش‌آموزانم بیش از هر زمان دیگری درگیر هستند و نمرات آزمون آنها به طور قابل توجهی بهبود یافته است!"
+        },
+        {
+          "name": "آکادمی آی گون",
+          "role": "موسسه آموزشی",
+          "image": "https://i.pravatar.cc/150?u=a042581f4e29026708d",
+          "text": "ما از آی‌هوت برای آموزش کارکنان جدید خود استفاده می‌کنیم. گیمیفیکیشن آموزش‌های اجباری را سرگرم‌کننده و بسیار به یاد ماندنی‌تر می‌کند. به شدت توصیه می‌شود."
+        },
+        {
+          "name": "نعمت الهی",
+          "role": "دانشجو",
+          "image": "https://i.pravatar.cc/150?u=a042581f4e29026709d",
+          "text": "درس خواندن قبلاً یک کار طاقت‌فرسا بود، اما بازی کردن آی‌هوت با دوستانم برای مرور امتحانات چیزی است که واقعاً منتظرش هستم. این روش کار می‌کند!"
+        }
+      ]
+    },
+    "footer": {
+      "columns": [
+        {
+          "title": "شرکت",
+          "links": [
+            {
+              "text": "درباره ما",
+              "path": "/about"
+            },
+            {
+              "text": "فرصت‌های شغلی",
+              "path": "/careers"
+            },
+            {
+              "text": "رسانه",
+              "path": "/press"
+            }
+          ]
+        },
+        {
+          "title": "منابع",
+          "links": [
+            {
+              "text": "وبلاگ",
+              "path": "/blog"
+            },
+            {
+              "text": "مرکز راهنمایی",
+              "path": "/help"
+            },
+            {
+              "text": "انجمن",
+              "path": "/community"
+            }
+          ]
+        },
+        {
+          "title": "حقوقی",
+          "links": [
+            {
+              "text": "سیاست حفظ حریم خصوصی",
+              "path": "/privacy"
+            },
+            {
+              "text": "شرایط خدمات",
+              "path": "/terms"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "login": {
+    "title": "ورود",
+    "usernameLabel": "نام کاربری یا آدرس ایمیل",
+    "usernamePlaceholder": "نام کاربری",
+    "passwordLabel": "رمز عبور",
+    "passwordPlaceholder": "رمز عبور",
+    "forgotPassword": "رمز عبور را فراموش کرده‌اید؟",
+    "resetPassword": "بازنشانی رمز عبور",
+    "loggingIn": "در حال ورود...",
+    "loginButton": "ورود",
+    "orSeparator": "یا",
+    "continueWithGoogle": "ادامه با گوگل",
+    "noAccount": "حساب کاربری ندارید؟",
+    "signUpLink": "ثبت نام",
+    "terms": {
+      "prefix": "با ثبت نام، شما",
+      "link1": "شرایط و ضوابط",
+      "middle": " ما را می‌پذیرید. لطفا",
+      "link2": "سیاست حفظ حریم خصوصی",
+      "and": "و",
+      "link3": "سیاست حفظ حریم خصوصی کودکان",
+      "suffix": " ما را مطالعه کنید."
+    },
+    "invalidCredentials": "نام کاربری یا رمز عبور اشتباه است.",
+    "unexpectedError": "خطایی در هنگام ورود رخ داد. لطفاً دوباره تلاش کنید."
+  },
+  "errors": {
+    "sessionExpired": "نشست کاربری شما منقضی شده است. لطفاً دوباره وارد شوید.",
+    "pageExpired": "صفحه منقضی شده است. لطفاً صفحه را تازه‌سازی کنید.",
+    "invalidCredentials": "نام کاربری یا رمز عبور وارد شده اشتباه است.",
+    "unauthorized": "دسترسی غیرمجاز است.",
+    "notFound": "مورد درخواستی یافت نشد.",
+    "serverError": "خطایی در سرور رخ داده است. لطفاً بعداً دوباره امتحان کنید.",
+    "networkError": "خطای شبکه. لطفاً اتصال اینترنت خود را بررسی کنید.",
+    "unexpectedError": "خطای غیرمنتظره‌ای رخ داد. لطفاً دوباره تلاش کنید."
+  },
+  "resetPassword": {
+    "title": "بازنشانی رمز عبور",
+    "description": "آدرس ایمیل خود را وارد کنید و ما یک کد تأیید برای بازنشانی رمز عبور شما ارسال خواهیم کرد.",
+    "emailLabel": "آدرس ایمیل",
+    "emailPlaceholder": "ایمیل",
+    "sendCode": "ارسال کد تأیید",
+    "sending": "در حال ارسال...",
+    "codeSent": "کد تأیید به",
+    "codeSentSuccess": "کد تأیید با موفقیت ارسال شد!",
+    "checkEmail": "لطفاً ایمیل خود را برای کد تأیید بررسی کنید.",
+    "continue": "ادامه",
+    "resendCode": "ارسال مجدد کد",
+    "resending": "در حال ارسال مجدد...",
+    "codeResent": "کد تأیید با موفقیت مجدداً ارسال شد!",
+    "backToLogin": "بازگشت به ورود",
+    "error": "خطایی رخ داد. لطفاً دوباره تلاش کنید.",
+    "verifyTitle": "بازنشانی رمز عبور",
+    "verifyDescription": "کد تأیید ارسال شده به",
+    "codeLabel": "کد تأیید",
+    "codePlaceholder": "کد 5 رقمی را وارد کنید",
+    "newPasswordLabel": "رمز عبور جدید",
+    "newPasswordPlaceholder": "رمز عبور جدید را وارد کنید",
+    "confirmPasswordLabel": "تأیید رمز عبور",
+    "confirmPasswordPlaceholder": "رمز عبور جدید را تأیید کنید",
+    "showPassword": "نمایش رمز عبور",
+    "resetButton": "بازنشانی رمز عبور",
+    "resetting": "در حال بازنشانی...",
+    "resetSuccess": "رمز عبور با موفقیت بازنشانی شد! لطفاً با رمز عبور جدید وارد شوید."
+  },
+  "selectInstitute": {
+    "title": "انتخاب محیط کاری خود",
+    "subtitle": "انتخاب محیط کاری که می‌خواهید کار با آن انجام دهید یا ادامه به خانواده بدون موسسه را انتخاب کنید.",
+    "freelancerTitle": "ادامه بدون موسسه",
+    "freelancerSubtitle": "کار با محتوای خود را انجام دهید",
+    "selectButton": "انتخاب این محیط کاری"
+  },
+  "dashboard": {
+    "sidebar": {
+      "upgrade": "ارتقا",
+      "workspace": "محیط کاری",
+      "selectInstitutePlaceholder": "انتخاب موسسه",
+      "freelance": "فریلنسر",
+      "tools": "ابزارها",
+      "support": "پشتیبانی",
+      "loading": "در حال بارگذاری...",
+      "noItemsFound": "موردی یافت نشد.",
+      "add": "+ افزودن",
+      "menu": {
+        "dashboard": "داشبورد",
+        "discover": "کاوش",
+        "library": "کتابخانه",
+        "ayhoots": "آیهوت‌ها",
+        "courses": "دوره‌ها",
+        "purchased": "محتوای خریداری شده",
+        "folders": "پوشه‌ها",
+        "archive": "آرشیو",
+        "tutees": "دانش‌آموزان",
+        "allTutees": "همه دانش‌آموزان",
+        "ownedGroups": "گروه‌های من",
+        "assignedGroups": "گروه‌های تخصیص یافته",
+        "selectGroup": "انتخاب گروه",
+        "reports": "گزارش‌ها",
+        "tutors": "معلم ها"
+      }
+    },
+    "actions": {
+      "settings": "تنظیمات",
+      "preview": "پیش‌نمایش",
+      "exit": "خروج",
+      "save": "ذخیره",
+      "cancel": "لغو"
+    },
+    "profile": {
+      "enrolledTutees": "دانش‌آموزان ثبت‌نام شده",
+      "tuteesEnrolled": "دانش‌آموز ثبت‌نام کرده",
+      "seeAll": "مشاهده همه",
+      "activityOverview": "نمای کلی فعالیت",
+      "totalAyhoots": "کل آیهوت‌ها",
+      "totalCourses": "کل دوره‌ها",
+      "memberOf": "عضو",
+      "plan": "طرح",
+      "freePlan": "طرح رایگان",
+      "registeredTutors": "مدرس‌های ثبت‌شده",
+      "tutorsRegistered": "مدرس ثبت شده"
+    },
+    "reports": {
+      "latestReports": "آخرین گزارش‌ها",
+      "noReportsFound": "گزارشی یافت نشد",
+      "noReportsSubtitle": "گزارش‌های بازی اخیر شما پس از تکمیل در اینجا ظاهر می‌شوند.",
+      "exploreAyhoots": "کاوش در آیهوت‌ها",
+      "seeAll": "مشاهده همه ({count})",
+      "status": {
+        "noEndDate": "تاریخ پایان مشخص نشده",
+        "endedOn": "آیهوت در {date} به پایان رسید",
+        "willEndOn": "آیهوت در {date} به پایان می‌رسد"
+      }
+    },
+    "courses": {
+      "latestCourses": "آخرین دوره‌ها",
+      "resourcesCount": "{count} منبع",
+      "noDescription": "توضیحی ارائه نشده است",
+      "enrollsCount": "{count} ثبت‌نام",
+      "createdBy": "ایجاد شده توسط ",
+      "noCoursesFound": "دوره‌ای یافت نشد",
+      "noCoursesSubtitle": "با ایجاد یک دوره جدید شروع کنید.",
+      "createCourse": "+ ایجاد دوره",
+      "seeAll": "مشاهده همه ({count})",
+      "discover": "کاوش",
+      "noCoursesFoundForStudents": "با یافتن یک دوره جدید شروع کنید."
+    },
+    "ayhoots": {
+      "latestAyhoots": "آخرین آیهوت‌ها",
+      "questionsCount": "{count} سوال",
+      "noDescription": "توضیحی ارائه نشده است",
+      "playsCount": "{count} اجرا",
+      "noAyhootsFound": "آیهوتی یافت نشد",
+      "noAyhootsSubtitle": "با ایجاد یک آیهوت جدید شروع کنید.",
+      "createAyhoot": "+ ایجاد آیهوت",
+      "seeAll": "مشاهده همه ({count})"
+    },
+    "banner": {
+      "getStarted": "شروع کنید",
+      "slide1": {
+        "title": "ارتقا به طرح پلاتینیوم",
+        "description": "به تمام محتوای اشتراک گذاشته شده به صورت رایگان دسترسی پیدا کنید."
+      },
+      "slide2": {
+        "title": "در هر موسسه‌ای ثبت‌نام کنید!",
+        "description": "موسسات را کشف کرده و در آنها ثبت‌نام کنید."
+      },
+      "slide3": {
+        "title": "آیهوت! خدمات دوست‌دار انسان را به اشتراک می‌گذارد",
+        "description": "منظم و produttive بمانید."
+      }
+    },
+    "courseSettings": {
+      "headerTitle": "عنوان دوره را وارد کنید...",
+      "title": "تنظیمات دوره",
+      "form": {
+        "titleLabel": "عنوان",
+        "titleSubtitle": "یک عنوان برای دوره خود وارد کنید.",
+        "titlePlaceholder": "عنوان را اینجا وارد کنید",
+        "descriptionLabel": "توضیحات (اختیاری)",
+        "descriptionSubtitle": "توضیح مختصری برای دوره خود برای افزایش دیده شدن ارائه دهید.",
+        "descriptionPlaceholder": "توضیحات...",
+        "monetizeLabel": "کسب درآمد",
+        "monetizeSubtitle": "انتخاب کنید که آیا می‌خواهید از دوره خود کسب درآمد کنید.",
+        "free": "رایگان",
+        "paid": "پولی",
+        "priceLabel": "قیمت را وارد کنید",
+        "coverImageLabel": "تصویر کاور",
+        "coverImageSubtitle": "یک تصویر کاور اضافه کنید تا دوره شما برجسته شود.",
+        "uploadFile": "آپلود فایل",
+        "dragAndDrop": "یا بکشید و رها کنید",
+        "fileTypes": "PNG, JPG, GIF تا ۱۰ مگابایت",
+        "categoryLabel": "دسته بندی",
+        "categorySubtitle": "دسته بندی دوره خود را مشخص کنید.",
+        "assignToInstituteLabel": "تخصیص به موسسه",
+        "assignToInstituteSubtitle": "موسسه‌ای را برای تخصیص دوره خود انتخاب کنید.",
+        "freelance": "فریلنسر"
+      }
+    },
+    "examSettings": {
+      "headerTitle": "عنوان آیهوت را وارد کنید...",
+      "title": "تنظیمات آیهوت",
+      "form": {
+        "titleSubtitle": "یک عنوان برای آیهوت خود وارد کنید.",
+        "descriptionSubtitle": "توضیح مختصری برای آیهوت خود برای افزایش دیده شدن ارائه دهید.",
+        "monetizeSubtitle": "انتخاب کنید که آیا می‌خواهید از آیهوت خود کسب درآمد کنید.",
+        "coverImageSubtitle": "یک تصویر کاور اضافه کنید تا آیهوت شما برجسته شود.",
+        "categorySubtitle": "دسته بندی آیهوت خود را مشخص کنید.",
+        "saveToFolderLabel": "ذخیره در",
+        "saveToFolderSubtitle": "پوشه‌ای را برای ذخیره آیهوت خود انتخاب کنید.",
+        "withoutFolder": "بدون پوشه",
+        "assignToInstituteSubtitle": "موسسه‌ای را برای تخصیص آیهوت خود انتخاب کنید."
+      }
+    }
+  },
+  "header": {
+    "openMenu": "باز کردن منوی اصلی",
+    "upgrade": "ارتقا",
+    "create": "ایجاد",
+    "logoutConfirm": "آیا برای خروج مطمئن هستید؟",
+    "createDropdown": {
+      "ayhoot": {
+        "title": "ایجاد آی‌هوت",
+        "description": "جامعه خود را بیازمایید."
+      },
+      "course": {
+        "title": "ایجاد دوره",
+        "description": "منابع را در یک درس جمع‌آوری کنید."
+      }
+    },
+    "profileDropdown": {
+      "avatarAlt": "آواتار کاربر",
+      "changeLanguage": "تغییر زبان",
+      "comingSoon": "به زودی",
+      "wallet": "کیف پول",
+      "signOut": "خروج از سیستم"
+    },
+    "notificationDropdown": {
+      "title": "اعلان‌ها",
+      "ok": "باشه",
+      "checkout": "بررسی",
+      "noNotifications": "شما هیچ اعلان جدیدی ندارید.",
+      "seeAll": "مشاهده همه",
+      "markRead": "خوانده شده",
+      "markAllRead": "خواندن همه"
+    },
+    "notifications": {
+      "list": {
+        "userEnrolled": "کاربر {name} در دوره شما ثبت نام کرد.",
+        "userPlayed": "کاربر {name} آی‌هوت شما را بازی کرد.",
+        "groupAssigned": "یک گروه جدید توسط {institute} به شما تخصیص داده شد.",
+        "enrollConfirmed": "موسسه {institute} ثبت نام شما را تایید کرد.",
+        "ayhootBought": "{name} آی‌هوت شما را خریداری کرد.",
+        "invitationAccepted": "{name} دعوت شما را پذیرفت.",
+        "ayhootPublished": "آی‌هوت شما منتشر شد.",
+        "courseDenied": "دوره شما به دلیل سیاست محتوای حساس آی‌هوت رد شد.",
+        "ticketAnswered": "تیکت شما پاسخ داده شد."
+      },
+      "timestamps": {
+        "minutesAgo": "{count} دقیقه پیش",
+        "hoursAgo": "{count} ساعت پیش",
+        "daysAgo": "{count} روز پیش",
+        "secondsAgo": "{count} ثانیه پیش"
+      }
+    }
+  },
+  "discover": {
+    "loadingMore": "در حال بارگذاری محتوا...",
+    "institutes": {
+      "pageTitle": "کاوش موسسات",
+      "filters": {
+        "searchLabel": "جستجو بر اساس نام",
+        "searchPlaceholder": "مثلاً، آکادمی آیهوت",
+        "sortByLabel": "مرتب‌سازی بر اساس",
+        "sortLatest": "جدیدترین",
+        "sortOldest": "قدیمی‌ترین",
+        "sortMostContent": "بیشترین محتوا"
+      },
+      "stats": {
+        "ayhoots": "آیهوت‌ها",
+        "courses": "دوره‌ها"
+      },
+      "empty": {
+        "title": "هیچ موسسه‌ای یافت نشد",
+        "description": "برای پیدا کردن موسسات، جستجو یا فیلترهای خود را تغییر دهید."
+      }
+    },
+    "creators": {
+      "pageTitle": "کاوش سازندگان",
+      "filters": {
+        "searchLabel": "جستجو بر اساس نام یا نام کاربری",
+        "searchPlaceholder": "مثلاً، سارا احمدی یا {'@'}sarah",
+        "sortByLabel": "مرتب‌سازی بر اساس",
+        "sortLatest": "جدیدترین",
+        "sortOldest": "قدیمی‌ترین",
+        "sortMostContent": "بیشترین محتوا",
+        "sortMostTutees": "بیشترین شاگردان"
+      },
+      "stats": {
+        "ayhoots": "آیهوت‌ها",
+        "courses": "دوره‌ها",
+        "tutees": "شاگردان"
+      },
+      "empty": {
+        "title": "هیچ سازنده‌ای یافت نشد",
+        "description": "برای پیدا کردن سازندگان، جستجو یا فیلترهای خود را تغییر دهید."
+      }
+    },
+    "loadMore": "بارگذاری بیشتر",
+    "students": "{count} دانش آموز",
+    "fetchMoreError": "محتوای بیشتری لود نمی شود.",
+    "defaultTeacher": "معلم",
+    "fetchError": "دریافت اطلاعات بخش اکتشاف ناموفق بود.",
+    "seeAll": "مشاهده همه",
+    "explore": "کاوش",
+    "noDescription": "توضیحات موجود نیست.",
+    "questions": "{count} سوال",
+    "plays": "{count} اجرا",
+    "enrolls": "{count} ثبت‌نام",
+    "price": {
+      "free": "رایگان",
+      "paid": "پولی",
+      "paidAmount": "{price} ریال"
+    },
+    "byline": {
+      "byUser": "توسط ",
+      "institute": "موسسه",
+      "tutor": "معلم",
+      "anonymous": "ناشناس"
+    },
+    "categories": {
+      "title": "دسته‌بندی‌ها",
+      "previous": "دسته‌بندی‌های قبلی",
+      "next": "دسته‌بندی‌های بعدی",
+      "empty": "در حال حاضر دسته‌بندی برای نمایش وجود ندارد."
+    },
+    "topPicks": {
+      "title": "برترین آی‌هوت‌ها!",
+      "empty": "در حال حاضر آی‌هوت برتری برای نمایش وجود ندارد."
+    },
+    "recommended": {
+      "title": "پیشنهاد آی‌هوت!",
+      "description": "آی‌هوت‌های محبوب و آماده بازی در موضوعات مختلف را کشف کنید",
+      "empty": "در حال حاضر پیشنهادی موجود نیست."
+    },
+    "verifiedCourses": {
+      "title": "دوره‌های تایید شده",
+      "description": "کتابخانه‌ای از مجموعه‌های انحصاری و برتر را با A!+ AccessPass کاوش کنید - هزاران آی‌هوت، یک اشتراک."
+    },
+    "verifiedCreators": {
+      "title": "سازندگان تایید شده",
+      "tutor": "مدرس",
+      "courses": "دوره‌ها",
+      "tutees": "دانش‌آموزان"
+    },
+    "verifiedInstitutes": {
+      "title": "موسسات تایید شده",
+      "institute": "موسسه",
+      "ayhoots": "آی‌هوت‌ها",
+      "courses": "دوره‌ها",
+      "tutors": "مدرسین",
+      "tutees": "دانش‌آموزان"
+    },
+    "allAyhoots": {
+      "pageTitle": "کشف آی‌هوت‌ها",
+      "filters": {
+        "searchLabel": "جستجو",
+        "searchPlaceholder": "جستجو بر اساس عنوان، توضیحات یا سازنده...",
+        "priceLabel": "فیلتر بر اساس قیمت",
+        "priceAll": "همه قیمت‌ها",
+        "pricePaid": "پولی",
+        "priceFree": "رایگان",
+        "sortByLabel": "مرتب‌سازی بر اساس",
+        "sortLatest": "جدیدترین",
+        "sortOldest": "قدیمی‌ترین",
+        "sortMostPlayed": "بیشترین اجرا",
+        "sortLeastPlayed": "کمترین اجرا"
+      },
+      "byline": {
+        "by": "توسط",
+        "anonymous": "توسط ناشناس"
+      },
+      "empty": {
+        "title": "هیچ آی‌هوتی یافت نشد",
+        "description": "معیارهای جستجو یا فیلتر خود را تغییر دهید."
+      }
+    },
+    "allCourses": {
+      "pageTitle": "کشف دوره‌ها",
+      "filters": {
+        "searchLabel": "جستجو",
+        "searchPlaceholder": "جستجو بر اساس عنوان، توضیحات...",
+        "priceLabel": "قیمت",
+        "priceAll": "همه",
+        "pricePaid": "پولی",
+        "priceFree": "رایگان",
+        "sortByLabel": "مرتب‌سازی بر اساس",
+        "sortLatest": "جدیدترین",
+        "sortOldest": "قدیمی‌ترین",
+        "sortMostResources": "بیشترین منابع",
+        "sortLeastResources": "کمترین منابع"
+      },
+      "empty": {
+        "title": "هیچ دوره‌ای یافت نشد",
+        "description": "معیارهای جستجو یا فیلترهای خود را تغییر دهید."
+      }
+    },
+    "recommendedAyhoots": {
+      "pageTitle": "کشف آی‌هوت‌های پیشنهادی",
+      "filters": {
+        "searchLabel": "جستجو",
+        "searchPlaceholder": "جستجو بر اساس عنوان، توضیحات...",
+        "priceLabel": "قیمت",
+        "priceAll": "همه",
+        "pricePaid": "پولی",
+        "priceFree": "رایگان",
+        "sortByLabel": "مرتب‌سازی بر اساس",
+        "sortLatest": "جدیدترین",
+        "sortOldest": "قدیمی‌ترین",
+        "sortMostPlayed": "بیشترین اجرا",
+        "sortLeastPlayed": "کمترین اجرا"
+      },
+      "empty": {
+        "title": "هیچ آی‌هوت پیشنهادی یافت نشد",
+        "description": "معیارهای جستجو یا فیلترهای خود را تغییر دهید یا بعداً دوباره بررسی کنید!"
+      }
+    },
+    "ayhootsTitle": "آیهوت ها",
+    "coursesTitle": "دوره ها"
+  },
+  "ticket": {
+    "title": "پشتیبانی",
+    "clearFilters": "پاک کردن فیلترها",
+    "createTicket": "ایجاد تیکت",
+    "description": "برای پشتیبانی از تیکت‌های خود استفاده کنید",
+    "descriptionTitle": "توضیحات",
+    "search": "جستجوی تیکت‌ها...",
+    "status": "وضعیت",
+    "open": "باز",
+    "answered": "پاسخ داده شده",
+    "closed": "بسته شده",
+    "noTicketsFound": "تیکتی یافت نشد",
+    "tryChanging": "لطفا جستجوی خود را تغییر دهید",
+    "createFirst": "ایجاد تیکت خود را ابتدا انجام دهید",
+    "formError": "لطفا این خطاها را تصحیح کنید:",
+    "submitting": "در حال ارسال...",
+    "info": "تیکت شما به اولین کارمند پشتیبانی که در دسترس باشد، اختصاص داده خواهد شد.",
+    "descriptionPlaceholder": "لطفا توضیحات خود را در اینجا وارد کنید",
+    "titlePlaceholder": "لطفا عنوان خود را در اینجا وارد کنید",
+    "validation": {
+      "titleRequired": "عنوان الزامی است.",
+      "titleMinLength": "عنوان باید حداقل {min} کاراکتر باشد.",
+      "descriptionRequired": "توضیحات الزامی است.",
+      "descriptionMinLength": "توضیحات باید حداقل {min} کاراکتر باشد.",
+      "submissionFailed": "ارسال ناموفق بود. لطفا دوباره امتحان کنید."
+    },
+    "view": "نمایش",
+    "created": "ایجاد شده",
+    "updated": "بروزرسانی شده",
+    "by": "توسط",
+    "actions": "عملیات",
+    "id": "ردیف",
+    "refresh": "بروزرسانی",
+    "details": {
+      "title": "جزئیات ایمیل",
+      "createdOn": "ایجاد شده در",
+      "updatedOn": "بروزرسانی شده در",
+      "conversation": "گفتگو",
+      "noReplies": "هنوز هیچ پاسخی ندارید",
+      "replyPlaceholder": "برای پاسخ به ایمیل اینجا کلیک کنید...",
+      "sendReply": "ارسال پاسخ",
+      "infoTitle": "اطلاعات ایمیل",
+      "closeTicket": "بستن تیکت",
+      "closedTicket": "تیکت بسته شده",
+      "confirmClose": "آیا مطمئن هستید که می خواهید این ایمیل را ببندید؟",
+      "repliesCount": "{count} پاسخ",
+      "replying": "در حال پاسخ دادن...",
+      "backToTickets": "بازگشت"
+    }
+  },
+  "report": {
+    "title": "مدیریت گزارش‌ها",
+    "subtitle": "گزارش‌های بازی خود را مدیریت کنید",
+    "searchPlaceholder": "جستجوی گزارش‌ها...",
+    "filters": {
+      "allStatus": "همه وضعیت‌ها",
+      "dateCreated": "تاریخ ایجاد",
+      "title": "عنوان",
+      "status": "وضعیت",
+      "inProgress": "در حال انجام"
+    },
+    "status": {
+      "active": "فعال",
+      "draft": "پیش‌نویس",
+      "completed": "تکمیل‌شده",
+      "published": "منتشرشده",
+      "archived": "بایگانی‌شده",
+      "started": "شروع شده"
+    },
+    "table": {
+      "assignmentBadge": "تکلیف",
+      "header": {
+        "details": "جزئیات آیهوت",
+        "status": "وضعیت",
+        "category": "دسته‌بندی",
+        "plays": "تعداد اجرا",
+        "questions": "سوالات",
+        "visibility": "قابلیت مشاهده",
+        "actions": "عملیات",
+        "completedAt": "تکمیل شده در"
+      },
+      "sublabel": {
+        "category": "دسته‌بندی",
+        "tutees": "دانش‌آموزان",
+        "questions": "سوالات"
+      },
+      "actions": {
+        "view": "مشاهده",
+        "download": "دانلود",
+        "share": "اشتراک‌گذاری",
+        "delete": "حذف"
+      }
+    },
+    "emptyState": {
+      "title": "گزارشی یافت نشد",
+      "subtitle": "با اختصاص یک آیهوت جدید شروع کنید یا فیلترهای خود را تغییر دهید.",
+      "assignButton": "+ اختصاص آیهوت",
+      "playButton": "یک آی‌هوت بازی کن"
+    },
+    "loading": "در حال بارگذاری گزارش‌های شما...",
+    "pagination": {
+      "results": "نمایش {from}-{to} از {total} نتیجه",
+      "previous": "قبلی",
+      "next": "بعدی"
+    },
+    "alerts": {
+      "deleteConfirm": "آیا از حذف این آیهوت مطمئن هستید؟",
+      "deleteSuccess": "آیهوت با موفقیت حذف شد.",
+      "deleteFailed": "حذف آیهوت ناموفق بود."
+    }
+  },
+  "teacherStudent": {
+    "title": "مدیریت دانش‌آموزان",
+    "subtitle": "افزودن یا مدیریت همه دانش‌آموزان",
+    "searchPlaceholder": "جستجوی دانش‌آموز بر اساس نام...",
+    "inviteTutee": "دعوت دانش‌آموز",
+    "filters": {
+      "dateJoined": "تاریخ عضویت",
+      "name": "نام"
+    },
+    "table": {
+      "header": {
+        "tutee": "دانش‌آموز",
+        "groups": "گروه‌ها",
+        "joinedAt": "تاریخ عضویت",
+        "actions": "عملیات"
+      },
+      "noGroup": "عضو گروهی نیست",
+      "via": "از طریق {method}",
+      "actions": {
+        "profile": "پروفایل",
+        "addToGroup": "افزودن به گروه",
+        "remove": "حذف"
+      }
+    },
+    "loading": "در حال بارگذاری دانش‌آموزان...",
+    "empty": {
+      "title": "دانش‌آموزی یافت نشد",
+      "searchSubtitle": "هیچ دانش‌آموزی با جستجوی شما مطابقت ندارد.",
+      "defaultSubtitle": "با دعوت یک دانش‌آموز جدید شروع کنید."
+    },
+    "pagination": {
+      "showing": "نمایش {from}-{to} از {total} نتیجه",
+      "page": "صفحه {currentPage} از {lastPage}",
+      "previous": "قبلی",
+      "next": "بعدی"
+    },
+    "inviteModal": {
+      "title": "دعوت یک دانش‌آموز",
+      "description": "این لینک را با هر کسی که می‌خواهید به عنوان دانش‌آموز خود دعوت کنید به اشتراک بگذارید.",
+      "copy": "کپی",
+      "done": "انجام شد",
+      "linkNotReady": "لینک هنوز آماده نیست.",
+      "copySuccess": "لینک دعوت در کلیپ‌بورد کپی شد!",
+      "copyError": "کپی کردن لینک ناموفق بود."
+    },
+    "groupModal": {
+      "title": "افزودن «{name}» به گروه",
+      "defaultTitle": "افزودن دانش‌آموز به گروه",
+      "description": "یک گروه برای اختصاص دادن این دانش‌آموز انتخاب کنید.",
+      "searchPlaceholder": "جستجوی گروه‌ها...",
+      "loading": "در حال بارگذاری گروه‌ها...",
+      "adding": "در حال افزودن...",
+      "add": "افزودن",
+      "removing": "در حال حذف...",
+      "remove": "حذف",
+      "empty": {
+        "title": "گروهی یافت نشد",
+        "searchSuffix": " که با جستجوی شما مطابقت داشته باشد",
+        "subtitle": "یا مطمئن شوید که بایگانی نشده‌اند.",
+        "createLink": "یکی ایجاد کنید"
+      },
+      "done": "انجام شد",
+      "loadError": "بارگذاری گروه‌ها برای مودال ناموفق بود."
+    },
+    "alerts": {
+      "removeConfirm": "آیا از حذف دانش‌آموز «{name}» مطمئن هستید؟ این عمل قابل بازگشت نیست.",
+      "removeConfirmFallback": "آیا از حذف این دانش‌آموز مطمئن هستید؟ این عمل قابل بازگشت نیست.",
+      "removeSuccess": "دانش‌آموز «{name}» با موفقیت حذف شد.",
+      "removeSuccessFallback": "دانش‌آموز با موفقیت حذف شد.",
+      "removeError": "حذف دانش‌آموز ناموفق بود.",
+      "addToGroupSuccess": "{tuteeName} به {groupTitle} اضافه شد.",
+      "addToGroupError": "افزودن دانش‌آموز به گروه ناموفق بود.",
+      "removeFromGroupSuccess": "{tuteeName} از {groupTitle} حذف شد.",
+      "removeFromGroupError": "حذف دانش‌آموز از گروه ناموفق بود.",
+      "fetchError": "بارگذاری دانش‌آموزان ناموفق بود.",
+      "fetchStructureError": "ساختار پاسخ برای دانش‌آموزان غیرمنتظره است."
+    },
+    "tabs": {
+      "all": "همه دانش‌آموزان",
+      "owned": "گروه‌های من",
+      "assigned": "گروه‌های تخصیص یافته",
+      "select": "انتخاب گروه"
+    }
+  },
+  "groupsSidebar": {
+    "menuTitle": "دانش‌آموزان من",
+    "selectGroup": "انتخاب گروه",
+    "menu": {
+      "allSubscribers": "همه مشترکین",
+      "assignedGroups": "گروه‌های من",
+      "ownedGroups": "گروه‌های تحت مالکیت من"
+    },
+    "create": {
+      "placeholder": "نام گروه را وارد کنید...",
+      "button": "ایجاد گروه",
+      "ariaLabel": "نام گروه جدید"
+    },
+    "actions": {
+      "removeAriaLabel": "حذف گروه",
+      "removeTitle": "حذف گروه",
+      "saveAriaLabel": "ذخیره گروه",
+      "cancelAriaLabel": "انصراف"
+    },
+    "notifications": {
+      "loadFailed": "بارگذاری گروه‌ها ناموفق بود.",
+      "nameRequired": "نام گروه الزامی است.",
+      "createSuccess": "گروه با موفقیت ایجاد شد!",
+      "createFailed": "ایجاد گروه ناموفق بود.",
+      "deleteSuccess": "گروه با موفقیت حذف شد.",
+      "deleteFailed": "حذف گروه ناموفق بود."
+    },
+    "confirmation": {
+      "title": "آیا مطمئن هستید؟",
+      "delete": "آیا از حذف گروه «{title}» مطمئن هستید؟",
+      "confirmButton": "بله، حذف کن!",
+      "cancelButton": "انصراف"
+    }
+  },
+  "signup": {
+    "title": "ثبت نام",
+    "role": {
+      "label": "من یک ... هستم",
+      "student": "دانش‌آموز",
+      "teacher": "معلم",
+      "institute": "موسسه"
+    },
+    "emailLabel": "آدرس ایمیل یا تلفن",
+    "emailPlaceholder": "ایمیل یا تلفن",
+    "usernameLabel": "نام کاربری",
+    "usernamePlaceholder": "نام کاربری",
+    "usernameTaken": "این نام کاربری قبلا گرفته شده است",
+    "passwordLabel": "رمز عبور",
+    "passwordPlaceholder": "رمز عبور",
+    "cityLabel": "شهر",
+    "cityPlaceholder": "یک شهر انتخاب کنید",
+    "submitting": "در حال ایجاد حساب...",
+    "submitButton": "ایجاد حساب کاربری",
+    "orSeparator": "یا",
+    "continueWithGoogle": "ادامه با گوگل",
+    "hasAccount": "قبلاً حساب کاربری دارید؟",
+    "loginLink": "وارد شوید",
+    "terms": {
+      "prefix": "با ثبت‌نام، شما",
+      "link1": "شرایط و ضوابط",
+      "middle": " ما را می‌پذیرید. لطفاً ",
+      "link2": "سیاست حفظ حریم خصوصی",
+      "and": " و ",
+      "link3": "سیاست حفظ حریم خصوصی کودکان"
+    },
+    "alerts": {
+      "emailSent": "ایمیل تایید با موفقیت ارسال شد!"
+    }
+  },
+  "verify": {
+    "title": "تایید حساب کاربری",
+    "description": "لطفاً کد تایید ارسال شده به",
+    "codeLabel": "کد تایید",
+    "codePlaceholder": "کد تایید را وارد کنید",
+    "submitButton": "تایید حساب",
+    "verifying": "در حال تایید...",
+    "noCode": "کد را دریافت نکردید؟",
+    "resendButton": "ارسال مجدد",
+    "resending": "در حال ارسال..."
+  },
+  "permissions": {
+    "title": "پلن و استفاده",
+    "currentPlan": "پلن فعلی",
+    "free": "رایگان",
+    "premium": "پریمیوم",
+    "exams": "آزمون‌ها",
+    "courses": "دوره‌ها",
+    "groups": "گروه‌ها",
+    "tutees": "دانش‌آموزان",
+    "used": "استفاده شده",
+    "remaining": "باقی‌مانده",
+    "loadError": "خطا در بارگیری مجوزها",
+    "refreshed": "مجوزها به‌روزرسانی شد",
+    "upgrade": "ارتقاء پلن",
+    "upgradeNotice": {
+      "title": "ارتقاء پلن را در نظر بگیرید",
+      "message": "شما به حد مجاز پلن خود نزدیک شده‌اید. برای ویژگی‌های بیشتر ارتقاء دهید."
+    },
+    "modal": {
+      "title": "به حد مجاز پلن رسیدید",
+      "defaultMessage": "شما به حد مجاز پلن خود برای این ویژگی رسیده‌اید.",
+      "usage": "استفاده فعلی",
+      "redirectMessage": "انتقال به صفحه پلن‌ها در",
+      "upgradeNow": "ارتقاء فوری",
+      "close": "بستن"
+    },
+    "denied": {
+      "title": "عدم دسترسی",
+      "examLimit": "به حد مجاز ایجاد آزمون رسیده‌اید",
+      "courseLimit": "به حد مجاز ایجاد دوره رسیده‌اید",
+      "groupLimit": "به حد مجاز ایجاد گروه رسیده‌اید",
+      "tuteeLimit": "به حد مجاز دانش‌آموز برای این ماه رسیده‌اید",
+      "monetizeDisabled": "کسب درآمد در پلن شما فعال نیست"
+    }
+  },
+  "studentProfileCard": {
+    "activityOverview": {
+      "title": "نمای کلی فعالیت",
+      "playedAyhoots": "آی‌هوت‌های بازی شده",
+      "enrolledCourses": "دوره‌های ثبت‌نام شده"
+    },
+    "accountInfo": {
+      "title": "اطلاعات حساب",
+      "emailLabel": "ایمیل"
+    }
+  },
+  "ayhoot": {
+    "archive": {
+      "title": "بایگانی آیهوت ها",
+      "description": "آیهوت های بایگانی شده را مدیریت کنید.",
+      "emptyDescription": "آیهوت بایگانی شده ای وجود ندارد."
+    },
+    "title": "مدیریت آی‌هوت‌ها",
+    "description": "آی‌هوت‌ها و سوالات آن‌ها را ایجاد و مدیریت کنید",
+    "searchPlaceholder": "جستجوی آی‌هوت‌ها...",
+    "create": "ایجاد آی‌هوت",
+    "discover": "کاوش",
+    "by": "توسط",
+    "loading": "در حال بارگذاری آی‌هوت‌های شما...",
+    "filters": {
+      "allStatus": "همه وضعیت‌ها",
+      "pending": "در انتظار",
+      "published": "منتشر شده",
+      "rejected": "رد شده",
+      "draft": "پیش‌نویس",
+      "active": "فعال",
+      "completed": "تکمیل شده",
+      "archived": "بایگانی شده",
+      "dateCreated": "تاریخ ایجاد",
+      "title": "عنوان",
+      "status": "وضعیت"
+    },
+    "table": {
+      "header": {
+        "details": "جزئیات آی‌هوت",
+        "status": "وضعیت",
+        "category": "دسته بندی",
+        "creator": "سازنده",
+        "plays": "اجراها",
+        "questions": "سوالات",
+        "accessibility": "دسترسی",
+        "actions": "عملیات"
+      },
+      "body": {
+        "noCategory": "بدون دسته بندی",
+        "categoryLabel": "دسته بندی",
+        "tutees": "دانش‌آموزان",
+        "questions": "سوالات",
+        "free": "رایگان",
+        "notForSale": "غیرقابل فروش",
+        "notAvailable": "نامشخص",
+        "invalidDate": "تاریخ نامعتبر",
+        "assignment": "تکلیف",
+        "assignmentCompleted": "تکلیف انجام شده"
+      },
+      "actions": {
+        "assign": "تخصیص",
+        "edit": "ویرایش",
+        "more": "بیشتر",
+        "play": "اجرا"
+      }
+    },
+    "empty": {
+      "title": "هیچ آی‌هوتی یافت نشد",
+      "description": "با ایجاد یک آی‌هوت جدید شروع کنید، یا فیلترهای خود را تغییر دهید.",
+      "create": "+ ایجاد آی‌هوت",
+      "play": "اجرا"
+    },
+    "pagination": {
+      "showingResults": "نمایش {from}-{to} از {total} نتیجه",
+      "previous": "قبلی",
+      "next": "بعدی"
+    },
+    "tabs": {
+      "ayhoots": "آی‌هوت‌ها",
+      "assigned": "آی‌هوت‌های محول‌شده",
+      "courses": "دوره‌ها",
+      "purchased": "محتوای خریداری شده",
+      "folders": "پوشه‌ها",
+      "archive": "بایگانی"
+    },
+    "dropdown": {
+      "addToCourse": "افزودن به دوره",
+      "moveFolder": "انتقال به پوشه",
+      "archive": "بایگانی",
+      "Unarchive": "باز انتشار",
+      "share": "اشتراک گذاری",
+      "duplicate": "کپی کردن",
+      "delete": "حذف"
+    },
+    "assignModal": {
+      "title": "تخصیص آی‌هوت",
+      "description": "این آی‌هوت را برای دانش‌آموزان خود زمان‌بندی کنید تا با سرعت خودشان آن را تکمیل کنند.",
+      "formTitle": "ایجاد یک تکلیف",
+      "assignmentTitle": "عنوان تکلیف (اختیاری)",
+      "titlePlaceholder": "مثال: تکلیف هفتگی، آزمون میان‌ترم...",
+      "dueDate": "تاریخ سررسید",
+      "time": "زمان",
+      "optionsTitle": "گزینه‌ها",
+      "questionTimer": "تایمر سوال",
+      "optionRandomize": "تصادفی کردن گزینه‌ها",
+      "participantLimit": "محدودیت شرکت‌کننده: ۴۰",
+      "upgrade": "ارتقا",
+      "cancel": "لغو",
+      "create": "ایجاد",
+      "assignToGroupLabel": "تخصیص به یک گروه (اختیاری)",
+      "selectGroupsPlaceholder": "انتخاب گروه‌ها...",
+      "groupsSelected": "{count} گروه انتخاب شد",
+      "loadingGroups": "در حال بارگذاری گروه‌ها...",
+      "noGroupsFound": "هیچ گروهی یافت نشد.",
+      "errorLoadingGroups": "بارگذاری گروه‌ها ناموفق بود."
+    },
+    "moveFolderModal": {
+      "title": "انتقال آی‌هوت به پوشه",
+      "description": "یک پوشه برای سازماندهی آی‌هوت خود انتخاب کنید.",
+      "searchPlaceholder": "جستجوی پوشه‌ها...",
+      "loading": "در حال بارگذاری پوشه‌ها...",
+      "adding": "در حال افزودن...",
+      "add": "افزودن",
+      "removing": "در حال حذف...",
+      "remove": "حذف",
+      "empty": {
+        "title": "هیچ پوشه‌ای یافت نشد",
+        "titleWithSearch": "پوشه‌ای مطابق با جستجوی شما یافت نشد",
+        "description": "برای سازماندهی آی‌هوت‌های خود، در تب 'پوشه‌ها' پوشه ایجاد کنید."
+      },
+      "done": "انجام شد"
+    },
+    "addCourseModal": {
+      "title": "افزودن آی‌هوت به دوره",
+      "description": "یک دوره برای گنجاندن این آی‌هوت انتخاب کنید.",
+      "searchPlaceholder": "جستجوی دوره‌ها...",
+      "loading": "در حال بارگذاری دوره‌ها...",
+      "adding": "در حال افزودن...",
+      "add": "افزودن",
+      "removing": "در حال حذف...",
+      "remove": "حذف",
+      "empty": {
+        "title": "هیچ دوره‌ای یافت نشد",
+        "titleWithSearch": "دوره‌ای مطابق با جستجوی شما یافت نشد",
+        "description": "برای تخصیص آی‌هوت‌ها، در تب 'دوره‌ها' دوره ایجاد کنید."
+      },
+      "done": "انجام شد"
+    },
+    "notifications": {
+      "loadFailed": "بارگذاری آی‌هوت‌ها ناموفق بود.",
+      "confirmArchive": "آیا از بایگانی کردن این آی‌هوت مطمئن هستید؟",
+      "archiveSuccess": "آی‌هوت با موفقیت بایگانی شد.",
+      "archiveFailed": "بایگانی کردن آی‌هوت ناموفق بود.",
+      "linkCopied": "لینک در کلیپ‌بورد کپی شد.",
+      "linkCopyFailed": "کپی کردن لینک در کلیپ‌بورد ناموفق بود.",
+      "confirmDelete": "آیا از حذف این آی‌هوت مطمئن هستید؟ این عمل قابل بازگشت نیست.",
+      "deleteSuccess": "آی‌هوت با موفقیت حذف شد.",
+      "deleteFailed": "حذف آی‌هوت ناموفق بود.",
+      "dueDateRequired": "تاریخ و زمان سررسید الزامی است.",
+      "noExamSelected": "خطایی رخ داد. هیچ آزمونی انتخاب نشده است.",
+      "gameIdNotFound": "شناسه بازی در پاسخ API یافت نشد.",
+      "assignFailed": "تخصیص آی‌هوت ناموفق بود.",
+      "loadFoldersFailed": "بارگذاری پوشه‌ها ناموفق بود.",
+      "moveToFolderSuccess": "آی‌هوت به پوشه «{folderName}» منتقل شد.",
+      "moveToFolderFailed": "انتقال آی‌هوت به پوشه ناموفق بود.",
+      "removeFromFolderSuccess": "آی‌هوت از پوشه «{folderName}» حذف شد.",
+      "removeFromFolderFailed": "حذف آی‌هوت از پوشه ناموفق بود.",
+      "loadCoursesFailed": "بارگذاری دوره‌ها ناموفق بود.",
+      "addToCourseSuccess": "آی‌هوت به دوره «{courseName}» اضافه شد.",
+      "addToCourseFailed": "افزودن آی‌هوت به دوره ناموفق بود.",
+      "removeFromCourseSuccess": "آی‌هوت از دوره «{courseName}» حذف شد.",
+      "removeFromCourseFailed": "حذف آی‌هوت از دوره ناموفق بود."
+    }
+  },
+  "librarySidebar": {
+    "title": "کتابخانه من",
+    "selectFolder": "انتخاب پوشه",
+    "menu": {
+      "ayhoots": "آهوت‌ها",
+      "courses": "دوره‌ها",
+      "purchased": "خریداری شده",
+      "archive": "آرشیو",
+      "groups": "گروه ها"
+    },
+    "create": {
+      "placeholder": "نام پوشه را وارد کنید...",
+      "button": "ایجاد پوشه"
+    },
+    "actions": {
+      "removeAriaLabel": "حذف پوشه",
+      "removeTitle": "حذف پوشه",
+      "saveAriaLabel": "ذخیره پوشه",
+      "cancelAriaLabel": "انصراف"
+    },
+    "notifications": {
+      "loadFailed": "بارگذاری پوشه‌ها ناموفق بود.",
+      "nameRequired": "نام پوشه الزامی است.",
+      "createSuccess": "پوشه با موفقیت ایجاد شد!",
+      "createFailed": "ایجاد پوشه ناموفق بود.",
+      "deleteSuccess": "پوشه با موفقیت حذف شد.",
+      "deleteFailed": "حذف پوشه ناموفق بود."
+    },
+    "confirmation": {
+      "title": "آیا مطمئن هستید؟",
+      "delete": "آیا از حذف پوشه «{name}» مطمئن هستید؟",
+      "confirmButton": "بله، حذف کن!",
+      "cancelButton": "انصراف"
+    }
+  },
+  "course": {
+    "title": "مدیریت دوره‌ها",
+    "description": "تمام دوره‌های خود را ایجاد و مدیریت کنید",
+    "searchPlaceholder": "جستجوی دوره‌ها...",
+    "create": "ایجاد دوره",
+    "discover": "کاوش",
+    "loading": "در حال بارگذاری دوره‌های شما...",
+    "filters": {
+      "allStatus": "همه وضعیت‌ها",
+      "active": "فعال",
+      "draft": "پیش‌نویس",
+      "completed": "تکمیل شده",
+      "pending": "در انتظار",
+      "published": "منتشر شده",
+      "rejected": "رد شده",
+      "public": "عمومی",
+      "unknown": "نامشخص",
+      "dateCreated": "تاریخ ایجاد",
+      "title": "عنوان",
+      "status": "وضعیت"
+    },
+    "table": {
+      "header": {
+        "details": "جزئیات دوره",
+        "status": "وضعیت",
+        "category": "دسته بندی",
+        "students": "دانش‌آموزان",
+        "ayhoots": "آی‌هوت‌ها",
+        "visibility": "قابلیت مشاهده",
+        "actions": "عملیات",
+        "creator": "سازنده"
+      },
+      "body": {
+        "notAvailable": "نامشخص",
+        "invalidDate": "تاریخ نامعتبر",
+        "categoryLabel": "دسته بندی",
+        "studentsLabel": "دانش‌آموزان",
+        "ayhootsLabel": "آی‌هوت‌ها"
+      },
+      "actions": {
+        "edit": "ویرایش",
+        "start": "شروع",
+        "more": "بیشتر"
+      }
+    },
+    "empty": {
+      "title": "هیچ دوره‌ای یافت نشد",
+      "description": "با ایجاد یک دوره جدید شروع کنید.",
+      "descriptionWithSearch": "دوره‌ای مطابق با معیارهای جستجوی شما یافت نشد.",
+      "create": "+ ایجاد دوره",
+      "discover": "کاوش",
+      "noCoursesFoundForStudents": "با کاوش و ثبتنام در یک دوره جدید شروع کنید."
+    },
+    "pagination": {
+      "showingResults": "نمایش {from}-{to} از {total} نتیجه",
+      "previous": "قبلی",
+      "next": "بعدی"
+    },
+    "dropdown": {
+      "moveFolder": "انتقال به پوشه",
+      "archive": "بایگانی",
+      "share": "اشتراک گذاری",
+      "duplicate": "کپی کردن",
+      "delete": "حذف"
+    },
+    "assignModal": {
+      "title": "تخصیص دوره",
+      "description": "این دوره را برای تکمیل توسط دانش‌آموزان خود زمان‌بندی کنید.",
+      "formTitle": "ایجاد تکلیف دوره",
+      "dueDate": "تاریخ سررسید",
+      "time": "زمان",
+      "optionsTitle": "گزینه‌ها",
+      "allowLate": "اجازه ارسال با تاخیر",
+      "participantLimit": "محدودیت شرکت‌کننده: ۴۰",
+      "upgrade": "ارتقا",
+      "cancel": "لغو",
+      "create": "ایجاد"
+    },
+    "moveFolderModal": {
+      "title": "انتقال دوره به پوشه",
+      "loading": "در حال بارگذاری پوشه‌ها...",
+      "add": "افزودن",
+      "adding": "در حال افزودن...",
+      "added": "افزوده شد",
+      "empty": {
+        "title": "هیچ پوشه‌ای یافت نشد.",
+        "description": "برای سازماندهی دوره‌های خود، در تب 'پوشه‌ها' پوشه ایجاد کنید."
+      },
+      "done": "انجام شد"
+    },
+    "notifications": {
+      "dataFormatError": "فرمت داده‌های دوره‌ها مورد انتظار نیست.",
+      "loadFailed": "بارگذاری دوره‌ها ناموفق بود.",
+      "archiveNotImplemented": "ویژگی بایگانی هنوز پیاده‌سازی نشده است.",
+      "shareNotImplemented": "ویژگی اشتراک‌گذاری هنوز پیاده‌سازی نشده است.",
+      "duplicateSuccess": "دوره با موفقیت کپی شد.",
+      "duplicateFailed": "کپی کردن دوره ناموفق بود.",
+      "confirmDelete": "آیا از حذف این دوره مطمئن هستید؟",
+      "deleteSuccess": "دوره با موفقیت حذف شد.",
+      "deleteFailed": "حذف دوره ناموفق بود.",
+      "dueDateRequired": "تاریخ و زمان سررسید الزامی است.",
+      "noCourseSelected": "خطایی رخ داد. هیچ دوره‌ای برای تخصیص انتخاب نشده است.",
+      "gameIdNotFound": "شناسه بازی در پاسخ API یافت نشد.",
+      "assignSuccess": "تخصیص دوره با موفقیت ایجاد شد.",
+      "assignFailed": "تخصیص دوره ناموفق بود. لطفاً جزئیات را بررسی کرده و دوباره امتحان کنید.",
+      "loadFoldersFailed": "بارگذاری پوشه‌ها ناموفق بود.",
+      "moveToFolderSuccess": "دوره به پوشه «{folderName}» منتقل شد.",
+      "moveToFolderFailed": "انتقال دوره به پوشه ناموفق بود."
+    }
+  },
+  "purchasedContent": {
+    "title": "محتوای خریداری شده",
+    "description": "دسترسی به آزمون‌ها و دوره‌های خریداری شده",
+    "totalItems": "کل موارد",
+    "exams": "آزمون‌ها",
+    "courses": "دوره‌ها",
+    "searchPlaceholder": "جستجو در محتوای خریداری شده...",
+    "filters": {
+      "all": "همه محتوا",
+      "exams": "فقط آزمون‌ها",
+      "courses": "فقط دوره‌ها"
+    },
+    "noContent": "محتوای خریداری شده‌ای وجود ندارد",
+    "noContentDescription": "هنوز محتوایی خریداری نکرده‌اید. آزمون‌ها و دوره‌های پریمیوم سایر مربیان را کشف کنید.",
+    "discoverContent": "کشف محتوا",
+    "errorLoading": "خطا در بارگذاری محتوای خریداری شده",
+    "loading": "در حال بارگذاری محتوای خریداری شده...",
+    "card": {
+      "imageAlt": "تصویر محتوا",
+      "from": "از",
+      "selfEducated": "خودآموز",
+      "open": "باز کردن",
+      "removeTitle": "حذف از محتوای خریداری شده"
+    },
+    "empty": {
+      "title": "محتوای خریداری شده‌ای یافت نشد",
+      "description": "هنوز محتوایی خریداری نکرده‌اید. بازار ما را کاوش کنید تا آزمون‌ها و دوره‌های پریمیوم پیدا کنید.",
+      "explore": "کاوش محتوا"
+    },
+    "pagination": {
+      "showingResults": "نمایش {from} تا {to} از {total} نتیجه",
+      "previous": "قبلی",
+      "next": "بعدی"
+    },
+    "notifications": {
+      "confirmDelete": "آیا مطمئن هستید که می‌خواهید این محتوا را از موارد خریداری شده حذف کنید؟",
+      "deleteSuccess": "محتوا با موفقیت حذف شد",
+      "deleteFailed": "حذف محتوا ناموفق بود",
+      "purchaseSuccess": "محتوا با موفقیت خریداری شد! اکنون در محتوای خریداری شده شما در دسترس است.",
+      "authError": "جلسه شما منقضی شده است. لطفاً مجدداً وارد شوید تا به محتوای خریداری شده خود دسترسی پیدا کنید."
+    }
+  },
+  "folderDetail": {
+    "breadcrumb": {
+      "folders": "پوشه‌ها",
+      "folderDetails": "جزئیات پوشه"
+    },
+    "header": {
+      "loading": "در حال بارگذاری پوشه...",
+      "description": "آی‌هوت‌ها و دوره‌های این پوشه را مدیریت کنید."
+    },
+    "searchPlaceholder": "جستجوی موارد در این پوشه...",
+    "card": {
+      "itemType": {
+        "ayhoot": "آی‌هوت",
+        "course": "دوره"
+      },
+      "imageAlt": "کاور مورد",
+      "byline": {
+        "notAvailable": "نامشخص",
+        "from": "از",
+        "selfCreated": "ساخته خودم"
+      },
+      "actions": {
+        "edit": "ویرایش",
+        "editAyhootTitle": "ویرایش آی‌هوت",
+        "editCourseTitle": "ویرایش دوره",
+        "removeFromFolderTitle": "حذف از پوشه"
+      }
+    },
+    "empty": {
+      "title": "این پوشه خالی است",
+      "description": "برای دیدن آی‌هوت‌ها یا دوره‌ها در اینجا، آنها را به این پوشه اضافه کنید."
+    },
+    "searchEmpty": {
+      "title": "هیچ موردی برای «{searchTerm}» در این پوشه یافت نشد.",
+      "description": "عبارات جستجوی خود را تغییر دهید."
+    },
+    "loading": "در حال بارگذاری محتویات پوشه...",
+    "notifications": {
+      "idMissing": "شناسه پوشه موجود نیست.",
+      "contextMissing": "اطلاعات پوشه در دسترس نیست.",
+      "loadFailed": "بارگذاری جزئیات پوشه ناموفق بود.",
+      "confirmRemove": "آیا از حذف «{itemTitle}» از پوشه «{folderName}» مطمئن هستید؟",
+      "removeSuccess": "«{itemTitle}» از پوشه حذف شد.",
+      "removeFailed": "حذف {itemType} از پوشه ناموفق بود."
+    }
+  },
+  "groupsPage": {
+    "title": "گروه‌های تخصیص یافته",
+    "description": "تمام گروه‌هایی که به شما تخصیص داده شده‌اند را مدیریت کنید",
+    "selectGroupDropdown": "انتخاب گروه",
+    "searchPlaceholder": "جستجوی گروه‌ها بر اساس عنوان...",
+    "filters": {
+      "dateCreated": "تاریخ ایجاد",
+      "title": "عنوان"
+    },
+    "card": {
+      "tuteesLabel": "دانش‌آموزان:",
+      "instituteLabel": "موسسه:",
+      "createdLabel": "ایجاد شده:",
+      "notAvailable": "نامشخص",
+      "viewGroup": "مشاهده گروه",
+      "removeTitle": "حذف گروه"
+    },
+    "empty": {
+      "title": "هیچ گروهی به شما تخصیص داده نشده است",
+      "descriptionWithSearch": "هیچ گروهی مطابق با معیارهای جستجوی شما یافت نشد.",
+      "description": "شما هنوز هیچ گروهی ایجاد نکرده‌اید یا به گروهی تخصیص داده نشده‌اید."
+    },
+    "loading": "در حال بارگذاری گروه‌ها...",
+    "pagination": {
+      "showingResults": "نمایش {from}-{to} از {total} نتیجه",
+      "pageOf": "صفحه {current} از {last}",
+      "previous": "قبلی",
+      "next": "بعدی"
+    },
+    "tabs": {
+      "allTutees": "همه دانش‌آموزان",
+      "ownedGroups": "گروه‌های من",
+      "assignedGroups": "گروه‌های تخصیص یافته",
+      "selectGroup": "انتخاب گروه"
+    },
+    "notifications": {
+      "structureError": "ساختار پاسخ برای گروه‌ها نامعتبر است.",
+      "loadFailed": "بارگذاری گروه‌ها ناموفق بود.",
+      "confirmDelete": "آیا از حذف گروه «{groupTitle}» مطمئن هستید؟ این عمل قابل بازگشت نیست.",
+      "thisGroup": "این گروه",
+      "deleteSuccess": "گروه «{groupTitle}» با موفقیت حذف شد.",
+      "deleteFailed": "حذف گروه ناموفق بود."
+    }
+  },
+  "ownedGroupsPage": {
+    "title": "گروه‌های من",
+    "description": "برای جامعه خود گروه ایجاد و مدیریت کنید",
+    "createGroup": "ایجاد گروه",
+    "selectGroupDropdown": "انتخاب گروه",
+    "searchPlaceholder": "جستجوی گروه‌ها بر اساس عنوان...",
+    "filters": {
+      "dateCreated": "تاریخ ایجاد",
+      "title": "عنوان"
+    },
+    "card": {
+      "tuteesLabel": "دانش‌آموزان:",
+      "instituteLabel": "موسسه:",
+      "createdLabel": "ایجاد شده:",
+      "notAvailable": "نامشخص",
+      "viewGroup": "مشاهده گروه",
+      "shareTitle": "اشتراک‌گذاری گروه",
+      "deleteTitle": "حذف گروه"
+    },
+    "empty": {
+      "title": "هیچ گروهی یافت نشد",
+      "descriptionWithSearch": "هیچ گروهی مطابق با معیارهای جستجوی شما یافت نشد.",
+      "description": "با ایجاد یک گروه جدید شروع کنید.",
+      "create": "+ ایجاد گروه"
+    },
+    "loading": "در حال بارگذاری گروه‌ها...",
+    "pagination": {
+      "showingResults": "نمایش {from}-{to} از {total} نتیجه",
+      "pageOf": "صفحه {current} از {last}",
+      "previous": "قبلی",
+      "next": "بعدی"
+    },
+    "tabs": {
+      "allTutees": "همه دانش‌آموزان",
+      "ownedGroups": "گروه‌های من",
+      "assignedGroups": "گروه‌های تخصیص یافته",
+      "selectGroup": "انتخاب گروه"
+    },
+    "modal": {
+      "title": "ایجاد گروه جدید",
+      "groupTitleLabel": "عنوان گروه",
+      "groupTitlePlaceholder": "عنوان گروه را وارد کنید",
+      "titleRequiredError": "عنوان الزامی است.",
+      "cancel": "لغو",
+      "creating": "در حال ایجاد...",
+      "create": "ایجاد گروه"
+    },
+    "notifications": {
+      "structureError": "ساختار پاسخ برای گروه‌ها نامعتبر است.",
+      "loadFailed": "بارگذاری گروه‌ها ناموفق بود.",
+      "confirmDelete": "آیا از حذف گروه «{groupTitle}» مطمئن هستید؟ این عمل قابل بازگشت نیست.",
+      "thisGroup": "این گروه",
+      "deleteSuccess": "گروه «{groupTitle}» با موفقیت حذف شد.",
+      "deleteFailed": "حذف گروه ناموفق بود.",
+      "copySuccess": "لینک دعوت برای «{groupTitle}» در کلیپ‌بورد کپی شد!",
+      "copyFailed": "کپی کردن لینک ناموفق بود. لطفاً دوباره امتحان کنید.",
+      "titleRequired": "عنوان گروه نمی‌تواند خالی باشد.",
+      "createSuccess": "گروه با موفقیت ایجاد شد!",
+      "createFailedInvalidResponse": "ایجاد گروه ناموفق بود یا پاسخ نامعتبر است.",
+      "createFailed": "ایجاد گروه ناموفق بود."
+    }
+  },
+  "groupTutees": {
+    "selectGroupDropdown": "انتخاب گروه",
+    "assignGroup": "تخصیص گروه",
+    "assignModal": {
+      "title": "تخصیص گروه به یک موسسه",
+      "titleTeacher": "تخصیص گروه به یک استاد",
+      "searchPlaceholder": "جستجو بر اساس نام یا نام کاربری موسسه...",
+      "searchPlaceholderTeacher": "جستجو بر اساس نام یا نام کاربری استاد...",
+      "loading": "در حال بارگذاری موسسات...",
+      "loadingTeacher": "در حال بارگذاری اساتید...",
+      "loadFailed": "بارگذاری فهرست ناموفق بود.",
+      "assign": "تخصیص",
+      "unassign": "لغو تخصیص",
+      "noResults": "هیچ موسسه‌ای یافت نشد.",
+      "noResultsTeacher": "هیچ استادی یافت نشد."
+    },
+    "notifications": {
+      "idMissing": "شناسه گروه موجود نیست.",
+      "detailsFetchFailed": "دریافت جزئیات گروه ناموفق بود.",
+      "loadFailed": "بارگذاری دانش‌آموزان گروه ناموفق بود.",
+      "tokenNotAvailable": "توکن دعوت برای این گروه در دسترس نیست.",
+      "copySuccess": "لینک دعوت در کلیپ‌بورد کپی شد.",
+      "copyFailed": "کپی کردن لینک دعوت ناموفق بود.",
+      "contextMissing": "اطلاعات گروه در دسترس نیست.",
+      "thisTutee": "این دانش‌آموز",
+      "confirmRemove": "آیا از حذف {studentName} از گروه «{groupName}» مطمئن هستید؟",
+      "removeSuccess": "{studentName} از {groupName} حذف شد.",
+      "removeFailed": "حذف دانش‌آموز از گروه ناموفق بود."
+    },
+    "breadcrumb": {
+      "groups": "گروه‌ها"
+    },
+    "header": {
+      "title": "مدیریت دانش‌آموزان در {groupName}",
+      "description": "دانش‌آموزان این گروه را اضافه یا مدیریت کنید."
+    },
+    "filters": {
+      "searchPlaceholder": "جستجوی دانش‌آموزان بر اساس نام",
+      "dateJoined": "تاریخ عضویت",
+      "name": "نام"
+    },
+    "copyInviteLink": "کپی لینک دعوت",
+    "table": {
+      "header": {
+        "tutee": "دانش‌آموز",
+        "joinedAt": "تاریخ عضویت",
+        "institute": "موسسه",
+        "actions": "عملیات"
+      },
+      "body": {
+        "notAvailable": "نامشخص",
+        "viaLink": "از طریق لینک",
+        "selfEducated": "خودآموخته",
+        "studiesIn": "محصل در"
+      },
+      "actions": {
+        "profile": "پروفایل",
+        "remove": "حذف از گروه"
+      }
+    },
+    "empty": {
+      "title": "هیچ دانش‌آموزی در این گروه نیست",
+      "descriptionWithSearch": "هیچ دانش‌آموزی مطابق با «{searchTerm}» یافت نشد.",
+      "description": "با دعوت یک دانش‌آموز جدید به این گروه شروع کنید.",
+      "invite": "+ کپی لینک دعوت"
+    },
+    "loading": "در حال بارگذاری دانش‌آموزان...",
+    "pagination": {
+      "showingResults": "نمایش {from}-{to} از {total} نتیجه",
+      "pageOf": "صفحه {current} از {last}",
+      "previous": "قبلی",
+      "next": "بعدی"
+    },
+    "pageTitle": "دانش‌آموزان در {groupName} | داشبورد معلم",
+    "unknownGroup": "گروه ناشناس",
+    "errorLoadingGroup": "خطا در بارگذاری گروه"
+  },
+  "reportPage": {
+    "loading": "در حال بارگذاری گزارش...",
+    "notAvailable": "نامشخص",
+    "invalidDate": "تاریخ نامعتبر",
+    "error": {
+      "title": "خطا در بارگذاری گزارش",
+      "retry": "تلاش مجدد"
+    },
+    "header": {
+      "report": "گزارش",
+      "download": "دانلود گزارش"
+    },
+    "title": {
+      "placeholder": "یک عنوان برای تکلیف خود وارد کنید",
+      "saving": "در حال ذخیره...",
+      "save": "ذخیره",
+      "cancel": "لغو",
+      "editTitle": "ویرایش عنوان"
+    },
+    "info": {
+      "status": "وضعیت",
+      "dueDate": "تاریخ سررسید",
+      "hostedBy": "میزبان"
+    },
+    "status": {
+      "unknown": "نامشخص",
+      "finished": "پایان یافته",
+      "inProgress": "در حال انجام"
+    },
+    "tabs": {
+      "summary": "خلاصه",
+      "players": "بازیکنان ({count})",
+      "questions": "سوالات ({count})"
+    },
+    "playersSubTabs": {
+      "all": "همه ({count})",
+      "notFinished": "تمام نکرده‌ها ({count})"
+    },
+    "playersTable": {
+      "player": "شرکت‌کننده",
+      "rank": "رتبه",
+      "score": "امتیاز",
+      "correctAnswers": "پاسخ‌های صحیح",
+      "lastActivity": "آخرین فعالیت",
+      "actions": "عملیات",
+      "viewAnswers": "مشاهده پاسخ‌ها",
+      "hideAnswers": "بستن پاسخ‌ها",
+      "expandAll": "گسترش همه",
+      "collapseAll": "بستن همه",
+      "searchPlaceholder": "جستجوی شرکت‌کنندگان...",
+      "noPlayers": "هنوز هیچ کاربری در این جلسه شرکت نکرده است.",
+      "correct": "صحیح",
+      "incorrect": "نادرست",
+      "unanswered": "بی‌پاسخ",
+      "studentAnswer": "پاسخ دانش‌آموز",
+      "correctAnswer": "پاسخ صحیح",
+      "noAnswerSubmitted": "پاسخی برای این سوال ارسال نشده است.",
+      "points": "امتیاز",
+      "time": "زمان"
+    },
+    "questionsSubTabs": {
+      "all": "همه سوالات ({count})"
+    },
+    "notifications": {
+      "idMissing": "شناسه بازی موجود نیست.",
+      "idMissingUrl": "هیچ شناسه بازی در آدرس URL ارائه نشده است.",
+      "fetchFailed": "خطای ناشناخته‌ای هنگام دریافت گزارش رخ داد.",
+      "saveTitleFailed": "ذخیره عنوان ناموفق بود."
+    }
+  },
+  "reportTabs": {
+    "notAvailable": "نامشخص",
+    "chart": {
+      "correct": "صحیح",
+      "incorrect": "غلط"
+    },
+    "players": {
+      "anonymous": "ناشناس",
+      "showResult": "نمایش نتیجه",
+      "tableHeader": {
+        "tutee": "دانش‌آموز",
+        "rank": "رتبه",
+        "correctAnswers": "پاسخ‌های صحیح",
+        "unanswered": "بدون پاسخ",
+        "finalScore": "امتیاز نهایی",
+        "actions": "عملیات"
+      },
+      "modal": {
+        "correct": "صحیح",
+        "rank": "رتبه",
+        "score": "امتیاز",
+        "duration": "مدت زمان",
+        "answeredQuestions": "سوالات پاسخ داده شده",
+        "question": "سوال",
+        "answered": "پاسخ داده شده",
+        "correctIncorrect": "صحیح/غلط",
+        "points": "امتیازات",
+        "time": "زمان",
+        "noAnswer": "بدون پاسخ"
+      }
+    },
+    "questions": {
+      "noTitle": "بدون عنوان",
+      "showResult": "نمایش نتیجه",
+      "tableHeader": {
+        "question": "سوال",
+        "type": "نوع",
+        "correctIncorrect": "صحیح/غلط",
+        "actions": "عملیات"
+      },
+      "modal": {
+        "option": "گزینه {index}",
+        "order": "ترتیب",
+        "correctAnswers": "پاسخ‌های صحیح",
+        "avgDuration": "میانگین زمان",
+        "noAnswer": "بدون پاسخ",
+        "tableHeader": {
+          "tutee": "دانش‌آموز",
+          "answered": "پاسخ داده",
+          "correctIncorrect": "صحیح/غلط",
+          "points": "امتیازات",
+          "time": "زمان"
+        }
+      }
+    },
+    "notFinished": {
+      "allFinished": "همه تکلیف را به پایان رساندند!"
+    },
+    "summary": {
+      "assignmentLink": {
+        "title": "لینک تکلیف",
+        "description": "این لینک را با دانش‌آموزان به اشتراک بگذارید",
+        "linkTitle": "لینک بازی",
+        "copy": "کپی",
+        "copied": "کپی شد!"
+      },
+      "qrCode": {
+        "title": "اسکن کد QR",
+        "description": "دانش‌آموزان می‌توانند این کد QR را اسکن کرده و وارد تکلیف شوند",
+        "download": "دانلود QR"
+      },
+      "actions": {
+        "changeDeadline": "تغییر تاریخ سررسید",
+        "endNow": "همین حالا تمام کن"
+      },
+      "mainChart": {
+        "correct": "صحیح",
+        "feedbackDescription": "دوباره بازی کنید و اجازه دهید همین گروه امتیاز خود را بهبود بخشد یا ببینید آیا بازیکنان جدید می‌توانند این نتیجه را شکست دهند.",
+        "playAgain": "بازی دوباره",
+        "feedback": {
+          "wellDone": "عالی بود!",
+          "wellPlayed": "خوب بازی کردید",
+          "canDoBetter": "می‌توانید بهتر باشید",
+          "tryBetter": "بیشتر تلاش کنید!"
+        }
+      },
+      "stats": {
+        "players": "بازیکنان",
+        "questions": "سوالات",
+        "time": "زمان",
+        "minutes": "{count} دقیقه"
+      },
+      "difficultQuestions": {
+        "title": "سوالات دشوار ({count})",
+        "tooltip": "یک سوال دشوار است اگر کمتر از ۳۵٪ شرکت‌کنندگان به درستی پاسخ داده باشند.",
+        "empty": "هیچ سوال دشواری شناسایی نشد.",
+        "stats": "{percent}٪ صحیح در {avg} ثانیه میانگین"
+      },
+      "needHelp": {
+        "title": "نیاز به کمک ({count})",
+        "tooltip": "شرکت‌کنندگانی که به کمتر از ۳۵٪ سوالات به درستی پاسخ داده‌اند.",
+        "empty": "به نظر می‌رسد کسی به کمک نیاز ندارد."
+      },
+      "didNotFinish": {
+        "title": "تمام نکرده‌ها ({count})",
+        "tooltip": "بازیکنانی که سوالات تمام نشده دارند.",
+        "empty": "همه آی‌هوت را تمام کردند!",
+        "unanswered": "{count} بی‌پاسخ"
+      },
+      "anonymous": "ناشناس",
+      "imageAlt": "تصویر سوال",
+      "deadlineModal": {
+        "title": "تغییر تاریخ سررسید تکلیف",
+        "dueDate": "تاریخ سررسید",
+        "time": "زمان",
+        "cancel": "لغو",
+        "save": "ذخیره تغییرات"
+      },
+      "notifications": {
+        "confirmEndNow": "آیا مطمئن هستید که می‌خواهید این تکلیف را همین حالا به پایان برسانید؟",
+        "endNowSuccess": "تکلیف به پایان رسید.",
+        "endNowFailed": "پایان دادن به تکلیف ناموفق بود.",
+        "deadlineRequired": "لطفاً تاریخ و زمان را مشخص کنید.",
+        "deadlineUpdateSuccess": "تاریخ سررسید با موفقیت به‌روز شد.",
+        "deadlineUpdateFailed": "به‌روزرسانی تاریخ سررسید ناموفق بود."
+      }
+    }
+  },
+  "myProfile": {
+    "uploadCover": "آپلود کاور",
+    "profilePictureAlt": "عکس پروفایل",
+    "shareProfile": "اشتراک‌گذاری پروفایل",
+    "stats": {
+      "ayhoots": "آی‌هوت‌ها",
+      "courses": "دوره‌ها",
+      "tutees": "دانش‌آموزان"
+    },
+    "aboutMe": {
+      "title": "درباره من",
+      "namePlaceholder": "نام",
+      "firstNamePlaceholder": "نام",
+      "lastNamePlaceholder": "نام خانوادگی",
+      "descriptionPlaceholder": "کمی درباره خودتان به ما بگویید..."
+    },
+    "website": {
+      "title": "وبسایت",
+      "placeholder": "https://yourwebsite.com"
+    },
+    "institutes": {
+      "title": "موسسات من",
+      "add": "افزودن",
+      "remove": "حذف",
+      "empty": "شما به هیچ موسسه‌ای وابسته نیستید."
+    },
+    "account": {
+      "title": "تنظیمات حساب کاربری",
+      "currentPasswordLabel": "رمز عبور فعلی",
+      "currentPasswordPlaceholder": "رمز عبور فعلی را وارد کنید",
+      "newPasswordLabel": "رمز عبور جدید",
+      "newPasswordPlaceholder": "رمز عبور جدید را وارد کنید",
+      "confirmPasswordLabel": "تایید رمز عبور جدید",
+      "confirmPasswordPlaceholder": "رمز عبور جدید را تایید کنید",
+      "changePassword": "تغییر رمز عبور"
+    },
+    "updateProfile": "به‌روزرسانی پروفایل",
+    "addInstituteModal": {
+      "title": "افزودن وابستگی به موسسه",
+      "searchLabel": "جستجوی موسسه",
+      "searchPlaceholder": "برای جستجو تایپ کنید...",
+      "emptySearch": "هیچ موسسه‌ای یافت نشد.",
+      "emptyInitial": "برای جستجو شروع به تایپ کنید.",
+      "cancel": "لغو",
+      "sendRequest": "ارسال درخواست"
+    },
+    "notifications": {
+      "dataNotFound": "اطلاعات معلم در پاسخ API یافت نشد.",
+      "loadProfileFailed": "بارگذاری اطلاعات پروفایل ناموفق بود.",
+      "loadInstitutesFailed": "بارگذاری موسسات ناموفق بود.",
+      "updatingProfile": "در حال به‌روزرسانی پروفایل...",
+      "updateSuccess": "پروفایل با موفقیت به‌روز شد!",
+      "updateFailed": "به‌روزرسانی پروفایل ناموفق بود.",
+      "fileTooLarge": "اندازه فایل نمی‌تواند بیش از ۵ مگابایت باشد.",
+      "avatarSelected": "تصویر پروفایل انتخاب شد. برای ذخیره «به‌روزرسانی پروفایل» را فشار دهید.",
+      "coverSelected": "تصویر کاور انتخاب شد. برای ذخیره «به‌روزرسانی پروفایل» را فشار دهید.",
+      "linkCopied": "لینک پروفایل در کلیپ‌بورد کپی شد!",
+      "linkCopyFailed": "کپی کردن لینک ناموفق بود.",
+      "selectInstitute": "لطفاً یک موسسه را انتخاب کنید.",
+      "requestSent": "درخواست شما برای پیوستن به «{name}» ارسال شد.",
+      "requestFailed": "ارسال درخواست پیوستن ناموفق بود.",
+      "removeSuccess": "وابستگی به موسسه با موفقیت حذف شد.",
+      "removeFailed": "حذف وابستگی به موسسه ناموفق بود.",
+      "passwordFieldsRequired": "لطفاً تمام فیلدهای رمز عبور را پر کنید.",
+      "passwordsNoMatch": "رمزهای عبور جدید مطابقت ندارند.",
+      "passwordTooShort": "رمز عبور باید حداقل ۶ کاراکتر باشد.",
+      "passwordChangeSuccess": "رمز عبور با موفقیت تغییر کرد!",
+      "passwordChangeFailed": "تغییر رمز عبور ناموفق بود."
+    }
+  },
+  "publicProfile": {
+    "coverImageAlt": "تصویر کاور {name}",
+    "noWebsite": "وب‌سایتی ارائه نشده است",
+    "stats": {
+      "content": "محتوا",
+      "plays": "اجراها",
+      "tutees": "دانش‌آموزان"
+    },
+    "tabs": {
+      "content": "محتوا",
+      "about": "درباره"
+    },
+    "empty": {
+      "title": "هیچ محتوایی یافت نشد",
+      "description": "این کاربر هنوز هیچ محتوایی ایجاد نکرده است."
+    },
+    "aboutSection": {
+      "title": "درباره {name}",
+      "noInfo": "هیچ اطلاعاتی ارائه نشده است."
+    },
+    "actions": {
+      "addToTutors": "می‌توانید این سازنده را به لیست مدرسین خود دعوت کنید.",
+      "add": "دعوت کنید",
+      "added": "با موفقیت دعوتنامه شما ارسال شد!",
+      "requestToBeTeacher": "می‌خواهید به این موسسه بپیوندید؟ درخواست خود را برای معلم شدن ارسال کنید.",
+      "request": "درخواست",
+      "requested": "درخواست شما با موفقیت ارسال شد!"
+    },
+    "teacher": {
+      "institutesTitle": "موسسات وابسته",
+      "noInstitutes": "به هیچ موسسه‌ای وابسته نیست."
+    },
+    "institute": {
+      "teachersTitle": "مدرسین ثبت‌نام شده",
+      "noTeachers": "هیچ مدرسی در این موسسه ثبت‌نام نکرده است."
+    },
+    "unnamedTeacher": "مدرس بی‌نام",
+    "unnamedInstitute": "موسسه بی‌نام",
+    "error": {
+      "title": "خطا",
+      "invalidUrl": "آدرس پروفایل نامعتبر است",
+      "invalidData": "پروفایل یافت نشد یا اطلاعات نامعتبر است.",
+      "loadFailed": "پروفایل بارگذاری نشد. ممکن است وجود نداشته باشد یا خطایی رخ داده باشد."
+    }
+  },
+  "ayhootPreview": {
+    "loading": "در حال بارگذاری آی‌هوت...",
+    "purchaseLocked": "برای دیدن محتوای این آی‌هوت، باید خریداری کنید.",
+    "loginLocked": "برای دیدن محتوای این آی‌هوت، باید وارد شوید.",
+    "errorIdMissing": "شناسه آزمون در آدرس URL موجود نیست.",
+    "errorLoading": "بارگذاری آی‌هوت با مشکل مواجه شد. لطفاً بعداً دوباره امتحان کنید.",
+    "options": {
+      "button": "گزینه‌ها",
+      "addToCourse": "افزودن به دوره",
+      "duplicate": "کپی کردن",
+      "share": "اشتراک‌گذاری آی‌هوت",
+      "notAllowedTooltip": "این گزینه مجاز نیست."
+    },
+    "details": {
+      "title": "آی‌هوت",
+      "description": "توضیحات",
+      "details": "جزئیات",
+      "category": "دسته‌بندی",
+      "price": "قیمت",
+      "institute": "موسسه",
+      "plays": "اجرا"
+    },
+    "questionsTitle": "سوالات ({count})",
+    "contentLocked": "برای مشاهده محتوا باید این آی‌هوت را خریداری کنید.",
+    "session": {
+      "title": "جلسه آی‌هوت",
+      "lecture": "ارائه",
+      "assign": "تکلیف",
+      "play": "شروع",
+      "buy": "خرید",
+      "preview": "اجرا"
+    },
+    "purchase": {
+      "promptTitle": "تایید خرید",
+      "promptText": "آیا می‌خواهید این آی‌هوت را بخرید؟",
+      "confirmButton": "بله، بخر",
+      "cancelButton": "لغو"
+    },
+    "share": {
+      "success": "لینک آی‌هوت در کلیپ‌بورد کپی شد",
+      "error": "کپی کردن لینک با خطا مواجه شد"
+    },
+    "selfStudy": {
+      "title": "خودآموز آی‌هوت",
+      "learn": "یادگیری"
+    },
+    "questionTypes": {
+      "quiz": "آزمون",
+      "poll": "نظرسنجی",
+      "puzzle": "پازل",
+      "trueOrFalse": "صحیح یا غلط",
+      "typeAnswer": "پاسخ متنی",
+      "slide": "اسلاید"
+    },
+    "imageAlt": "تصویر سوال",
+    "correctAnswer": "پاسخ صحیح:"
+  },
+  "coursePreview": {
+    "loading": "در حال بارگذاری دوره...",
+    "errorLoading": "بارگذاری دوره با مشکل مواجه شد. لطفاً بعداً دوباره امتحان کنید.",
+    "header": {
+      "title": "دوره",
+      "description": "توضیحات",
+      "details": "جزئیات"
+    },
+    "content": {
+      "title": "محتوا",
+      "activities": "{count} فعالیت",
+      "activityCoverAlt": "کاور فعالیت",
+      "noActivities": "هیچ فعالیتی یافت نشد.",
+      "activityTypes": {
+        "ayhoot": "آی‌هوت",
+        "document": "سند",
+        "video": "ویدیو"
+      }
+    },
+    "preview": {
+      "title": "پیش‌نمایش فعالیت",
+      "previewAyhoot": "پیش‌نمایش آی‌هوت",
+      "description": "توضیحات",
+      "startAyhoot": "شروع آی‌هوت",
+      "questions": "سوالات",
+      "googleDocsViewer": "پیش‌نمایش از طریق نمایشگر اسناد گوگل بارگذاری شده است.",
+      "openOriginal": "باز کردن فایل اصلی",
+      "downloadFile": "دانلود فایل {type}",
+      "videoNotSupported": "مرورگر شما از تگ ویدیو پشتیبانی نمی‌کند.",
+      "selectActivityPrompt": "برای دیدن پیش‌نمایش، یک فعالیت را انتخاب کنید.",
+      "documentPreview": "برای مشاهده فایل باید وارد داشبورد شوید. ",
+      "videoPreview": " برای مشاهده ویدئو باید وارد داشبورد شوید."
+    },
+    "session": {
+      "title": "جلسه دوره",
+      "edit": "ویرایش دوره",
+      "copy": "کپی دوره",
+      "start": "شروع دوره",
+      "buy": "خرید دوره",
+      "assign": "تکلیف",
+      "enroll": "ثبت نام"
+    },
+    "copy": {
+      "confirmTitle": "کپی دوره",
+      "confirmText": "این عمل یک کپی از این دوره ایجاد می‌کند که می‌توانید آن را ویرایش کنید. آیا می‌خواهید ادامه دهید؟",
+      "confirmButton": "بله، کپی کن",
+      "cancelButton": "لغو",
+      "successTitle": "دوره کپی شد!",
+      "successText": "دوره با موفقیت در حساب شما کپی شد.",
+      "viewCopy": "مشاهده کپی",
+      "errorTitle": "کپی ناموفق",
+      "errorText": "کپی کردن دوره ناموفق بود. لطفاً دوباره تلاش کنید."
+    },
+    "purchase": {
+      "promptTitle": "تایید خرید",
+      "promptText": "آیا می‌خواهید این دوره را بخرید؟",
+      "confirmButton": "بله، بخر",
+      "cancelButton": "لغو"
+    },
+    "contentLocked": "برای مشاهده محتوا باید این دوره را خریداری کنید."
+  },
+  "ayhootCreate": {
+    "title": "ایجاد را شروع کنید",
+    "placeholder": "عنوانی برای آی‌هوت خود وارد کنید...",
+    "cancel": "لغو",
+    "update": "به‌روزرسانی آزمون",
+    "create": "ایجاد آزمون",
+    "playMusic": "پخش موسیقی پس‌زمینه",
+    "playMusicSubtitle": "پخش موسیقی در حین آزمون توسط دانش‌آموز"
+  },
+  "courseCreate": {
+    "title": "ایجاد را شروع کنید",
+    "placeholder": "عنوانی برای دوره خود وارد کنید...",
+    "cancel": "لغو",
+    "update": "به‌روزرسانی دوره",
+    "create": "ایجاد دوره"
+  },
+  "createExamModal": {
+    "title": "ساخت آزمون جدید",
+    "subtitle": "برای شروع یک عنوان برای آزمون خود وارد کنید. سپس می‌توانید سوالات را اضافه کنید.",
+    "titleLabel": "عنوان آزمون",
+    "titlePlaceholder": "مثلاً آزمون فصل ۱",
+    "titleRequired": "لطفاً یک عنوان وارد کنید.",
+    "playMusicLabel": "پخش موسیقی پس‌زمینه",
+    "playMusicSubtitle": "پخش موسیقی در هنگام آزمون توسط دانش‌آموز",
+    "create": "ساخت و افزودن سوال",
+    "creating": "در حال ساخت…",
+    "cancel": "انصراف",
+    "createFailed": "ساخت آزمون ممکن نشد. دوباره تلاش کنید."
+  },
+  "createCourseModal": {
+    "title": "ساخت دوره جدید",
+    "subtitle": "برای شروع یک عنوان برای دوره خود وارد کنید.",
+    "titleLabel": "عنوان دوره",
+    "titlePlaceholder": "مثلاً مبانی جبر",
+    "titleRequired": "لطفاً یک عنوان وارد کنید.",
+    "create": "ساخت دوره",
+    "creating": "در حال ساخت…",
+    "cancel": "انصراف",
+    "createFailed": "ساخت دوره ممکن نشد. دوباره تلاش کنید.",
+    "notOwner": "شما اجازه ویرایش این دوره را ندارید."
+  },
+  "createQuestion": {
+    "sidebar": {
+      "addFirstQuestion": "اولین سوال خود را اضافه کنید",
+      "saveForPreview": "برای پیش‌نمایش ذخیره کنید",
+      "addQuestion": "افزودن سوال"
+    },
+    "main": {
+      "titlePlaceholder": "شروع به تایپ سوال خود کنید...",
+      "scientificPlaceholder": "برای ویرایش علمی کلیک کنید"
+    },
+    "modal": {
+      "scientificTitle": "ورودی علمی برای عنوان",
+      "cancel": "انصراف",
+      "save": "ذخیره"
+    },
+    "options": {
+      "questionType": "نوع سوال",
+      "duration": "مدت زمان (ثانیه)",
+      "points": "امتیاز",
+      "difficulty": "سطح دشواری",
+      "background": "انتخاب پس‌زمینه"
+    },
+    "questionTypes": {
+      "quiz": "کوییز",
+      "trueOrFalse": "صحیح یا غلط",
+      "shortAnswer": "پاسخ کوتاه",
+      "puzzle": "پازل",
+      "slide": "اسلاید",
+      "shortAnsBadge": "پاسخ کوتاه"
+    },
+    "pointValues": {
+      "noPoint": "بدون امتیاز",
+      "standard": "استاندارد",
+      "doublePoint": "امتیاز دو برابر"
+    },
+    "difficultyLevels": {
+      "easy": "آسان",
+      "medium": "متوسط",
+      "hard": "سخت"
+    },
+    "alerts": {
+      "confirmDelete": "آیا از حذف این سوال مطمئن هستید؟",
+      "titleEmpty": "عنوان سوال نمی‌تواند خالی باشد.",
+      "saveSuccess": "سوال با موفقیت ذخیره شد!",
+      "saveFailed": "ذخیره سوال ناموفق بود.",
+      "deleteSuccess": "سوال با موفقیت حذف شد.",
+      "deleteFailed": "حذف سوال ناموفق بود.",
+      "loadFailed": "خطا در بارگذاری سوال.",
+      "examLoadFailed": "خطا در بارگذاری جزئیات آزمون.",
+      "notOwner": "شما اجازه ویرایش سوالات این آزمون را ندارید.",
+      "missingExamId": "شناسه آزمون موجود نیست. امکان ذخیره سوال وجود ندارد.",
+      "mcMinOptions": "سوالات چند گزینه‌ای حداقل به ۲ گزینه نیاز دارند.",
+      "mcEmptyOptionText": "تمام گزینه‌های چندگزینه‌ای باید متن داشته باشند.",
+      "mcNoCorrectAnswer": "لطفاً یک پاسخ صحیح برای سوال چندگزینه‌ای انتخاب کنید."
+    },
+    "fileUpload": {
+      "title": "یک تصویر برای سوال خود اضافه کنید",
+      "subtitle": "برای جذاب‌تر کردن آهوت خود، یک تصویر اضافه کنید.",
+      "uploadFile": "آپلود فایل",
+      "orDragDrop": "یا بکشید و رها کنید",
+      "supportedFileTypes": "PNG, JPG, GIF تا ۱۰ مگابایت"
+    },
+    "trueFalse": {
+      "true": "صحیح",
+      "false": "غلط"
+    },
+    "multipleChoice": {
+      "addAnswerPlaceholder": "افزودن پاسخ",
+      "addOption": "افزودن گزینه"
+    },
+    "shortAnswer": {
+      "correctAnswerPlaceholder": "پاسخ صحیح را وارد کنید",
+      "altAnswersLabel": "پاسخ‌های جایگزین (اختیاری)",
+      "altAnswerPlaceholder": "پاسخ جایگزین",
+      "addAltAnswer": "افزودن پاسخ جایگزین",
+      "caseSensitive": "حساس به حروف بزرگ و کوچک"
+    },
+    "sequence": {
+      "instructionsTitle": "دستورالعمل:",
+      "instructionsText": "موارد را به ترتیب صحیح اضافه کنید. دانش‌آموزان باید آن‌ها را دقیقاً به همین ترتیب مرتب کنند تا پاسخ صحیح را دریافت کنند.",
+      "addItemPlaceholder": "متن آیتم را اضافه کنید",
+      "addItemButton": "افزودن آیتم ترتیب",
+      "allowPartialCredit": "اجازه دادن به امتیاز جزئی برای ترتیب‌های نیمه‌صحیح"
+    },
+    "slide": {
+      "placeholder": "ساخت اسلاید خود را از اینجا شروع کنید..."
+    }
+  },
+  "createQuestionHeader": {
+    "openQuestionsList": "باز کردن لیست سوالات",
+    "enterAyhootTitle": "عنوان آهوت را وارد کنید",
+    "settings": "تنظیمات",
+    "preview": "پیش‌نمایش",
+    "exit": "خروج",
+    "save": "ذخیره",
+    "insert": "افزودن",
+    "ayhootSettings": "تنظیمات آهوت",
+    "cancel": "انصراف",
+    "titleLabel": "عنوان",
+    "titleSubtitle": "ضروری. به شما کمک می‌کند آهوت خود را بعداً پیدا کنید.",
+    "enterTitlePlaceholder": "عنوان آهوت را وارد کنید...",
+    "descriptionLabel": "توضیحات",
+    "descriptionSubtitle": "اختیاری. یک توضیح به آهوت خود اضافه کنید.",
+    "enterDescriptionPlaceholder": "یک توضیح وارد کنید...",
+    "monetizeLabel": "کسب درآمد",
+    "monetizeSubtitle": "از آهوت خود کسب درآمد کنید.",
+    "free": "رایگان",
+    "paid": "پولی",
+    "enterPriceLabel": "قیمت را وارد کنید",
+    "enterPricePlaceholder": "مثلاً ۱۰۰۰۰",
+    "playMusicLabel": "پخش موسیقی پس‌زمینه",
+    "playMusicSubtitle": "پخش موسیقی در حین آزمون توسط دانش‌آموز",
+    "coverImageLabel": "تصویر کاور",
+    "coverImageSubtitle": "یک تصویر کاور اضافه کنید تا آهوت شما متمایز شود.",
+    "uploadFile": "آپلود فایل",
+    "orDragDrop": "یا بکشید و رها کنید",
+    "supportedFileTypes": "PNG, JPG, GIF تا ۱۰ مگابایت",
+    "categoryLabel": "دسته‌بندی",
+    "categorySubtitle": "یک دسته‌بندی برای آهوت خود انتخاب کنید.",
+    "saveToFolderLabel": "ذخیره در پوشه",
+    "saveToFolderSubtitle": "این آهوت را در یک پوشه ذخیره کنید.",
+    "withoutFolder": "بدون پوشه",
+    "assignToInstituteLabel": "اختصاص به موسسه",
+    "assignToInstituteSubtitle": "این آهوت را به یک موسسه اختصاص دهید.",
+    "freelance": "آزادکار"
+  },
+  "preview": {
+    "loading": "در حال بارگذاری سوالات...",
+    "noQuestions": "هیچ سوالی موجود نیست.",
+    "teacherModeWarning": "حالت پیش‌نمایش معلم. هیچ داده‌ای ثبت نمی‌شود.",
+    "instituteModeWarning": "حالت پیش‌نمایش موسسه. هیچ داده‌ای ثبت نمی‌شود.",
+    "correctAnswersLabel": "پاسخ(های) صحیح",
+    "alternativesLabel": "جایگزین‌ها",
+    "correctOrderLabel": "ترتیب صحیح:",
+    "header": {
+      "defaultTitle": "پیش‌نمایش آزمون",
+      "edit": "ویرایش",
+      "exit": "خروج",
+      "prev": "قبلی",
+      "next": "بعدی",
+      "endOfPreview": "پایان پیش‌نمایش"
+    }
+  },
+  "createCourse": {
+    "sidebar": {
+      "closeSidebar": "بستن نوار کناری",
+      "addAyhoot": "افزودن آهوت",
+      "addFile": "افزودن فایل",
+      "addVideo": "افزودن ویدیو",
+      "courseContent": "محتوای دوره",
+      "removeAria": "حذف آیتم محتوا",
+      "emptyCourse": "دوره شما خالی است. مقداری محتوا اضافه کنید!"
+    },
+    "preview": {
+      "noCover": "بدون تصویر کاور",
+      "category": "دسته‌بندی",
+      "questions": "سوالات",
+      "videoNotSupported": "مرورگر شما از تگ ویدیو پشتیبانی نمی‌کند.",
+      "pendingUpload": "در انتظار آپلود - پیش‌نمایش در دسترس نیست",
+      "pdfPreviewTitle": "پیش‌نمایش PDF",
+      "pdfPreviewNote": "PDF انتخاب شد - پیش‌نمایش پس از ذخیره یا دانلود",
+      "download": "دانلود",
+      "noPreviewAvailable": "پیش‌نمایش برای این نوع فایل در دسترس نیست. در صورت وجود مسیر می‌توانید آن را دانلود کنید.",
+      "detailsOnSave": "جزئیات محتوا پس از ذخیره کامل آیتم ظاهر می‌شود.",
+      "awaitingProcessing": "این آیتم ممکن است به تازگی اضافه شده یا در انتظار پردازش سرور باشد.",
+      "noContentSelected": "هیچ محتوایی انتخاب نشده است",
+      "clickToPreview": "برای پیش‌نمایش، روی یک آیتم در نوار کناری کلیک کنید."
+    },
+    "modal": {
+      "edit": "ویرایش",
+      "add": "افزودن",
+      "file": "فایل",
+      "video": "ویدیو",
+      "descriptionLabel": "توضیحات / عنوان",
+      "descriptionPlaceholder": "توضیحات یا عنوان را وارد کنید",
+      "videoOrFileLabel": "فایل ویدیو یا کد Embed",
+      "fileLabel": "فایل",
+      "videoUrlSubtitle": "URL ویدیو (مثلا .mp4) یا کد embed را جای‌گذاری کنید (مثلا از آپارات، یوتیوب)",
+      "fileOrUrlError": "لطفاً یا یک فایل یا یک URL/کد embed ارائه دهید، نه هر دو.",
+      "uploadedFile": "فایل آپلود شده",
+      "removeFile": "حذف فایل",
+      "replaceFile": "جایگزینی فایل؟",
+      "uploadFile": "آپلود یک فایل",
+      "orDragDrop": "یا بکشید و رها کنید",
+      "fileTypesHint": "تصاویر، PDF, DOC, PPT, TXT, ZIP",
+      "videoTypesHint": "MP4, AVI, MOV, و غیره",
+      "cancel": "انصراف",
+      "saveChanges": "ذخیره تغییرات",
+      "addToCourse": "افزودن به دوره"
+    },
+    "alerts": {
+      "saveFirstTitle": "ابتدا دوره را ذخیره کنید",
+      "saveFirstToAddAyhoot": "لطفاً برای افزودن آهوت، ابتدا دوره را ذخیره کنید. اکنون ذخیره شود؟",
+      "saveFirstToAddContent": "لطفاً برای افزودن محتوا، ابتدا دوره را ذخیره کنید. اکنون ذخیره شود؟",
+      "saveNow": "بله، ذخیره کن",
+      "mustSaveForAyhoot": "قبل از افزودن آهوت، دوره باید ذخیره شود.",
+      "mustSaveForContent": "قبل از افزودن آیتم‌های محتوا، دوره باید ذخیره شود.",
+      "mustSaveCourse": "ابتدا باید دوره را ذخیره کنید.",
+      "loadExamsFailed": "بارگذاری آزمون‌ها ناموفق بود.",
+      "alreadyInCourse": "\"{title}\" از قبل در دوره وجود دارد.",
+      "addAyhootSuccess": "آهوت \"{title}\" با موفقیت اضافه شد.",
+      "addAyhootFailed": "افزودن آهوت ناموفق بود.",
+      "editAyhootInfo": "برای ویرایش یک آهوت، لطفاً به بخش آهوت‌ها بروید. در اینجا می‌توانید ترتیب آن را تغییر دهید یا حذف کنید.",
+      "descriptionEmpty": "توضیحات/عنوان نمی‌تواند خالی باشد.",
+      "selectAFile": "لطفاً یک فایل انتخاب کنید.",
+      "provideVideo": "لطفاً یک فایل ویدیو یا یک URL/کد embed ویدیو ارائه دهید.",
+      "contentAddedSuccess": "{type} با موفقیت اضافه شد. در حال بازخوانی...",
+      "contentAddFailed": "افزودن {type} ناموفق بود.",
+      "changesStaged": "تغییرات مرحله‌بندی شد. برای اعمال، روی «ذخیره دوره» در هدر کلیک کنید.",
+      "orderChanged": "ترتیب محتوا تغییر کرد. برای اعمال، روی «ذخیره دوره» کلیک کنید.",
+      "confirmRemoveTitle": "آیا مطمئن هستید؟",
+      "confirmRemoveText": "شما در حال حذف \"{description}\" هستید.",
+      "confirmRemoveButton": "بله، حذف کن!",
+      "removedTitle": "حذف شد!",
+      "removedText": "آیتم محتوا حذف شد.",
+      "errorTitle": "خطا!",
+      "removeFailedText": "حذف آیتم محتوا ناموفق بود.",
+      "itemRemovedLocally": "آیتم از لیست حذف شد. برای دائمی کردن تغییر، دوره را ذخیره کنید.",
+      "titleEmpty": "عنوان دوره نمی‌تواند خالی باشد.",
+      "courseUpdated": "دوره با موفقیت به‌روزرسانی شد!",
+      "courseCreated": "دوره با موفقیت ایجاد شد!",
+      "saveFailed": "ذخیره دوره ناموفق بود.",
+      "saveToPreview": "این دوره هنوز ذخیره نشده است. برای پیش‌نمایش اکنون ذخیره شود؟",
+      "saveFailedPreview": "ذخیره دوره ناموفق بود. پیش‌نمایش در دسترس نیست.",
+      "saveFailedLatestContent": "ذخیره تغییرات ناموفق بود. پیش‌نمایش ممکن است آخرین محتوا را نشان ندهد."
+    },
+    "contentTypes": {
+      "ayhoot": "آهوت",
+      "file": "فایل",
+      "video": "ویدیو"
+    },
+    "ayhootModal": {
+      "title": "افزودن آهوت به دوره",
+      "searchPlaceholder": "جستجوی آهوت‌ها بر اساس عنوان یا موضوع...",
+      "loading": "در حال بارگذاری آهوت‌ها...",
+      "alreadyAdded": "قبلاً اضافه شده",
+      "questions": "سوال",
+      "noAyhootsAvailable": "هیچ آهوتی موجود نیست.",
+      "noResults": "هیچ آهوتی مطابق با جستجوی شما یافت نشد.",
+      "previous": "قبلی",
+      "paginationInfo": "صفحه {current} از {last} ({from}-{to} از {total})",
+      "next": "بعدی",
+      "done": "انجام شد"
+    }
+  },
+  "courseHeader": {
+    "openContentList": "باز کردن لیست محتوا",
+    "enterCourseTitle": "عنوان دوره را وارد کنید",
+    "settings": "تنظیمات",
+    "preview": "پیش‌نمایش",
+    "exit": "خروج",
+    "save": "ذخیره",
+    "modal": {
+      "title": "تنظیمات دوره",
+      "cancel": "انصراف",
+      "save": "ذخیره",
+      "titleLabel": "عنوان",
+      "titleSubtitle": "ضروری. به شما کمک می‌کند دوره خود را بعداً پیدا کنید.",
+      "enterTitlePlaceholder": "عنوان دوره را وارد کنید...",
+      "descriptionLabel": "توضیحات",
+      "descriptionSubtitle": "اختیاری. یک توضیح به دوره خود اضافه کنید.",
+      "enterDescriptionPlaceholder": "یک توضیح وارد کنید...",
+      "monetizeLabel": "کسب درآمد",
+      "monetizeSubtitle": "از دوره خود کسب درآمد کنید.",
+      "free": "رایگان",
+      "paid": "پولی",
+      "enterPriceLabel": "قیمت را وارد کنید",
+      "enterPricePlaceholder": "مثلاً ۱۰۰۰۰",
+      "coverImageLabel": "تصویر کاور",
+      "coverImageSubtitle": "یک تصویر کاور اضافه کنید تا دوره شما متمایز شود.",
+      "uploadFile": "آپلود فایل",
+      "orDragDrop": "یا بکشید و رها کنید",
+      "supportedFileTypes": "PNG, JPG, GIF تا ۱۰ مگابایت",
+      "categoryLabel": "دسته‌بندی",
+      "categorySubtitle": "یک دسته‌بندی برای دوره خود انتخاب کنید.",
+      "assignToInstituteLabel": "اختصاص به موسسه",
+      "assignToInstituteSubtitle": "این دوره را به یک موسسه اختصاص دهید.",
+      "freelance": "آزادکار"
+    }
+  },
+  "manageTutors": {
+    "tabs": {
+      "all": "همه اساتید",
+      "requests": "درخواست‌های اساتید"
+    },
+    "allTutors": {
+      "title": "مدیریت اساتید",
+      "description": "اساتید موسسه خود را اضافه یا مدیریت کنید.",
+      "searchPlaceholder": "جستجوی اساتید با نام...",
+      "filters": {
+        "dateJoined": "تاریخ عضویت",
+        "name": "نام"
+      },
+      "inviteByEmail": "دعوت با ایمیل",
+      "table": {
+        "header": {
+          "tutee": "استاد",
+          "email": "ایمیل",
+          "joinedAt": "تاریخ عضویت",
+          "actions": "عملیات"
+        },
+        "body": {
+          "noEmail": "ایمیلی ثبت نشده",
+          "profile": "پروفایل",
+          "remove": "حذف",
+          "notAvailable": "نامشخص"
+        }
+      },
+      "empty": {
+        "title": "استادی یافت نشد",
+        "description": "استادی با مشخصات جستجوی شما یافت نشد.",
+        "loading": "در حال بارگذاری اساتید..."
+      }
+    },
+    "tutorRequests": {
+      "title": "درخواست‌های اساتید",
+      "description": "درخواست‌های اساتید برای پیوستن به موسسه خود را قبول یا رد کنید.",
+      "table": {
+        "header": {
+          "tutor": "استاد",
+          "requestDate": "تاریخ درخواست",
+          "status": "وضعیت",
+          "actions": "عملیات"
+        },
+        "body": {
+          "accept": "پذیرش",
+          "reject": "رد کردن"
+        }
+      },
+      "empty": {
+        "title": "هیچ درخواست در انتظاری وجود ندارد",
+        "description": "در حال حاضر هیچ درخواست جدیدی از سوی اساتید وجود ندارد.",
+        "loading": "در حال بارگذاری درخواست‌ها..."
+      }
+    },
+    "inviteModal": {
+      "title": "دعوت استاد جدید",
+      "description": "آدرس ایمیل استادی را که می‌خواهید دعوت کنید، وارد نمایید.",
+      "emailLabel": "آدرس ایمیل",
+      "emailPlaceholder": "tutor{'@'}example.com",
+      "cancel": "لغو",
+      "send": "ارسال دعوت‌نامه",
+      "sending": "در حال ارسال...",
+      "copyInviteLink": "کپی لینک دعوت",
+      "orShareLink": "یا لینک دعوت را مستقیماً به اشتراک بگذارید:",
+      "copyLink": "کپی لینک",
+      "copied": "کپی شد!",
+      "linkNotReady": "لینک دعوت هنوز آماده نیست.",
+      "copySuccess": "لینک دعوت در کلیپ‌بورد کپی شد!"
+    },
+    "notifications": {
+      "loadFailed": "بارگذاری اساتید ناموفق بود.",
+      "removeFailed": "حذف استاد ناموفق بود.",
+      "loadRequestsFailed": "بارگذاری درخواست‌های اساتید ناموفق بود.",
+      "acceptSuccess": "درخواست استاد پذیرفته شد.",
+      "acceptFailed": "پذیرش درخواست ناموفق بود.",
+      "rejectSuccess": "درخواست استاد رد شد.",
+      "rejectFailed": "رد کردن درخواست ناموفق بود.",
+      "inviteSuccess": "دعوت‌نامه با موفقیت ارسال شد!",
+      "inviteFailed": "ارسال دعوت‌نامه ناموفق بود.",
+      "swal": {
+        "removeTitle": "آیا مطمئن هستید؟",
+        "removeText": "شما قادر به بازگرداندن «{tuteeName}» نخواهید بود!",
+        "confirmRemoveButton": "بله، حذف کن!",
+        "cancelButton": "لغو",
+        "removedTitle": "حذف شد!",
+        "removedText": "«{tuteeName}» از موسسه شما حذف شد.",
+        "rejectTitle": "آیا مطمئن هستید؟",
+        "rejectText": "آیا واقعاً می‌خواهید این درخواست را رد کنید؟",
+        "confirmRejectButton": "بله، رد کن!",
+        "okButton": "باشه"
+      }
+    }
+  },
+  "instituteProfile": {
+    "uploadCover": "آپلود کاور",
+    "profilePictureAlt": "لوگوی موسسه",
+    "shareProfile": "اشتراک‌گذاری پروفایل",
+    "updateProfile": "به‌روزرسانی پروفایل",
+    "stats": {
+      "ayhoots": "آی‌هوت‌ها",
+      "courses": "دوره‌ها",
+      "teachers": "اساتید"
+    },
+    "about": {
+      "title": "درباره موسسه",
+      "namePlaceholder": "نام موسسه",
+      "descriptionPlaceholder": "کمی درباره موسسه خودتان بگویید..."
+    },
+    "website": {
+      "title": "وب‌سایت",
+      "placeholder": "https://your-institute-website.com"
+    },
+    "profitShare": {
+      "title": "درصد سود با تولیدکنندگان محتوا",
+      "description": "درصد درآمدی که با تولیدکنندگان محتوا در موسسه خود به اشتراک می‌گذارید را تنظیم کنید.",
+      "placeholder": "مثلا ۷۰"
+    },
+    "account": {
+      "title": "تنظیمات حساب کاربری",
+      "currentPasswordLabel": "رمز عبور فعلی",
+      "currentPasswordPlaceholder": "رمز عبور فعلی را وارد کنید",
+      "newPasswordLabel": "رمز عبور جدید",
+      "newPasswordPlaceholder": "رمز عبور جدید را وارد کنید",
+      "confirmPasswordLabel": "تکرار رمز عبور جدید",
+      "confirmPasswordPlaceholder": "رمز عبور جدید را تکرار کنید",
+      "changePassword": "تغییر رمز عبور"
+    },
+    "notifications": {
+      "dataNotFound": "اطلاعات موسسه در پاسخ API یافت نشد.",
+      "loadProfileFailed": "بارگذاری اطلاعات پروفایل ناموفق بود.",
+      "updatingProfile": "در حال به‌روزرسانی پروفایل...",
+      "updateSuccess": "پروفایل با موفقیت به‌روزرسانی شد!",
+      "updateFailed": "به‌روزرسانی پروفایل ناموفق بود.",
+      "fileTooLarge": "حجم فایل نباید بیشتر از ۵ مگابایت باشد.",
+      "avatarSelected": "عکس لوگو انتخاب شد. برای ذخیره دکمه 'به‌روزرسانی پروفایل' را بزنید.",
+      "coverSelected": "عکس کاور انتخاب شد. برای ذخیره دکمه 'به‌روزرسانی پروفایل' را بزنید.",
+      "linkCopied": "لینک پروفایل در کلیپ‌بورد کپی شد!",
+      "linkCopyFailed": "کپی کردن لینک ناموفق بود.",
+      "passwordFieldsRequired": "لطفاً تمام فیلدهای رمز عبور را پر کنید.",
+      "passwordsNoMatch": "رمزهای عبور جدید مطابقت ندارند.",
+      "passwordTooShort": "رمز عبور باید حداقل ۶ کاراکتر باشد.",
+      "passwordChangeSuccess": "رمز عبور با موفقیت تغییر کرد!",
+      "passwordChangeFailed": "تغییر رمز عبور ناموفق بود."
+    }
+  },
+  "quizGame": {
+    "loading": "در حال بارگذاری آزمون...",
+    "empty": "سوالی برای این آزمون یافت نشد.",
+    "teacherModeWarning": "شما در حالت معلم هستید. پاسخ‌ها ذخیره نخواهند شد.",
+    "waitingForTeacher": "در انتظار معلم",
+    "waitingForTeacherMessage": "معلم به زودی جلسه را شروع خواهد کرد. لطفاً صبر کنید...",
+    "header": {
+      "defaultTitle": "بازی آزمون",
+      "questionTime": "زمان سوال:",
+      "examTime": "زمان آزمون:",
+      "edit": "ویرایش",
+      "prev": "قبلی",
+      "finish": "پایان",
+      "next": "بعدی",
+      "mute": "بی‌صدا کردن موسیقی",
+      "unmute": "پخش موسیقی"
+    },
+    "question": {
+      "altFile": "فایل سوال {index}",
+      "altZoomedImage": "تصویر بزرگ‌شده"
+    },
+    "resetModal": {
+      "title": "بازنشانی تلاش قبلی؟",
+      "message": "یک تلاش قبلی وجود دارد. آیا می‌خواهید پاسخ‌های قبلی حذف و از نو شروع کنید؟",
+      "reset": "بازنشانی",
+      "keep": "نگه داشتن"
+    },
+    "viewingExisting": "مشاهده پاسخ‌های قبلی",
+    "viewingExistingInfo": "شما در حال مشاهده پاسخ‌های قبلی خود هستید. برای ارسال پاسخ‌های جدید، تلاش را بازنشانی کنید.",
+    "viewOnlyMode": "فقط برای خواندن",
+    "viewingExistingAttempt": "مشاهده تلاش قبلی شما",
+    "viewingExistingAttemptInfo": "شما در حال بررسی پاسخ‌های قبلی خود هستید. برای انجام تغییرات جدید، بازنشانی کنید و یک تلاش تازه شروع کنید.",
+    "options": {
+      "altImage": "تصویر گزینه",
+      "placeholder": "پاسخ خود را اینجا تایپ کنید...",
+      "sequenceTitle": "موارد را بکشید و رها کنید تا در ترتیب صحیح قرار گیرند."
+    },
+    "results": {
+      "congratulations": "تبریک!",
+      "completed": "شما آزمون را با موفقیت به پایان رساندید.",
+      "yourScore": "امتیاز شما",
+      "scoreDetails": "{correctAnswers} پاسخ صحیح از {totalQuestions} سوال",
+      "backToDashboard": " برو به گزارش ",
+      "leaderboardTop": "شما در میان بهترین اجرا کنندگان هستید!",
+      "rank": "رتبه",
+      "feedback": {
+        "great": "عالی!",
+        "good": "خوب بود!",
+        "average": "بیشتر تلاش کن!",
+        "poor": "باید بیشتر تمرکز کنی."
+      }
+    },
+    "notifications": {
+      "beforeUnload": "آیا مطمئن هستید که می‌خواهید خارج شوید؟ پیشرفت شما ممکن است از بین برود.",
+      "sessionInactive": "این جلسه آزمون دیگر فعال نیست یا قبلاً تکمیل شده است.",
+      "paymentRequired": "برای دسترسی به این آزمون نیاز به پرداخت است.",
+      "loadError": "خطایی در بارگذاری آزمون رخ داد. لطفاً دوباره تلاش کنید.",
+      "unknownLoadError": "یک خطای ناشناخته هنگام بارگذاری آزمون رخ داد.",
+      "finishMessage": {
+        "timedOut": "وقت تمام شد! آزمون به پایان رسید.",
+        "completed": "آزمون به پایان رسید!",
+        "score": "امتیاز شما {score}٪ است. ({correctCount} پاسخ صحیح از {totalScorable} سوال)."
+      }
+    }
+  },
+  "discoverCreators": {
+    "title": "کشف سازندگان",
+    "filters": {
+      "searchLabel": "جستجو",
+      "searchPlaceholder": "جستجو بر اساس نام...",
+      "sortByLabel": "مرتب‌سازی بر اساس",
+      "sortOptions": {
+        "latest": "جدیدترین",
+        "oldest": "قدیمی‌ترین",
+        "mostContent": "بیشترین محتوا",
+        "mostTutees": "بیشترین دانش‌آموز"
+      }
+    },
+    "card": {
+      "defaultPlan": "مدرس",
+      "ayhoots": "آی‌هوت‌ها",
+      "courses": "دوره‌ها",
+      "tutees": "دانش‌آموزان"
+    },
+    "empty": {
+      "title": "هیچ سازنده‌ای یافت نشد",
+      "description": "جستجو یا فیلترهای خود را تغییر دهید."
+    }
+  },
+  "joinGroup": {
+    "confirm": {
+      "title": "عضویت با موفقیت انجام شد ",
+      "description": "شما در گروه «{groupName}» عضو شده‌اید. ",
+      "joiningButton": "در حال عضویت...",
+      "actionButton": "تأیید و عضویت در گروه"
+    },
+    "success": {
+      "title": "خوش آمدید!",
+      "description": "عضویت شما در گروه «{groupName}» با موفقیت انجام شد. اکنون به محتوای گروه دسترسی دارید.",
+      "actionButton": "ورود به میز کار"
+    },
+    "error": {
+      "title": "خطا در لینک دعوت",
+      "actionButton": "بازگشت به صفحه اصلی"
+    },
+    "notifications": {
+      "invalidToken": "لینک دعوت معتبر نیست یا منقضی شده است.",
+      "genericError": "خطایی رخ داده است. لطفاً دوباره تلاش کنید یا با مدرس خود تماس بگیرید.",
+      "success": "شما با موفقیت عضو گروه شدید!"
+    }
+  },
+  "joinInstitute": {
+    "success": {
+      "title": "با موفقیت پیوستید!",
+      "description": "شما با موفقیت به موسسه «{instituteName}» پیوستید.",
+      "actionButton": "رفتن به داشبورد"
+    },
+    "error": {
+      "title": "پیوستن به موسسه ناموفق بود",
+      "actionButton": "بازگشت به صفحه اصلی"
+    },
+    "notifications": {
+      "success": "به موسسه خوش آمدید!",
+      "invalidToken": "لینک دعوت‌نامه نامعتبر یا ناقص است.",
+      "genericError": "یک خطای غیرمنتظره رخ داد. لطفاً دوباره تلاش کنید."
+    }
+  },
+  "joinCommunity": {
+    "success": {
+      "title": "به انجمن پیوستید!",
+      "description": "شما اکنون عضو انجمن {teacherName} هستید.",
+      "actionButton": "رفتن به داشبورد"
+    },
+    "error": {
+      "title": "پیوستن به انجمن ناموفق بود",
+      "actionButton": "بازگشت به صفحه اصلی"
+    },
+    "notifications": {
+      "success": "به انجمن خوش آمدید!",
+      "invalidToken": "لینک دعوت‌نامه نامعتبر یا ناقص است.",
+      "genericError": "یک خطای غیرمنتظره رخ داد. لطفاً دوباره تلاش کنید."
+    }
+  },
+  "wallet": {
+    "title": "کیف پول",
+    "description": "موجودی خود را مشاهده کنید، تسویه‌ها را مدیریت کنید و تاریخچه تراکنش‌ها را ببینید",
+    "loading": "در حال بارگذاری اطلاعات...",
+    "currency": "تومان",
+    "card": {
+      "currentBalance": "موجودی فعلی",
+      "shabaNo": "شماره شبا",
+      "notSet": "ثبت نشده",
+      "editCard": "ویرایش شماره شبا",
+      "addCard": "افزودن شماره شبا",
+      "checkout": "تسویه حساب"
+    },
+    "tabs": {
+      "transactions": "تراکنش‌ها",
+      "invoices": "فاکتورها"
+    },
+    "transactions": {
+      "searchPlaceholder": "جستجوی تراکنش‌ها...",
+      "empty": "هیچ تراکنشی یافت نشد",
+      "notAvailable": "نامشخص",
+      "system": "سیستم",
+      "header": {
+        "details": "جزئیات تراکنش",
+        "amount": "مبلغ",
+        "user": "کاربر",
+        "date": "تاریخ"
+      }
+    },
+    "invoices": {
+      "empty": "هیچ فاکتوری یافت نشد",
+      "defaultTitle": "فاکتور #{id}",
+      "continuePayment": "ادامه پرداخت",
+      "header": {
+        "title": "عنوان",
+        "price": "قیمت",
+        "date": "تاریخ",
+        "status": "وضعیت",
+        "actions": "عملیات"
+      }
+    },
+    "modal": {
+      "editTitle": "ویرایش شماره شبا",
+      "addTitle": "افزودن شماره شبا",
+      "shabaLabel": "شماره شبا",
+      "shabaPlaceholder": "IR30000010000500035",
+      "cancel": "لغو",
+      "save": "ذخیره",
+      "savedSuccess": "شماره شبا با موفقیت ذخیره شد"
+    }
+  },
+  "newsIndex": {
+    "title": "آخرین اخبار آی‌هوت",
+    "description": "با آخرین مقالات و اطلاعیه‌ها به‌روز بمانید.",
+    "empty": {
+      "title": "هیچ خبری یافت نشد",
+      "description": "در حال حاضر مقاله‌ای برای نمایش وجود ندارد. لطفاً بعداً دوباره بررسی کنید."
+    },
+    "notifications": {
+      "loadFailed": "بارگذاری مقالات خبری ناموفق بود."
+    }
+  },
+  "newsDetail": {
+    "loading": "در حال بارگذاری مقاله...",
+    "contentImageAlt": "تصویر محتوا",
+    "error": {
+      "title": "بارگذاری مقاله ناموفق بود",
+      "loadFailed": "مقاله یافت نشد یا خطایی در سرور رخ داده است.",
+      "contentParse": "خطایی در نمایش محتوا رخ داده است."
+    },
+    "backToNews": "بازگشت به اخبار",
+    "stayUpdated": "به روز رسانی بگیرید",
+    "stayUpdatedDesc": "به روز رسانی با آخرین اخبار و به روز رسانی از Ayhoot بگیرید.",
+    "emailPlaceholder": "آدرس ایمیل خود را وارد کنید",
+    "subscribe": "اشتراک گذاری",
+    "tags": "برچسب ها",
+    "news": "اخبار",
+    "updates": "به روز رسانی",
+    "share": "اشتراک گذاری"
+  },
+  "notifications": {
+    "title": "اعلان‌ها",
+    "description": "فعالیت‌های اخیر و به‌روزرسانی‌های پلتفرم خود را مشاهده کنید.",
+    "markAsRead": "خوانده شد",
+    "timeGroups": {
+      "today": "امروز",
+      "yesterday": "دیروز",
+      "thisWeek": "این هفته",
+      "older": "قدیمی‌تر"
+    },
+    "empty": {
+      "title": "هیچ اعلان جدیدی وجود ندارد",
+      "description": "اعلان‌های شما در اینجا نمایش داده می‌شوند."
+    },
+    "notifications": {
+      "loadFailed": "بارگذاری اعلان‌ها ناموفق بود.",
+      "updateFailed": "به‌روزرسانی اعلان ناموفق بود."
+    }
+  },
+  "category": {
+    "allContentTitle": "تمامی محتواها",
+    "filters": {
+      "contentType": "نوع محتوا",
+      "all": "همه",
+      "exams": "آیهوت",
+      "courses": "دوره"
+    },
+    "badge": {
+      "course": "دوره",
+      "ayhoot": "آیهوت"
+    }
+  },
+  "payment": {
+    "title": "تأیید خرید",
+    "price": "قیمت",
+    "discount": "تخفیف",
+    "total": "مجموع",
+    "discountCode": "کد تخفیف",
+    "discountCodePlaceholder": "کد تخفیف را وارد کنید",
+    "apply": "اعمال",
+    "applying": "در حال اعمال...",
+    "cancel": "لغو",
+    "payNow": "پرداخت",
+    "processing": "در حال پردازش...",
+    "redirectingToPayment": "در حال انتقال به درگاه پرداخت...",
+    "paymentError": "پرداخت ناموفق بود. لطفاً دوباره تلاش کنید.",
+    "discountWillBeApplied": "کد تخفیف در هنگام پرداخت اعمال خواهد شد",
+    "discountError": "کد تخفیف نامعتبر است"
+  },
+  "purchase": {
+    "buyNow": "خرید",
+    "free": "دسترسی رایگان",
+    "purchased": "خریداری شده",
+    "processing": "در حال پردازش...",
+    "currency": "تومان",
+    "loginRequired": "لطفاً برای خرید محتوا وارد شوید",
+    "invalidRole": "نقش کاربری نامعتبر برای خرید",
+    "freeAccessGranted": "دسترسی رایگان اعطا شد!",
+    "accessFailed": "دسترسی به محتوا ناموفق بود"
+  },
+  "paymentStatus": {
+    "success": {
+      "title": "پرداخت موفق",
+      "message": "خرید شما با موفقیت انجام شد.",
+      "examMessage": "خرید آزمون شما با موفقیت انجام شد.",
+      "examPurchased": "اکنون به این آزمون دسترسی دارید و می‌توانید آن را در لیست آزمون‌های خریداری شده خود پیدا کنید."
+    },
+    "failed": {
+      "title": "پرداخت ناموفق",
+      "message": "پرداخت شما قابل پردازش نیست.",
+      "reasons": {
+        "missingParameters": "پارامترهای پرداخت ناقص",
+        "transactionNotFound": "تراکنش یافت نشد",
+        "invoiceNotFound": "فاکتور یافت نشد",
+        "paymentCanceled": "پرداخت لغو شد"
+      }
+    },
+    "processing": {
+      "title": "پردازش پرداخت",
+      "message": "لطفاً منتظر بمانید تا پرداخت شما پردازش شود..."
+    },
+    "referenceId": "شماره مرجع",
+    "goToDashboard": "رفتن به داشبورد",
+    "goToExams": "رفتن به آزمون‌های من",
+    "goToPurchasedExams": "رفتن به آزمون‌های خریداری شده",
+    "goToPurchasedCourses": "رفتن به دوره‌های خریداری شده",
+    "tryAgain": "تلاش مجدد"
+  },
+  "checkout": {
+    "title": "تسویه حساب",
+    "description": "سفارش خود را بررسی کنید و خرید را تکمیل کنید",
+    "orderSummary": "خلاصه سفارش",
+    "paymentSummary": "خلاصه پرداخت",
+    "loading": "در حال بارگذاری...",
+    "by": "توسط",
+    "from": "از",
+    "course": "دوره",
+    "exam": "آزمون",
+    "plan": "پلن",
+    "payment": "پرداخت",
+    "paymentDescription": "پرداخت خود را به صورت امن تکمیل کنید",
+    "questions": "سوال",
+    "days": "روز",
+    "currency": "تومان",
+    "subtotal": "جمع جزء",
+    "discount": "تخفیف",
+    "total": "مجموع",
+    "proceedToPayment": "ادامه پرداخت",
+    "processing": "در حال پردازش...",
+    "goBack": "بازگشت",
+    "securePayment": "پرداخت امن",
+    "voucher": {
+      "title": "کد تخفیف",
+      "placeholder": "کد تخفیف را وارد کنید",
+      "apply": "اعمال",
+      "applying": "در حال اعمال...",
+      "applied": "کد تخفیف اعمال شد",
+      "discount": "تخفیف",
+      "remove": "حذف",
+      "success": "کد تخفیف با موفقیت اعمال شد!",
+      "invalid": "کد تخفیف نامعتبر یا منقضی شده",
+      "available": "کدهای تخفیف موجود"
+    },
+    "errors": {
+      "fetchFailed": "بارگذاری جزئیات محتوا ناموفق بود",
+      "paymentFailed": "شروع پرداخت ناموفق بود",
+      "invalidParams": "پارامترهای تسویه حساب نامعتبر",
+      "initializationFailed": "راه‌اندازی تسویه حساب ناموفق بود"
+    }
+  },
+  "contentCard": {
+    "questions": "سوال",
+    "exams": "آزمون",
+    "students": "دانش‌آموز",
+    "teacher": "مربی",
+    "institute": "موسسه",
+    "purchased": "خریداری شده",
+    "startExam": "شروع آزمون",
+    "viewCourse": "مشاهده دوره",
+    "view": "مشاهده"
+  },
+  "pagination": {
+    "previous": "قبلی",
+    "next": "بعدی",
+    "pageOf": "صفحه {current} از {total}"
+  },
+  "paidExams": {
+    "title": "آزمون‌های پولی",
+    "description": "کشف و خرید آزمون‌های پریمیوم از سایر مربیان",
+    "discover": "کشف",
+    "purchased": "خریداری شده",
+    "search": "جستجو",
+    "searchPlaceholder": "جستجوی آزمون‌ها...",
+    "category": "دسته‌بندی",
+    "allCategories": "همه دسته‌بندی‌ها",
+    "clearFilters": "پاک کردن فیلترها",
+    "noExamsFound": "آزمونی یافت نشد",
+    "noExamsFoundDesc": "معیارهای جستجوی خود را تنظیم کنید",
+    "noPurchasedExams": "آزمون خریداری شده‌ای وجود ندارد",
+    "noPurchasedExamsDesc": "هنوز آزمونی خریداری نکرده‌اید",
+    "loadError": "بارگذاری آزمون‌ها ناموفق بود",
+    "purchaseSuccess": "آزمون با موفقیت خریداری شد",
+    "accessGranted": "دسترسی به آزمون اعطا شد"
+  },
+  "exam": {
+    "access": "دسترسی به آزمون",
+    "details": "مشاهده جزئیات",
+    "questions": "سوال",
+    "students": "دانش‌آموز",
+    "by": "توسط",
+    "free": "رایگان",
+    "hasAccess": "شما دسترسی دارید",
+    "startExam": "شروع آزمون",
+    "viewQuestions": "مشاهده سوالات",
+    "preview": "پیش‌نمایش آزمون",
+    "totalQuestions": "تعداد کل سوالات",
+    "totalStudents": "تعداد کل دانش‌آموزان",
+    "purchaseRequired": "خرید ضروری است",
+    "purchaseRequiredDesc": "برای دسترسی به تمام سوالات و امکانات، این آزمون را خریداری کنید",
+    "notFound": "آزمون یافت نشد",
+    "notFoundDesc": "آزمونی که به دنبال آن هستید وجود ندارد یا حذف شده است",
+    "loadError": "بارگذاری آزمون ناموفق بود",
+    "accessGranted": "دسترسی با موفقیت اعطا شد",
+    "owner": "مالک",
+    "editExam": "ویرایش آزمون",
+    "accessExam": "دسترسی به آزمون",
+    "questionsPreview": "پیش‌نمایش سوالات",
+    "andMoreQuestions": "و {count} سوال دیگر...",
+    "hostLive": {
+      "title": "برگزاری زنده آزمون",
+      "sessionTitle": "عنوان جلسه",
+      "helperText": "شرکت‌کنندگان می‌توانند با کد بازی یا اسکن بارکد به صورت زنده وارد آزمون شوند.",
+      "gamePin": "کد بازی",
+      "copyPin": "کپی کد",
+      "pinCopied": "کد کپی شد!",
+      "urlCopied": "لینک ورود کپی شد!",
+      "scanToJoin": "برای ورود با دوربین اسکن کنید",
+      "createSession": "ایجاد جلسه",
+      "creating": "در حال ایجاد...",
+      "goToHostPage": "ورود به صفحه میزبان ←",
+      "done": "پایان",
+      "cancel": "انصراف",
+      "copied": "کپی شد",
+      "copy": "کپی"
+    }
+  },
+  "discoverInstitutes": {
+    "title": "کاوش موسسات",
+    "filters": {
+      "searchLabel": "جستجو بر اساس نام",
+      "searchPlaceholder": "مثلاً، آکادمی آیهوت...",
+      "sortByLabel": "مرتب‌سازی بر اساس",
+      "sortOptions": {
+        "latest": "جدیدترین",
+        "oldest": "قدیمی‌ترین",
+        "mostContent": "بیشترین محتوا",
+        "mostTutees": "بیشترین شاگردان"
+      }
+    },
+    "card": {
+      "defaultPlan": "موسسه",
+      "ayhoots": "آیهوت‌ها",
+      "courses": "دوره‌ها",
+      "tutees": "شاگردان"
+    },
+    "empty": {
+      "title": "هیچ موسسه‌ای یافت نشد",
+      "description": "جستجو یا فیلترهای خود را تغییر دهید."
+    }
+  },
+  "plans": {
+    "title": "طرح خود را انتخاب کنید",
+    "subtitle": "قفل ویژگی‌های قدرتمند را برای ایجاد، مدیریت و تحلیل محتوای آموزشی خود باز کنید.",
+    "teacherTitle": "آیهوت برای معلمان",
+    "teacherSubtitle": "هر آنچه برای ارائه درس‌های جذاب و پیگیری پیشرفت دانش‌آموزان نیاز دارید.",
+    "mostPopular": "محبوب‌ترین",
+    "month": "ماه",
+    "freePrice": "رایگان",
+    "ctaFree": "رایگان شروع کنید",
+    "ctaPaid": "انتخاب طرح",
+    "ctaChoosePlan": "انتخاب {name}",
+    "currency": "ریال",
+    "limitedOffer": "پیشنهاد ویژه",
+    "availableUntil": "در دسترس تا {date}",
+    "names": {
+      "Free": "رایگان",
+      "Bronze Ayhoot!": "آیهوت برنزی",
+      "Silver Ayhoot!": "آیهوت نقره‌ای",
+      "Golden Ayhoot!": "آیهوت طلایی",
+      "Enterprise": "سازمانی",
+      "Bronze": "برنز",
+      "Silver": "نقره‌ای",
+      "Gold": "طلایی",
+      "Golden": "طلایی"
+    },
+    "descriptions": {
+      "Basic plan for getting started": "طرح پایه برای شروع فعالیت و تدریس",
+      "Perfect for small educators and tutors": "ایده‌آل برای مدرسان و معلمان مستقل",
+      "Most popular plan for growing educators": "محبوب‌ترین طرح برای مدرسان و گروه‌های در حال رشد",
+      "Premium plan for large institutions": "طرح ویژه برای موسسات بزرگ و آموزشگاه‌ها",
+      "Unlimited plan for large organizations": "طرح نامحدود ویژه سازمان‌ها و موسسات گسترده"
+    },
+    "features": {
+      "ayhootsCount": "{count} آزمون (آیهوت)",
+      "tuteesCount": "{count} دانش‌آموز در ماه",
+      "tutorsCount": "{count} ظرفیت مدرس",
+      "coursesCount": "{count} دوره آموزشی",
+      "groupsCount": "{count} گروه",
+      "participantLimit": "ظرفیت {count} شرکت‌کننده در آزمون زنده",
+      "applyInstituteCount": "{count} درخواست عضویت در موسسه",
+      "reportsBasic": "گزارش‌ها: پایه",
+      "reportsAdvanced": "گزارش‌ها: پیشرفته",
+      "reportsUltimate": "گزارش‌ها: جامع (Ultimate)",
+      "reportsUltimatePro": "گزارش‌ها: فوق پیشرفته (Ultimate Pro)",
+      "reportsEnterprise": "گزارش‌ها: سازمانی",
+      "monetizeYes": "امکان کسب درآمد: بله",
+      "monetizeNo": "امکان کسب درآمد: خیر",
+      "unlimited": "نامحدود",
+      "unlimitedTutees": "دانش‌آموز نامحدود در ماه",
+      "unlimitedParticipants": "شرکت‌کننده نامحدود در آزمون زنده",
+      "unlimitedAyhoots": "آزمون (آیهوت) نامحدود",
+      "unlimitedCourses": "دوره‌های آموزشی نامحدود",
+      "unlimitedGroups": "گروه‌های نامحدود",
+      "unlimitedTutors": "ظرفیت مدرس نامحدود",
+      "reports": "گزارش‌های پیشرفته (Ultimate)",
+      "monetize": "بدون محدودیت در درآمدزایی",
+      "branding": "ابزارهای برندسازی شخصی",
+      "storeAccess": "دسترسی به فروشگاه محتوا"
+    },
+    "confirm": {
+      "title": "تایید اشتراک",
+      "subscribingTo": "شما در حال خرید و فعال‌سازی طرح {name} هستید.",
+      "chooseBillingCycle": "انتخاب دوره پرداخت",
+      "savePercent": "تخفیف {percent}٪",
+      "basePrice": "قیمت پایه:",
+      "subtotal": "مجموع ({months} ماه):",
+      "longTermDiscount": "تخفیف دوره بلندمدت:",
+      "voucherDiscount": "تخفیف کد هدیه:",
+      "fromWallet": "کسر از کیف پول:",
+      "totalAmount": "مبلغ نهایی پرداختی:",
+      "voucherLabel": "کد تخفیف (اختیاری)",
+      "voucherPlaceholder": "کد تخفیف خود را وارد کنید",
+      "apply": "اعمال",
+      "useWallet": "استفاده از موجودی کیف پول (موجودی: {balance})",
+      "processing": "در حال پردازش...",
+      "proceedToPay": "پرداخت و تایید نهایی {amount}",
+      "chooseDifferent": "انتخاب طرح دیگر",
+      "months1": "۱ ماهه",
+      "months3": "۳ ماهه",
+      "months12": "۱ ساله"
+    },
+    "alerts": {
+      "loadFailed": "خطا در بارگذاری طرح‌ها. لطفا دوباره تلاش کنید.",
+      "loginRequired": "لطفا برای انتخاب طرح وارد حساب کاربری خود شوید.",
+      "subscribeFailed": "امکان اشتراک در این طرح وجود ندارد. لطفا اتصال خود را بررسی کنید."
+    }
+  },
+  "myCourses": {
+    "title": "دوره‌های من",
+    "description": "دوره‌هایی که در آن‌ها ثبت‌نام کرده‌اید یا خریداری کرده‌اید.",
+    "empty": {
+      "title": "هنوز دوره‌ای وجود ندارد",
+      "description": "برای پیدا کردن دوره‌ها، فهرست را مرور کنید.",
+      "browse": "مرور دوره‌ها"
+    },
+    "searchPlaceholder": "جستجوی دوره‌ها…",
+    "filters": {
+      "latest": "جدیدترین",
+      "oldest": "قدیمی‌ترین"
+    }
+  }
+}

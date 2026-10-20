@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+/* Safelist option/quiz shape colors. These are built dynamically as
+   `bg-${color}-500` etc., so Tailwind's static scanner can't see them and would
+   otherwise purge the less-common ones (green/pink/purple), making those options
+   render gray. Keep this in sync with SHAPE_MAP colors. */
+@source inline("{bg,text,border}-{red,blue,green,yellow,pink,purple,gray}-{100,400,500}");
+
+@font-face {
+    font-family: 'Peyda';
+    src: url('../assets/fonts/Peyda/PeydaWeb/woff2/PeydaWeb-Medium.woff2') format('woff2'),
+        url('../assets/fonts/Peyda/PeydaWeb/woff/PeydaWeb-Medium.woff') format('woff'),
+        url('../assets/fonts/Peyda/Peyda-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+html[dir="rtl"] body {
+  font-family: 'Peyda', sans-serif;
+}
+
+.font-payda {
+  font-family: 'Peyda', sans-serif !important;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  
+  /* HIDE SCROLLBAR BY DEFAULT */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+/* 1. HIDE the scrollbar on the <html> element by default */
+html::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+/* 2. SHOW the scrollbar on the <html> element ONLY WHEN <body> has our class */
+
+/* This selector means: "Find an <html> element that is an ancestor of a <body>
+   element which has the class .scrollbar-visible" */
+   
+body.scrollbar-visible html::-webkit-scrollbar {
+  display: block; /* Use 'block' or 'initial' to override display:none */
+}
+
+body.scrollbar-visible html {
+  -ms-overflow-style: auto;
+  scrollbar-width: auto;
+}
+
+/* Hide scrollbars everywhere (modals, tables, dropdowns, any scroll container)
+   while preserving scroll functionality via wheel / touch / keyboard. */
+* {
+  scrollbar-width: none;       /* Firefox */
+  -ms-overflow-style: none;    /* IE / Edge legacy */
+}
+*::-webkit-scrollbar {
+  width: 0 !important;
+  height: 0 !important;
+  display: none;               /* Chrome / Safari / Edge */
+}
+
+html[dir="rtl"] body {
+  font-family: 'Peyda', sans-serif;
+}
+
+.font-payda {
+  font-family: 'Peyda', sans-serif !important;
+}
+

@@ -1,0 +1,80 @@
+name: Build & Deploy
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-main
+  cancel-in-progress: false
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install JS deps
+        run: npm ci
+
+      - name: Build frontend (origin-relative; works on IP and domain)
+        env:
+          VITE_APP_NAME: Ayhoot
+          VITE_PUSHER_APP_KEY: 5c8a81ec227bf87005fe
+          VITE_PUSHER_APP_CLUSTER: mt1
+          VITE_DEBUG: 'false'
+        run: npm run build
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh && chmod 700 ~/.ssh
+          # DEPLOY_SSH_KEY is stored base64-encoded (survives any copy/paste);
+          # fall back to raw PEM if it isn't base64.
+          if printf '%s' "${{ secrets.DEPLOY_SSH_KEY }}" | base64 -d > ~/.ssh/id_deploy 2>/dev/null && head -1 ~/.ssh/id_deploy | grep -q "PRIVATE KEY"; then
+            echo "decoded base64 key"
+          else
+            printf '%s\n' "${{ secrets.DEPLOY_SSH_KEY }}" > ~/.ssh/id_deploy
+            echo "using raw key"
+          fi
+          chmod 600 ~/.ssh/id_deploy
+          ssh-keyscan -H "${{ secrets.DEPLOY_HOST }}" >> ~/.ssh/known_hosts 2>/dev/null
+
+      - name: Rsync application code (preserves .env, storage, uploads, vendor)
+        run: |
+          rsync -az \
+            --exclude '.git' --exclude '.github' --exclude 'node_modules' \
+            --exclude '.env' --exclude '.env.*' \
+            --exclude 'storage' --exclude 'vendor' --exclude 'bootstrap/cache' \
+            --exclude 'public/build' --exclude 'public/storage' --exclude 'public/uploads' \
+            --exclude 'public/dbadmin' --exclude 'public/courses' --exclude 'public/exams' \
+            --exclude 'public/categories' --exclude 'public/labels' \
+            --exclude 'public/course' --exclude 'public/exam' \
+            --exclude 'public/category' --exclude 'public/label' \
+            -e "ssh -i ~/.ssh/id_deploy -o StrictHostKeyChecking=no" \
+            ./ "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:/var/www/ayhoot/"
+
+      - name: Rsync built assets (clean)
+        run: |
+          rsync -az --delete \
+            -e "ssh -i ~/.ssh/id_deploy -o StrictHostKeyChecking=no" \
+            ./public/build/ "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:/var/www/ayhoot/public/build/"
+
+      - name: Post-deploy (composer, migrate, cache, restart)
+        run: |
+          ssh -i ~/.ssh/id_deploy -o StrictHostKeyChecking=no \
+            "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}" \
+            'cd /var/www/ayhoot \
+             && export COMPOSER_ALLOW_SUPERUSER=1 \
+             && composer install --no-dev --optimize-autoloader --no-interaction \
+             && php artisan migrate --force \
+             && php artisan config:cache && php artisan route:cache && php artisan view:cache \
+             && chown -R www-data:www-data /var/www/ayhoot \
+             && systemctl restart ayhoot-websockets'

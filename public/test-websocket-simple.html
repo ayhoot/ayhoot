@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebSocket Test</title>
+    <script src="https://js.pusher.com/8.2.0/pusher.min.js"></script>
+</head>
+<body>
+    <h1>WebSocket Connection Test</h1>
+    <div id="status">Connecting...</div>
+    <div id="events"></div>
+    
+    <script>
+        const PIN = '507899'; // Change this to your session PIN
+        
+        // Enable Pusher logging
+        Pusher.logToConsole = true;
+        
+        const pusher = new Pusher('local-key', {
+            wsHost: '127.0.0.1',
+            wsPort: 6001,
+            wssPort: 6001,
+            forceTLS: false,
+            disableStats: true,
+            enabledTransports: ['ws', 'wss'],
+            cluster: 'mt1'
+        });
+        
+        const channel = pusher.subscribe('live-session.' + PIN);
+        
+        pusher.connection.bind('connected', () => {
+            document.getElementById('status').innerHTML = '✅ Connected to WebSocket server';
+            console.log('Connected to Pusher');
+        });
+        
+        pusher.connection.bind('error', (err) => {
+            document.getElementById('status').innerHTML = '❌ Connection error: ' + JSON.stringify(err);
+            console.error('Pusher error:', err);
+        });
+        
+        channel.bind('pusher:subscription_succeeded', () => {
+            document.getElementById('status').innerHTML += '<br>✅ Subscribed to channel: live-session.' + PIN;
+            console.log('Subscribed to channel');
+        });
+        
+        channel.bind('participant.joined', (data) => {
+            console.log('Received participant.joined event:', data);
+            const div = document.createElement('div');
+            div.innerHTML = '<strong>participant.joined:</strong> ' + JSON.stringify(data);
+            div.style.padding = '10px';
+            div.style.margin = '5px';
+            div.style.background = '#e8f5e9';
+            div.style.border = '1px solid #4caf50';
+            document.getElementById('events').appendChild(div);
+        });
+        
+        channel.bind('answer.submitted', (data) => {
+            console.log('Received answer.submitted event:', data);
+            const div = document.createElement('div');
+            div.innerHTML = '<strong>answer.submitted:</strong> ' + JSON.stringify(data);
+            div.style.padding = '10px';
+            div.style.margin = '5px';
+            div.style.background = '#e3f2fd';
+            div.style.border = '1px solid #2196f3';
+            document.getElementById('events').appendChild(div);
+        });
+        
+        // Bind to ALL events for debugging
+        channel.bind_global((eventName, data) => {
+            console.log('Received event:', eventName, data);
+            if (eventName.startsWith('pusher:')) return; // Skip Pusher internal events
+            
+            const div = document.createElement('div');
+            div.innerHTML = '<strong>' + eventName + ':</strong> ' + JSON.stringify(data);
+            div.style.padding = '10px';
+            div.style.margin = '5px';
+            div.style.background = '#fff3e0';
+            div.style.border = '1px solid #ff9800';
+            document.getElementById('events').appendChild(div);
+        });
+    </script>
+</body>
+</html>

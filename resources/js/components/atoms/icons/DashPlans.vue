@@ -1,0 +1,25 @@
+<template>
+    <svg
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+    >
+        <path
+            d="M8.625 19.3333V6.28571M14.8125 17.1429V4.02679M3 17.7143V4L8.47826 6.28571L14.7391 4L21 6.28571V20L14.7391 17.7143L8.47826 20L3 17.7143Z"
+            class="stroke-current"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+        />
+    </svg>
+</template>
+
+<script>
+export default {
+    name: 'DashPlans',
+}
+</script>
+
+<style scoped></style>

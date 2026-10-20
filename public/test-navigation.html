@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navigation Test</title>
+    <style>
+        body { font-family: Arial; padding: 20px; background: #f0f0f0; }
+        .container { max-width: 800px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .section { margin: 20px 0; padding: 15px; background: #f8f8f8; border-left: 4px solid #007bff; }
+        h2 { color: #333; margin-top: 0; }
+        button { padding: 10px 20px; margin: 5px; border: none; border-radius: 4px; cursor: pointer; font-weight: bold; }
+        .btn-next { background: #007bff; color: white; }
+        .btn-prev { background: #6c757d; color: white; }
+        .btn-toggle { background: #28a745; color: white; }
+        button:hover { opacity: 0.9; }
+        .log { background: #000; color: #0f0; padding: 10px; border-radius: 4px; font-family: monospace; font-size: 12px; max-height: 300px; overflow-y: auto; margin: 10px 0; }
+        .log-entry { margin: 3px 0; }
+        .status { padding: 10px; background: #e7f3ff; border: 1px solid #b3d9ff; border-radius: 4px; margin: 10px 0; }
+        .error { background: #ffe7e7; border-color: #ffb3b3; color: #d00; }
+        .success { background: #e7ffe7; border-color: #b3ffb3; color: #0a0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 Live Session Navigation Test</h1>
+        
+        <div class="section">
+            <h2>Session Info</h2>
+            <p><strong>Session ID:</strong> <span id="session-id">41</span></p>
+            <p><strong>Question Index:</strong> <span id="question-index">0</span></p>
+            <p><strong>Total Questions:</strong> <span id="total-questions">3</span></p>
+        </div>
+
+        <div class="section">
+            <h2>Navigation Controls</h2>
+            <button class="btn-prev" onclick="testPrevious()">← Previous Question</button>
+            <button class="btn-toggle" onclick="testToggleAutoAdvance()">⏱️ Toggle Auto-Advance</button>
+            <button class="btn-next" onclick="testNext()">Next Question →</button>
+        </div>
+
+        <div class="section">
+            <h2>Test Results</h2>
+            <div id="test-status"></div>
+        </div>
+
+        <div class="section">
+            <h2>Console Log</h2>
+            <div class="log" id="log"></div>
+        </div>
+    </div>
+
+    <script>
+        const token = localStorage.getItem('token');
+        const API_BASE = 'http://localhost:8000/api';
+        const sessionId = 41;
+        let logEntries = [];
+
+        function log(msg, type = 'info') {
+            const entry = `[${new Date().toLocaleTimeString()}] [${type.toUpperCase()}] ${msg}`;
+            logEntries.push({msg, type});
+            console.log(entry);
+            updateLog();
+        }
+
+        function updateLog() {
+            const logDiv = document.getElementById('log');
+            logDiv.innerHTML = logEntries.map(e => 
+                `<div class="log-entry" style="color: ${e.type === 'error' ? '#f00' : e.type === 'success' ? '#0a0' : '#0f0'}">${e.msg}</div>`
+            ).join('');
+            logDiv.scrollTop = logDiv.scrollHeight;
+        }
+
+        async function apiCall(method, endpoint) {
+            try {
+                log(`Calling ${method} ${endpoint}`, 'info');
+                
+                const response = await fetch(`${API_BASE}${endpoint}`, {
+                    method,
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${token}`,
+                        'Accept': 'application/json'
+                    },
+                    credentials: 'include'
+                });
+
+                log(`Response status: ${response.status}`, response.ok ? 'info' : 'error');
+
+                if (!response.ok) {
+                    const error = await response.json();
+                    log(`Error: ${error.message}`, 'error');
+                    return null;
+                }
+
+                const data = await response.json();
+                log(`Success: Received data with question index: ${data.session?.current_question_index}`, 'success');
+                
+                if (data.session) {
+                    document.getElementById('question-index').textContent = data.session.current_question_index;
+                }
+                
+                return data;
+            } catch (e) {
+                log(`Exception: ${e.message}`, 'error');
+                return null;
+            }
+        }
+
+        async function testNext() {
+            log('=== TESTING NEXT QUESTION ===', 'info');
+            await apiCall('POST', `/live-session/${sessionId}/next-question`);
+        }
+
+        async function testPrevious() {
+            log('=== TESTING PREVIOUS QUESTION ===', 'info');
+            await apiCall('POST', `/live-session/${sessionId}/previous-question`);
+        }
+
+        async function testToggleAutoAdvance() {
+            log('=== TESTING AUTO-ADVANCE TOGGLE ===', 'info');
+            log('Auto-advance toggle would work if integrated with Vue', 'info');
+        }
+
+        // Initial log
+        log('Navigation Test Page Loaded', 'info');
+        log(`Token available: ${token ? 'YES' : 'NO'}`, token ? 'success' : 'error');
+        log(`API Base: ${API_BASE}`, 'info');
+        log(`Session ID: ${sessionId}`, 'info');
+        log('Ready to test navigation...', 'success');
+    </script>
+</body>
+</html>

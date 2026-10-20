@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebSocket Test</title>
+    <script src="https://js.pusher.com/8.2.0/pusher.min.js"></script>
+</head>
+<body>
+    <h1>WebSocket Connection Test</h1>
+    <div id="status">Connecting...</div>
+    <div id="messages"></div>
+
+    <script>
+        const pusher = new Pusher('local-key', {
+            wsHost: '127.0.0.1',
+            wsPort: 6001,
+            wssPort: 6001,
+            forceTLS: false,
+            enabledTransports: ['ws', 'wss'],
+            disableStats: true,
+            cluster: 'mt1'
+        });
+
+        pusher.connection.bind('connected', () => {
+            document.getElementById('status').innerHTML = '<span style="color:green">✓ Connected</span>';
+            console.log('Connected to WebSocket');
+        });
+
+        pusher.connection.bind('error', (err) => {
+            document.getElementById('status').innerHTML = '<span style="color:red">✗ Error: ' + err.error.data.message + '</span>';
+            console.error('Connection error:', err);
+        });
+
+        // Subscribe to test channel
+        const channel = pusher.subscribe('live-session.670343');
+        
+        channel.bind('pusher:subscription_succeeded', () => {
+            console.log('Subscribed to channel');
+            document.getElementById('messages').innerHTML += '<p style="color:blue">Subscribed to live-session.670343</p>';
+        });
+
+        channel.bind('participant.joined', (data) => {
+            console.log('Event received:', data);
+            document.getElementById('messages').innerHTML += '<p style="color:green">✓ Participant joined: ' + JSON.stringify(data) + '</p>';
+        });
+
+        // Listen to all events
+        channel.bind_global((event, data) => {
+            console.log('Global event:', event, data);
+            document.getElementById('messages').innerHTML += '<p>Event: ' + event + ' - ' + JSON.stringify(data) + '</p>';
+        });
+    </script>
+</body>
+</html>

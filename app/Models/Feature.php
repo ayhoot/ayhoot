@@ -1,0 +1,22 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Feature extends Model
+{
+    use HasFactory;
+    protected $fillable = [
+        'role',
+        'title',
+        'value'
+    ];
+
+    public function plans()
+    {
+        return $this->belongsToMany(Plan::class, 'plan_features')
+            ->withTimestamps();
+    }
+}

@@ -1,0 +1,3008 @@
+{
+  "nav": {
+    "signUpFree": "Sign up FREE",
+    "signUp": "Sign up",
+    "logIn": "Log in",
+    "openMenu": "Open main menu",
+    "news": "News",
+    "welcome": "Welcome, {name}",
+    "dashboard": "Dashboard",
+    "logOut": "Logout",
+    "tutors": "Tutors",
+    "tutees": "Tutees",
+    "explore": "Explore",
+    "institutes": "Institutes",
+    "menuItems": {
+      "useCases": "Use Cases",
+      "solutions": "Solutions",
+      "plansAndPricing": "Plans and Pricing"
+    },
+    "mobileMenu": {
+      "higherEducation": "Higher Education",
+      "aboutUs": "About Us",
+      "contact": "Contact",
+      "team": "Team"
+    }
+  },
+  "home": {
+    "getStarted": "Get Started",
+    "hero": {
+      "title": "Discover, Play and Learn.",
+      "subtitle": "An interactive gamified learning platform."
+    },
+    "features": {
+      "title": "Get familiar with Ayhoots features"
+    },
+    "creators": {
+      "title": "Top Creators and Institutes",
+      "seo": "Top Teachers and Institutes",
+      "tutees": "Tutees",
+      "ayhoots": "Ayhoots",
+      "courses": "Courses",
+      "items": [
+        {
+          "id": "1",
+          "type": "teacher",
+          "name": "Jane Doe",
+          "image": "https://i.pravatar.cc/150?u=a042581f4e29026704d",
+          "tutees": "1.2k",
+          "ayhoots": "89",
+          "courses": "12"
+        },
+        {
+          "id": "2",
+          "type": "institute",
+          "name": "Innovate Academy",
+          "image": "https://i.pravatar.cc/150?u=a042581f4e29026705d",
+          "tutees": "5.6k",
+          "ayhoots": "450",
+          "courses": "45"
+        },
+        {
+          "id": "3",
+          "type": "teacher",
+          "name": "John Smith",
+          "image": "https://i.pravatar.cc/150?u=a042581f4e29026706d",
+          "tutees": "850",
+          "ayhoots": "45",
+          "courses": "8"
+        }
+      ]
+    },
+    "play": {
+      "title": "Let your tutees play around!",
+      "paragraph1": "Ayhoot transforms traditional learning into an engaging and interactive experience. Our platform is designed for institutes that want to bring excitement into the classroom. Create dynamic 'Ayhoots' (our term for games and quizzes) that students can play live, fostering a competitive and collaborative spirit. The visual feedback and real-time leaderboards keep everyone hooked from start to finish.",
+      "paragraph2": "For individual tutors and teachers, Ayhoot offers a powerful set of tools to connect with students on a new level. Go beyond static worksheets and create personalized learning journeys. Our platform allows you to monitor individual progress, identify areas where students are struggling, and provide targeted feedback to help them succeed. It’s about making learning a personal and rewarding adventure.",
+      "seo1": "Online classes, online exams by Ayhoot.",
+      "seo2": "Online classes for teachers and Institutes."
+    },
+    "testimonials": {
+      "title": "What users tell about Ayhoot!",
+      "items": [
+        {
+          "name": "Ali Ghaffari.",
+          "role": "English Trainer",
+          "image": "https://i.pravatar.cc/150?u=a042581f4e29026707d",
+          "text": "Ayhoot has completely changed my classroom dynamics. My students are more engaged than ever, and their test scores have improved significantly!"
+        },
+        {
+          "name": "Aygun Academy",
+          "role": "Corporate Trainer",
+          "image": "https://i.pravatar.cc/150?u=a042581f4e29026708d",
+          "text": "We use Ayhoot for our employee onboarding. The gamification makes mandatory training fun and much more memorable. Highly recommended."
+        },
+        {
+          "name": "Nematollahi",
+          "role": "Student",
+          "image": "https://i.pravatar.cc/150?u=a042581f4e29026709d",
+          "text": "Studying used to be a chore, but playing Ayhoots with my friends to review for exams is something I actually look forward to. It works!"
+        }
+      ]
+    },
+    "footer": {
+      "columns": [
+        {
+          "title": "Company",
+          "links": [
+            {
+              "text": "About Us",
+              "path": "/about"
+            },
+            {
+              "text": "Careers",
+              "path": "/careers"
+            },
+            {
+              "text": "Press",
+              "path": "/press"
+            }
+          ]
+        },
+        {
+          "title": "Resources",
+          "links": [
+            {
+              "text": "Blog",
+              "path": "/blog"
+            },
+            {
+              "text": "Help Center",
+              "path": "/help"
+            },
+            {
+              "text": "Community",
+              "path": "/community"
+            }
+          ]
+        },
+        {
+          "title": "Legal",
+          "links": [
+            {
+              "text": "Privacy Policy",
+              "path": "/privacy"
+            },
+            {
+              "text": "Terms of Service",
+              "path": "/terms"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "login": {
+    "title": "Login",
+    "usernameLabel": "Username or Email Address",
+    "usernamePlaceholder": "Username",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Password",
+    "forgotPassword": "Forgot Password?",
+    "resetPassword": "reset password",
+    "loggingIn": "Logging in...",
+    "loginButton": "Login",
+    "orSeparator": "OR",
+    "continueWithGoogle": "Continue with Google",
+    "noAccount": "Don't have an account?",
+    "signUpLink": "sign-up",
+    "terms": {
+      "prefix": "By signing up, you accept our",
+      "link1": "Terms and Conditions",
+      "middle": ". Please check our",
+      "link2": "Privacy Policy",
+      "and": "and",
+      "link3": "Children's Privacy Policy",
+      "suffix": "."
+    },
+    "invalidCredentials": "The username or password you entered is incorrect.",
+    "unexpectedError": "An unexpected error occurred during login. Please try again."
+  },
+  "errors": {
+    "sessionExpired": "Your session has expired. Please log in again.",
+    "pageExpired": "Page expired. Please refresh.",
+    "invalidCredentials": "The username or password you entered is incorrect.",
+    "unauthorized": "Access Denied.",
+    "notFound": "Resource not found.",
+    "serverError": "A server error occurred. Please try again later.",
+    "networkError": "Network error. Please check your internet connection.",
+    "unexpectedError": "An unexpected error occurred. Please try again."
+  },
+  "resetPassword": {
+    "title": "Reset Password",
+    "description": "Enter your email address and we'll send you a verification code to reset your password.",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "Email",
+    "sendCode": "Send Verification Code",
+    "sending": "Sending...",
+    "codeSent": "Verification code sent to",
+    "codeSentSuccess": "Verification code sent successfully!",
+    "checkEmail": "Please check your email for the verification code.",
+    "continue": "Continue",
+    "resendCode": "Resend Code",
+    "resending": "Resending...",
+    "codeResent": "Verification code resent successfully!",
+    "backToLogin": "Back to Login",
+    "error": "An error occurred. Please try again.",
+    "verifyTitle": "Reset Your Password",
+    "verifyDescription": "Enter the verification code sent to",
+    "codeLabel": "Verification Code",
+    "codePlaceholder": "Enter 5-digit code",
+    "newPasswordLabel": "New Password",
+    "newPasswordPlaceholder": "Enter new password",
+    "confirmPasswordLabel": "Confirm Password",
+    "confirmPasswordPlaceholder": "Confirm new password",
+    "showPassword": "Show password",
+    "resetButton": "Reset Password",
+    "resetting": "Resetting...",
+    "resetSuccess": "Password reset successfully! Please login with your new password."
+  },
+  "selectInstitute": {
+    "title": "Select Your Workspace",
+    "subtitle": "Choose the institute you want to work with or continue as a freelancer.",
+    "freelancerTitle": "Continue as Freelancer",
+    "freelancerSubtitle": "Work on your own content",
+    "selectButton": "Select this institute"
+  },
+  "dashboard": {
+    "sidebar": {
+      "upgrade": "Upgrade",
+      "workspace": "Workspace",
+      "selectInstitutePlaceholder": "Select Institute",
+      "freelance": "Freelance",
+      "tools": "Tools",
+      "support": "Support",
+      "loading": "Loading...",
+      "noItemsFound": "No items found.",
+      "add": "+ Add",
+      "menu": {
+        "dashboard": "Dashboard",
+        "discover": "Discover",
+        "library": "Library",
+        "ayhoots": "Ayhoots",
+        "courses": "Courses",
+        "purchased": "Purchased Content",
+        "folders": "Folders",
+        "archive": "Archive",
+        "tutees": "Tutees",
+        "allTutees": "All Tutees",
+        "ownedGroups": "Owned Groups",
+        "assignedGroups": "Assigned Groups",
+        "selectGroup": "Select Group",
+        "reports": "Reports",
+        "tutors": "Tutors"
+      }
+    },
+    "actions": {
+      "settings": "Settings",
+      "preview": "Preview",
+      "exit": "Exit",
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "profile": {
+      "enrolledTutees": "Enrolled Tutees",
+      "tuteesEnrolled": "tutees enrolled",
+      "seeAll": "See all",
+      "activityOverview": "Activity overview",
+      "totalAyhoots": "Total Ayhoots",
+      "totalCourses": "Total Courses",
+      "memberOf": "Member of",
+      "plan": "Plan",
+      "freePlan": "Free Plan",
+      "registeredTutors": "Registered Tutors",
+      "tutorsRegistered": "tutors registered"
+    },
+    "reports": {
+      "latestReports": "Latest Reports",
+      "noReportsFound": "No Reports found",
+      "noReportsSubtitle": "Your recent game reports will appear here once they are complete.",
+      "exploreAyhoots": "Explore Ayhoots",
+      "seeAll": "See All ({count})",
+      "status": {
+        "noEndDate": "No end date specified",
+        "endedOn": "Ayhoot ended on {date}",
+        "willEndOn": "Ayhoot will end on {date}"
+      }
+    },
+    "courses": {
+      "latestCourses": "Latest Courses",
+      "resourcesCount": "{count} resources",
+      "noDescription": "No description provided",
+      "enrollsCount": "{count} Enrolls",
+      "createdBy": "Created by ",
+      "noCoursesFound": "No courses found",
+      "noCoursesSubtitle": "Get started by creating a new Course.",
+      "createCourse": "+ Create Course",
+      "seeAll": "See All ({count})",
+      "discover": "Discover",
+      "noCoursesFoundForStudents": "Get started by discovering a new Course."
+    },
+    "ayhoots": {
+      "latestAyhoots": "Latest Ayhoots",
+      "questionsCount": "{count} Questions",
+      "noDescription": "No description provided",
+      "playsCount": "{count} Plays",
+      "noAyhootsFound": "No ayhoots found",
+      "noAyhootsSubtitle": "Get started by creating a new Ayhoot.",
+      "createAyhoot": "+ Create Ayhoot",
+      "seeAll": "See All ({count})"
+    },
+    "banner": {
+      "getStarted": "Get Started",
+      "slide1": {
+        "title": "Upgrade to Platinum Plan",
+        "description": "Get access to all shared content for free."
+      },
+      "slide2": {
+        "title": "Enroll to any institute!",
+        "description": "Discover institutes and enroll to them."
+      },
+      "slide3": {
+        "title": "Ayhoot! shares human loving services",
+        "description": "Stay organized and productive."
+      }
+    },
+    "courseSettings": {
+      "headerTitle": "Enter Course title...",
+      "title": "Course Settings",
+      "form": {
+        "titleLabel": "Title",
+        "titleSubtitle": "Enter a title for your Course.",
+        "titlePlaceholder": "Enter title here",
+        "descriptionLabel": "Description (Optional)",
+        "descriptionSubtitle": "Provide a short description for your Course to increase visibility.",
+        "descriptionPlaceholder": "Description...",
+        "monetizeLabel": "Monetize",
+        "monetizeSubtitle": "Choose if you want to monetize your Course.",
+        "free": "Free",
+        "paid": "Paid",
+        "priceLabel": "Enter Price",
+        "coverImageLabel": "Cover image",
+        "coverImageSubtitle": "Add a cover image to make your Course stand out.",
+        "uploadFile": "Upload a file",
+        "dragAndDrop": "or drag and drop",
+        "fileTypes": "PNG, JPG, GIF up to 10MB",
+        "categoryLabel": "Category",
+        "categorySubtitle": "Define the category of your Course.",
+        "assignToInstituteLabel": "Assign to Institute",
+        "assignToInstituteSubtitle": "Choose the institute to assign your Course.",
+        "freelance": "Freelance"
+      }
+    },
+    "liveSession": {
+      "title": "Live Session",
+      "hostLive": "Host Live",
+      "description": "Start a live interactive session with your students",
+      "selectExam": "Select Exam",
+      "chooseExam": "Choose an exam to host live",
+      "questions": "Questions",
+      "sessionTitle": "Session Title",
+      "hostLiveBtn": "Host Live Session"
+    },
+    "examSettings": {
+      "headerTitle": "Enter Ayhoot title...",
+      "title": "Ayhoot Settings",
+      "form": {
+        "titleSubtitle": "Enter a title for your Ayhoot.",
+        "descriptionSubtitle": "Provide a short description for your Ayhoot to increase visibility.",
+        "monetizeSubtitle": "Choose if you want to monetize your Ayhoot.",
+        "coverImageSubtitle": "Add a cover image to make your Ayhoot stand out.",
+        "categorySubtitle": "Define the category of your Ayhoot.",
+        "saveToFolderLabel": "Save to",
+        "saveToFolderSubtitle": "Choose the folder to save your Ayhoot.",
+        "withoutFolder": "Without Folder",
+        "assignToInstituteSubtitle": "Choose the institute to assign your Ayhoot."
+      }
+    }
+  },
+  "header": {
+    "openMenu": "Open main menu",
+    "upgrade": "Upgrade",
+    "create": "Create",
+    "logoutConfirm": "Are you sure you want to logout?",
+    "createDropdown": {
+      "ayhoot": {
+        "title": "Create Ayhoot",
+        "description": "Test your community."
+      },
+      "course": {
+        "title": "Create Course",
+        "description": "Bundle resources into a lesson."
+      }
+    },
+    "profileDropdown": {
+      "avatarAlt": "User Avatar",
+      "changeLanguage": "Change Language",
+      "comingSoon": "Coming Soon",
+      "wallet": "Wallet",
+      "signOut": "Sign out"
+    },
+    "notificationDropdown": {
+      "title": "Notifications",
+      "ok": "Ok",
+      "checkout": "Checkout",
+      "noNotifications": "You have no new notifications.",
+      "seeAll": "See all",
+      "markRead": "Mark as read",
+      "markAllRead": "Read All"
+    },
+    "notifications": {
+      "list": {
+        "userEnrolled": "User {name} has enrolled to your course.",
+        "userPlayed": "User {name} has played your ayhoot.",
+        "groupAssigned": "A new group has been assigned to you by {institute}.",
+        "enrollConfirmed": "{institute} has confirmed your enroll.",
+        "ayhootBought": "{name} has bought your ayhoot.",
+        "invitationAccepted": "{name} has accepted your invitation.",
+        "ayhootPublished": "Your Ayhoot has been Published.",
+        "courseDenied": "Your Course has been Denied because of Ayhoot! sensitive content policy.",
+        "ticketAnswered": "Your ticket has been answered."
+      },
+      "timestamps": {
+        "minutesAgo": "{count} minutes ago",
+        "hoursAgo": "{count} hour ago | {count} hours ago",
+        "daysAgo": "{count} day ago | {count} days ago",
+        "secondsAgo": "{count} seconds ago"
+      }
+    }
+  },
+  "discover": {
+    "institutes": {
+      "pageTitle": "Discover Institutes",
+      "filters": {
+        "searchLabel": "Search by name",
+        "searchPlaceholder": "e.g., Ayhoot Academy",
+        "sortByLabel": "Sort By",
+        "sortLatest": "Latest",
+        "sortOldest": "Oldest",
+        "sortMostContent": "Most Content"
+      },
+      "stats": {
+        "ayhoots": "Ayhoots",
+        "courses": "Courses"
+      },
+      "empty": {
+        "title": "No Institutes Found",
+        "description": "Try adjusting your search or filters to find institutes."
+      }
+    },
+    "creators": {
+      "pageTitle": "Explore Creators",
+      "filters": {
+        "searchLabel": "Search by name or username",
+        "searchPlaceholder": "e.g., Jane Doe or {'@'}janedoe",
+        "sortByLabel": "Sort by",
+        "sortLatest": "Latest",
+        "sortOldest": "Oldest",
+        "sortMostContent": "Most Content",
+        "sortMostTutees": "Most Tutees"
+      },
+      "stats": {
+        "ayhoots": "Ayhoots",
+        "courses": "Courses",
+        "tutees": "Tutees"
+      },
+      "empty": {
+        "title": "No Creators Found",
+        "description": "Try adjusting your search or filters to find creators."
+      }
+    },
+    "loadingMore": "Loading more content...",
+    "loadMore": "Load More",
+    "students": "{count} Tutees",
+    "fetchMoreError": "Could not load more content.",
+    "defaultTeacher": "Teacher",
+    "fetchError": "Failed to fetch discovery data.",
+    "seeAll": "See All",
+    "explore": "Explore",
+    "noDescription": "No description available.",
+    "questions": "{count} question | {count} questions",
+    "plays": "{count} play | {count} plays",
+    "enrolls": "{count} enroll | {count} enrolls",
+    "price": {
+      "free": "Free",
+      "paid": "Paid",
+      "paidAmount": "{price} R"
+    },
+    "byline": {
+      "byUser": "by",
+      "institute": "Institute",
+      "anonymous": "Anonymous",
+      "tutor": "Tutor"
+    },
+    "categories": {
+      "title": "Categories",
+      "previous": "Previous Categories",
+      "next": "Next Categories",
+      "empty": "No categories to display right now."
+    },
+    "topPicks": {
+      "title": "Top Ayhoots!",
+      "empty": "No top Ayhoots to display right now."
+    },
+    "recommended": {
+      "title": "Recommended By Ayhoot!",
+      "description": "Discover trending ready-to-play Ayhoots on different topics",
+      "empty": "No recommendations available at the moment."
+    },
+    "verifiedCourses": {
+      "title": "Verified Courses",
+      "description": "Explore a library of exclusive, premium collections with A!+ AccessPass - thousands of ayhoots, one subscription."
+    },
+    "verifiedCreators": {
+      "title": "Verified Creators",
+      "tutor": "Tutor",
+      "courses": "Courses",
+      "tutees": "Tutees"
+    },
+    "verifiedInstitutes": {
+      "title": "Verified Institutes",
+      "institute": "Institute",
+      "ayhoots": "Ayhoots",
+      "courses": "Courses",
+      "tutors": "Tutors",
+      "tutees": "Tutees"
+    },
+    "allAyhoots": {
+      "pageTitle": "Discover Ayhoots",
+      "filters": {
+        "searchLabel": "Search",
+        "searchPlaceholder": "Search by title, description, or creator...",
+        "priceLabel": "Filter by Price",
+        "priceAll": "All Prices",
+        "pricePaid": "Paid",
+        "priceFree": "Free",
+        "sortByLabel": "Sort By",
+        "sortLatest": "Latest",
+        "sortOldest": "Oldest",
+        "sortMostPlayed": "Most Played",
+        "sortLeastPlayed": "Least Played"
+      },
+      "byline": {
+        "by": "by",
+        "anonymous": "by Anonymous"
+      },
+      "empty": {
+        "title": "No Ayhoots Found",
+        "description": "Try adjusting your search or filter criteria."
+      }
+    },
+    "allCourses": {
+      "pageTitle": "Discover Courses",
+      "filters": {
+        "searchLabel": "Search",
+        "searchPlaceholder": "Search by title, description...",
+        "priceLabel": "Price",
+        "priceAll": "All",
+        "pricePaid": "Paid",
+        "priceFree": "Free",
+        "sortByLabel": "Sort By",
+        "sortLatest": "Latest",
+        "sortOldest": "Oldest",
+        "sortMostResources": "Most Resources",
+        "sortLeastResources": "Least Resources"
+      },
+      "byline": {
+        "by": "by",
+        "anonymous": "by Anonymous"
+      },
+      "empty": {
+        "title": "No Courses Found",
+        "description": "Try adjusting your search or filters."
+      }
+    },
+    "recommendedAyhoots": {
+      "pageTitle": "Discover Recommended Ayhoots",
+      "filters": {
+        "searchLabel": "Search",
+        "searchPlaceholder": "Search by title, description...",
+        "priceLabel": "Price",
+        "priceAll": "All",
+        "pricePaid": "Paid",
+        "priceFree": "Free",
+        "sortByLabel": "Sort By",
+        "sortLatest": "Latest",
+        "sortOldest": "Oldest",
+        "sortMostPlayed": "Most Played",
+        "sortLeastPlayed": "Least Played"
+      },
+      "empty": {
+        "title": "No Recommended Ayhoots Found",
+        "description": "Try adjusting your search or filters. Or check back later!"
+      }
+    },
+    "ayhootsTitle": "Ayhoots",
+    "coursesTitle": "Courses"
+  },
+  "ticket": {
+    "title": "Support",
+    "clearFilters": "Clear Filters",
+    "createTicket": "Create Ticket",
+    "description": "Submit tickets for support team if there is any issue",
+    "descriptionTitle": "Description",
+    "search": "Search tickets...",
+    "status": "Status",
+    "open": "Open",
+    "answered": "Answered",
+    "closed": "Closed",
+    "noTicketsFound": "No tickets found",
+    "tryChanging": "Try changing your search criteria",
+    "createFirst": "Create your first ticket to get started",
+    "formError": "Please fix the following errors:",
+    "submitting": "Submitting...",
+    "info": "Your ticket will be assigned to the next available staff member",
+    "descriptionPlaceholder": "Please provide details about your issue",
+    "titlePlaceholder": "Please provide a title for your ticket",
+    "validation": {
+      "titleRequired": "Title is required.",
+      "titleMinLength": "Title must be at least {min} characters.",
+      "descriptionRequired": "Description is required.",
+      "descriptionMinLength": "Description must be at least {min} characters.",
+      "submissionFailed": "Failed to create ticket. Please try again."
+    },
+    "view": "View",
+    "created": "Created",
+    "updated": "Updated",
+    "by": "By",
+    "actions": "Actions",
+    "id": "ID",
+    "pending": "Pending",
+    "refresh": "Refresh",
+    "details": {
+      "title": "Ticket Details",
+      "createdOn": "Created on",
+      "updatedOn": "Updated on",
+      "conversation": "Conversation",
+      "noReplies": "No replies yet",
+      "replyPlaceholder": "Type your reply here...",
+      "sendReply": "Send Reply",
+      "infoTitle": "Ticket Info",
+      "closeTicket": "Close Ticket",
+      "closedTicket": "Closed Ticket",
+      "confirmClose": "Are you sure you want to close this ticket?",
+      "repliesCount": "{count} replies",
+      "replying": "Replying...",
+      "backToTickets": "Back"
+    }
+  },
+  "report": {
+    "title": "Manage Reports",
+    "subtitle": "Manage your game reports",
+    "searchPlaceholder": "Search reports...",
+    "filters": {
+      "allStatus": "All Status",
+      "dateCreated": "Date Created",
+      "title": "Title",
+      "status": "Status",
+      "inProgress": "In Progress"
+    },
+    "status": {
+      "active": "Active",
+      "draft": "Draft",
+      "completed": "Completed",
+      "published": "Published",
+      "archived": "Archived",
+      "started": "Started"
+    },
+    "table": {
+      "assignmentBadge": "Assignment",
+      "header": {
+        "details": "Ayhoot Details",
+        "status": "Status",
+        "category": "Category",
+        "plays": "Plays",
+        "questions": "Questions",
+        "visibility": "Visibility",
+        "actions": "Actions",
+        "completedAt": "Completed At"
+      },
+      "sublabel": {
+        "category": "Category",
+        "tutees": "Tutees",
+        "questions": "Questions"
+      },
+      "actions": {
+        "view": "View",
+        "download": "Download",
+        "share": "Share",
+        "delete": "Delete"
+      }
+    },
+    "emptyState": {
+      "title": "No reports found",
+      "subtitle": "Get started by assigning a new ayhoot, or adjust your filters.",
+      "assignButton": "+ Assign Ayhoot",
+      "playButton": "Play an Ayhoot"
+    },
+    "loading": "Loading your reports...",
+    "pagination": {
+      "results": "Showing {from}-{to} of {total} results",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "alerts": {
+      "deleteConfirm": "Are you sure you want to delete this Ayhoot?",
+      "deleteSuccess": "Ayhoot deleted successfully.",
+      "deleteFailed": "Failed to delete Ayhoot."
+    }
+  },
+  "teacherStudent": {
+    "title": "Manage Tutees",
+    "subtitle": "Add or manage all tutees",
+    "searchPlaceholder": "Search tutees by name...",
+    "inviteTutee": "Invite Tutee",
+    "filters": {
+      "dateJoined": "Date Joined",
+      "name": "Name"
+    },
+    "table": {
+      "header": {
+        "tutee": "Tutee",
+        "groups": "Groups",
+        "joinedAt": "Joined at",
+        "actions": "Actions"
+      },
+      "noGroup": "Not in a group",
+      "via": "Via {method}",
+      "actions": {
+        "profile": "Profile",
+        "addToGroup": "Add to group",
+        "remove": "Remove"
+      }
+    },
+    "loading": "Loading tutees...",
+    "empty": {
+      "title": "No tutees found",
+      "searchSubtitle": "No tutees match your search.",
+      "defaultSubtitle": "Get started by inviting a new tutee."
+    },
+    "pagination": {
+      "showing": "Showing {from}-{to} of {total} results",
+      "page": "Page {currentPage} of {lastPage}",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "inviteModal": {
+      "title": "Invite a Tutee",
+      "description": "Share this link with anyone you want to invite as your tutee.",
+      "copy": "Copy",
+      "done": "Done",
+      "linkNotReady": "Link is not ready yet.",
+      "copySuccess": "Invitation link copied to clipboard!",
+      "copyError": "Could not copy link."
+    },
+    "groupModal": {
+      "title": "Add \"{name}\" to Group",
+      "defaultTitle": "Add Tutee to Group",
+      "description": "Select a group to assign this tutee.",
+      "searchPlaceholder": "Search groups...",
+      "loading": "Loading groups...",
+      "adding": "Adding...",
+      "add": "Add",
+      "removing": "Removing...",
+      "remove": "Remove",
+      "empty": {
+        "title": "No groups found",
+        "searchSuffix": " matching your search",
+        "subtitle": "or ensure they are not archived.",
+        "createLink": "Create one"
+      },
+      "done": "Done",
+      "loadError": "Could not load groups for modal."
+    },
+    "alerts": {
+      "removeConfirm": "Are you sure you want to remove the tutee \"{name}\"? This action cannot be undone.",
+      "removeConfirmFallback": "Are you sure you want to remove this tutee? This action cannot be undone.",
+      "removeSuccess": "Tutee \"{name}\" removed successfully.",
+      "removeSuccessFallback": "Tutee removed successfully.",
+      "removeError": "Failed to remove tutee.",
+      "addToGroupSuccess": "Added {tuteeName} to {groupTitle}.",
+      "addToGroupError": "Failed to add tutee to group.",
+      "removeFromGroupSuccess": "Removed {tuteeName} from {groupTitle}.",
+      "removeFromGroupError": "Failed to remove tutee from group.",
+      "fetchError": "Failed to load tutees.",
+      "fetchStructureError": "Unexpected response structure for tutees."
+    },
+    "tabs": {
+      "all": "All Tutees",
+      "owned": "Owned Groups",
+      "assigned": "Assigned Groups",
+      "select": "Select Group"
+    }
+  },
+  "groupsSidebar": {
+    "menuTitle": "MY TUTEES",
+    "selectGroup": "Select Group",
+    "menu": {
+      "allSubscribers": "All Subscribers",
+      "assignedGroups": "Groups I'm In",
+      "ownedGroups": "My Owned Groups"
+    },
+    "create": {
+      "placeholder": "Enter group name...",
+      "button": "Create Group",
+      "ariaLabel": "New group name"
+    },
+    "actions": {
+      "removeAriaLabel": "Remove Group",
+      "removeTitle": "Remove Group",
+      "saveAriaLabel": "Save Group",
+      "cancelAriaLabel": "Cancel"
+    },
+    "notifications": {
+      "loadFailed": "Failed to load groups.",
+      "nameRequired": "Group name is required.",
+      "createSuccess": "Group created successfully!",
+      "createFailed": "Failed to create group.",
+      "deleteSuccess": "Group deleted successfully.",
+      "deleteFailed": "Failed to delete group."
+    },
+    "confirmation": {
+      "title": "Are you sure?",
+      "delete": "Are you sure you want to delete the group \"{title}\"?",
+      "confirmButton": "Yes, delete it!",
+      "cancelButton": "Cancel"
+    }
+  },
+  "signup": {
+    "title": "Sign up",
+    "role": {
+      "label": "I am a",
+      "student": "Student",
+      "teacher": "Teacher",
+      "institute": "Institute"
+    },
+    "emailLabel": "Email address or phone number",
+    "emailPlaceholder": "Email or phone number",
+    "usernameLabel": "Username",
+    "usernamePlaceholder": "Username",
+    "usernameTaken": "This username is already taken",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Password",
+    "cityLabel": "City",
+    "cityPlaceholder": "Select a city",
+    "submitting": "Creating Account...",
+    "submitButton": "Create an account",
+    "orSeparator": "OR",
+    "continueWithGoogle": "Continue with Google",
+    "hasAccount": "Already have an account?",
+    "loginLink": "login",
+    "terms": {
+      "prefix": "By signing up, you accept our",
+      "link1": "Terms and Conditions",
+      "middle": ". Please read our ",
+      "link2": "Privacy Policy",
+      "and": " and ",
+      "link3": "Children's Privacy Policy"
+    },
+    "alerts": {
+      "emailSent": "Verification email sent successfully!"
+    }
+  },
+  "verify": {
+    "title": "Verify Your Account",
+    "description": "Please enter the verification code sent to",
+    "codeLabel": "Verification Code",
+    "codePlaceholder": "Enter verification code",
+    "submitButton": "Verify Account",
+    "verifying": "Verifying...",
+    "noCode": "Didn't receive the code?",
+    "resendButton": "Resend",
+    "resending": "Sending..."
+  },
+  "permissions": {
+    "title": "Plan & Usage",
+    "currentPlan": "Current Plan",
+    "free": "Free",
+    "premium": "Premium",
+    "exams": "Exams",
+    "courses": "Courses",
+    "groups": "Groups",
+    "tutees": "Tutees",
+    "used": "used",
+    "remaining": "remaining",
+    "loadError": "Failed to load permissions",
+    "refreshed": "Permissions refreshed",
+    "upgrade": "Upgrade Plan",
+    "upgradeNotice": {
+      "title": "Consider Upgrading",
+      "message": "You're approaching your plan limits. Consider upgrading for more features."
+    },
+    "modal": {
+      "title": "Plan Limit Reached",
+      "defaultMessage": "You have reached your plan limit for this feature.",
+      "usage": "Current Usage",
+      "redirectMessage": "Redirecting to plans page in",
+      "upgradeNow": "Upgrade Now",
+      "close": "Close"
+    },
+    "denied": {
+      "title": "Permission Denied",
+      "examLimit": "You've reached your exam creation limit",
+      "courseLimit": "You've reached your course creation limit",
+      "groupLimit": "You've reached your group creation limit",
+      "tuteeLimit": "You've reached your tutee limit for this month",
+      "monetizeDisabled": "Monetization is not enabled in your plan"
+    }
+  },
+  "studentProfileCard": {
+    "activityOverview": {
+      "title": "Activity Overview",
+      "playedAyhoots": "Played Ayhoots",
+      "enrolledCourses": "Enrolled Courses"
+    },
+    "accountInfo": {
+      "title": "Account Info",
+      "emailLabel": "Email"
+    }
+  },
+  "ayhoot": {
+    "archive": {
+      "title": "Archived Ayhoots",
+      "description": "Manage all archived ayhoots",
+      "emptyDescription": "There are no archived ayhoots to display."
+    },
+    "title": "Manage Ayhoots",
+    "description": "Create and manage your ayhoots and their questions",
+    "searchPlaceholder": "Search ayhoots...",
+    "create": "Create Ayhoot",
+    "discover": "Explore",
+    "loading": "Loading your ayhoots...",
+    "by": "by",
+    "filters": {
+      "allStatus": "All Statuses",
+      "pending": "Pending",
+      "published": "Published",
+      "rejected": "Rejected",
+      "draft": "Draft",
+      "active": "Active",
+      "completed": "Completed",
+      "archived": "Archived",
+      "dateCreated": "Date Created",
+      "title": "Title",
+      "status": "Status"
+    },
+    "table": {
+      "header": {
+        "details": "Ayhoot Details",
+        "status": "Status",
+        "category": "Category",
+        "creator": "Creator",
+        "plays": "Plays",
+        "questions": "Questions",
+        "accessibility": "Accessibility",
+        "actions": "Actions"
+      },
+      "body": {
+        "noCategory": "No category",
+        "categoryLabel": "Category",
+        "tutees": "Tutees",
+        "questions": "Questions",
+        "free": "Free",
+        "notForSale": "Not for Sale",
+        "notAvailable": "N/A",
+        "invalidDate": "Invalid Date",
+        "assignment": "Assignment",
+        "assignmentCompleted": "Assignment Completed"
+      },
+      "actions": {
+        "assign": "Assign",
+        "edit": "Edit",
+        "more": "More",
+        "play": "Play",
+        "hostLive": "Host Live"
+      }
+    },
+    "empty": {
+      "title": "No ayhoots found",
+      "description": "Get started by creating a new ayhoot, or adjust your filters.",
+      "create": "+ Create Ayhoot"
+    },
+    "pagination": {
+      "showingResults": "Showing {from}-{to} of {total} results",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "tabs": {
+      "ayhoots": "Ayhoots",
+      "assigned": "Assignments",
+      "courses": "Courses",
+      "purchased": "Purchased Content",
+      "folders": "Folders",
+      "archive": "Archive"
+    },
+    "dropdown": {
+      "addToCourse": "Add to Course",
+      "moveFolder": "Move to folder",
+      "archive": "Archive",
+      "Unarchive": "UnArchive",
+      "share": "Share",
+      "duplicate": "Duplicate",
+      "delete": "Delete"
+    },
+    "assignModal": {
+      "title": "Assign Ayhoot",
+      "description": "Schedule this Ayhoot for your students to complete at their own pace.",
+      "formTitle": "Create an Assignment",
+      "assignmentTitle": "Assignment Title (optional)",
+      "titlePlaceholder": "e.g. Weekly Homework, Quiz...",
+      "dueDate": "Due Date",
+      "time": "Time",
+      "optionsTitle": "Options",
+      "questionTimer": "Question Timer",
+      "optionRandomize": "Option Randomize",
+      "participantLimit": "Participant limit: 40",
+      "upgrade": "Upgrade",
+      "cancel": "Cancel",
+      "create": "Create",
+      "assignToGroupLabel": "Assign to a group (optional)",
+      "selectGroupsPlaceholder": "Select groups...",
+      "groupsSelected": "{count} groups selected",
+      "loadingGroups": "Loading groups...",
+      "noGroupsFound": "No groups found.",
+      "errorLoadingGroups": "Failed to load groups."
+    },
+    "moveFolderModal": {
+      "title": "Move Ayhoot to Folder",
+      "description": "Select a folder to organize your Ayhoot.",
+      "searchPlaceholder": "Search folders...",
+      "loading": "Loading folders...",
+      "adding": "Adding...",
+      "add": "Add",
+      "removing": "Removing...",
+      "remove": "Remove",
+      "empty": {
+        "title": "No folders found",
+        "titleWithSearch": "No folders found matching your search",
+        "description": "Create folders in the 'Folders' tab to organize your Ayhoots."
+      },
+      "done": "Done"
+    },
+    "addCourseModal": {
+      "title": "Add Ayhoot to Course",
+      "description": "Select a course to include this Ayhoot.",
+      "searchPlaceholder": "Search courses...",
+      "loading": "Loading courses...",
+      "adding": "Adding...",
+      "add": "Add",
+      "removing": "Removing...",
+      "remove": "Remove",
+      "empty": {
+        "title": "No courses found",
+        "titleWithSearch": "No courses found matching your search",
+        "description": "Create courses in the 'Courses' tab to assign Ayhoots."
+      },
+      "done": "Done"
+    },
+    "notifications": {
+      "loadFailed": "Failed to load Ayhoots.",
+      "confirmArchive": "Are you sure you want to archive this Ayhoot?",
+      "archiveSuccess": "Ayhoot archived successfully.",
+      "archiveFailed": "Failed to archive Ayhoot.",
+      "linkCopied": "Link has been copied to clipboard.",
+      "linkCopyFailed": "Could not copy link to clipboard.",
+      "confirmDelete": "Are you sure you want to delete this Ayhoot? This action cannot be undone.",
+      "deleteSuccess": "Ayhoot deleted successfully.",
+      "deleteFailed": "Failed to delete Ayhoot.",
+      "dueDateRequired": "Due date and time are required.",
+      "noExamSelected": "An error occurred. No exam is selected.",
+      "gameIdNotFound": "Game ID not found in API response.",
+      "assignFailed": "Failed to assign Ayhoot.",
+      "loadFoldersFailed": "Failed to load folders.",
+      "moveToFolderSuccess": "Ayhoot moved to folder \"{folderName}\".",
+      "moveToFolderFailed": "Failed to move Ayhoot to folder.",
+      "removeFromFolderSuccess": "Ayhoot removed from folder \"{folderName}\".",
+      "removeFromFolderFailed": "Failed to remove Ayhoot from folder.",
+      "loadCoursesFailed": "Failed to load courses.",
+      "addToCourseSuccess": "Ayhoot added to course \"{courseName}\".",
+      "addToCourseFailed": "Failed to add Ayhoot to course.",
+      "removeFromCourseSuccess": "Ayhoot removed from course \"{courseName}\".",
+      "removeFromCourseFailed": "Failed to remove Ayhoot from course."
+    }
+  },
+  "librarySidebar": {
+    "title": "MY LIBRARY",
+    "selectFolder": "Select Folder",
+    "menu": {
+      "ayhoots": "Ayhoots",
+      "courses": "Courses",
+      "purchased": "Purchased",
+      "archive": "Archive",
+      "groups": "Groups"
+    },
+    "create": {
+      "placeholder": "Enter folder name...",
+      "button": "Create Folder"
+    },
+    "actions": {
+      "removeAriaLabel": "Remove Folder",
+      "removeTitle": "Remove Folder",
+      "saveAriaLabel": "Save Folder",
+      "cancelAriaLabel": "Cancel"
+    },
+    "notifications": {
+      "loadFailed": "Failed to load folders.",
+      "nameRequired": "Folder name is required.",
+      "createSuccess": "Folder created successfully!",
+      "createFailed": "Failed to create folder.",
+      "deleteSuccess": "Folder deleted successfully.",
+      "deleteFailed": "Failed to delete folder."
+    },
+    "confirmation": {
+      "title": "Are you sure?",
+      "delete": "Are you sure you want to delete the folder \"{name}\"?",
+      "confirmButton": "Yes, delete it!",
+      "cancelButton": "Cancel"
+    }
+  },
+  "course": {
+    "title": "Manage Courses",
+    "description": "Create and manage all your courses",
+    "searchPlaceholder": "Search courses...",
+    "create": "Create Course",
+    "discover": "Discover",
+    "loading": "Loading your courses...",
+    "filters": {
+      "allStatus": "All Statuses",
+      "active": "Active",
+      "draft": "Draft",
+      "completed": "Completed",
+      "pending": "Pending",
+      "published": "Published",
+      "rejected": "Rejected",
+      "public": "Public",
+      "unknown": "Unknown",
+      "dateCreated": "Date Created",
+      "title": "Title",
+      "status": "Status"
+    },
+    "table": {
+      "header": {
+        "details": "Course Details",
+        "status": "Status",
+        "category": "Category",
+        "students": "Students",
+        "ayhoots": "Ayhoots",
+        "visibility": "Visibility",
+        "actions": "Actions",
+        "creator": "Creator"
+      },
+      "body": {
+        "notAvailable": "N/A",
+        "invalidDate": "Invalid Date",
+        "categoryLabel": "Category",
+        "studentsLabel": "Students",
+        "ayhootsLabel": "Ayhoots"
+      },
+      "actions": {
+        "edit": "Edit",
+        "start": "Start",
+        "more": "More"
+      }
+    },
+    "empty": {
+      "title": "No courses found",
+      "description": "Get started by creating a new course.",
+      "descriptionWithSearch": "No courses found matching your search criteria.",
+      "create": "+ Create Course",
+      "discover": "Discover",
+      "noCoursesFoundForStudents": "Get started by discovering a new Course."
+    },
+    "pagination": {
+      "showingResults": "Showing {from}-{to} of {total} results",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "dropdown": {
+      "moveFolder": "Move to folder",
+      "archive": "Archive",
+      "share": "Share",
+      "duplicate": "Duplicate",
+      "delete": "Delete"
+    },
+    "assignModal": {
+      "title": "Assign Course",
+      "description": "Schedule this Course for your students to complete.",
+      "formTitle": "Create a Course Assignment",
+      "dueDate": "Due Date",
+      "time": "Time",
+      "optionsTitle": "Options",
+      "allowLate": "Allow late submissions",
+      "participantLimit": "Participant limit: 40",
+      "upgrade": "Upgrade",
+      "cancel": "Cancel",
+      "create": "Create"
+    },
+    "moveFolderModal": {
+      "title": "Move Course to Folder",
+      "loading": "Loading folders...",
+      "add": "Add",
+      "adding": "Adding...",
+      "added": "Added",
+      "empty": {
+        "title": "No folders found.",
+        "description": "Create folders in the 'Folders' tab to organize your Courses."
+      },
+      "done": "Done"
+    },
+    "notifications": {
+      "dataFormatError": "Courses data is not in the expected format.",
+      "loadFailed": "Failed to load courses.",
+      "archiveNotImplemented": "Archive feature is not yet implemented.",
+      "shareNotImplemented": "Share feature is not yet implemented.",
+      "duplicateSuccess": "Course duplicated successfully.",
+      "duplicateFailed": "Failed to duplicate course.",
+      "confirmDelete": "Are you sure you want to delete this course?",
+      "deleteSuccess": "Course deleted successfully.",
+      "deleteFailed": "Failed to delete course.",
+      "dueDateRequired": "Due date and time are required.",
+      "noCourseSelected": "An error occurred. No course is selected for assignment.",
+      "gameIdNotFound": "Game ID not found in API response.",
+      "assignSuccess": "Course assignment created successfully.",
+      "assignFailed": "Failed to assign course. Please check details and try again.",
+      "loadFoldersFailed": "Failed to load folders.",
+      "moveToFolderSuccess": "Course moved to folder \"{folderName}\".",
+      "moveToFolderFailed": "Failed to move course to folder."
+    }
+  },
+  "purchasedContent": {
+    "title": "Purchased Content",
+    "description": "Access your purchased exams and courses",
+    "totalItems": "Total Items",
+    "exams": "Exams",
+    "courses": "Courses",
+    "searchPlaceholder": "Search purchased content...",
+    "filters": {
+      "all": "All Content",
+      "exams": "Exams Only",
+      "courses": "Courses Only"
+    },
+    "noContent": "No purchased content",
+    "noContentDescription": "You haven't purchased any content yet. Discover premium exams and courses from other educators.",
+    "discoverContent": "Discover Content",
+    "errorLoading": "Error loading purchased content",
+    "loading": "Loading purchased content...",
+    "card": {
+      "imageAlt": "Content image",
+      "from": "from",
+      "selfEducated": "Self-educated",
+      "open": "Open",
+      "removeTitle": "Remove from purchased content"
+    },
+    "empty": {
+      "title": "No purchased content found",
+      "description": "You haven't purchased any content yet. Explore our marketplace to find premium exams and courses.",
+      "explore": "Explore Content"
+    },
+    "pagination": {
+      "showingResults": "Showing {from} to {to} of {total} results",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "notifications": {
+      "confirmDelete": "Are you sure you want to remove this content from your purchased items?",
+      "deleteSuccess": "Content removed successfully",
+      "deleteFailed": "Failed to remove content",
+      "purchaseSuccess": "Content purchased successfully! It's now available in your purchased content.",
+      "authError": "Your session has expired. Please log in again to access your purchased content."
+    }
+  },
+  "folderDetail": {
+    "breadcrumb": {
+      "folders": "Folders",
+      "folderDetails": "Folder Details"
+    },
+    "header": {
+      "loading": "Loading Folder...",
+      "description": "Manage Ayhoots and Courses within this folder."
+    },
+    "searchPlaceholder": "Search items in this folder...",
+    "card": {
+      "itemType": {
+        "ayhoot": "Ayhoot",
+        "course": "Course"
+      },
+      "imageAlt": "Item Cover",
+      "byline": {
+        "notAvailable": "N/A",
+        "from": "from",
+        "selfCreated": "Self-Created"
+      },
+      "actions": {
+        "edit": "Edit",
+        "editAyhootTitle": "Edit Ayhoot",
+        "editCourseTitle": "Edit Course",
+        "removeFromFolderTitle": "Remove from Folder"
+      }
+    },
+    "empty": {
+      "title": "This folder is empty",
+      "description": "Add Ayhoots or Courses to this folder to see them here."
+    },
+    "searchEmpty": {
+      "title": "No items found for \"{searchTerm}\" in this folder.",
+      "description": "Try adjusting your search terms."
+    },
+    "loading": "Loading folder contents...",
+    "notifications": {
+      "idMissing": "Folder ID is missing.",
+      "contextMissing": "Folder context is missing.",
+      "loadFailed": "Failed to load folder details.",
+      "confirmRemove": "Are you sure you want to remove \"{itemTitle}\" from the folder \"{folderName}\"?",
+      "removeSuccess": "\"{itemTitle}\" removed from folder.",
+      "removeFailed": "Failed to remove {itemType} from folder."
+    }
+  },
+  "groupsPage": {
+    "title": "Assigned Groups",
+    "description": "Manage all groups that are assigned to you",
+    "selectGroupDropdown": "Select Group",
+    "searchPlaceholder": "Search groups by title...",
+    "filters": {
+      "dateCreated": "Date Created",
+      "title": "Title"
+    },
+    "card": {
+      "tuteesLabel": "Tutees:",
+      "instituteLabel": "Institute:",
+      "createdLabel": "Created:",
+      "notAvailable": "N/A",
+      "viewGroup": "View Group",
+      "removeTitle": "Remove Group"
+    },
+    "empty": {
+      "title": "No groups have been assigned to you",
+      "descriptionWithSearch": "No groups found matching your search criteria.",
+      "description": "You haven't created or been assigned to any groups yet."
+    },
+    "loading": "Loading groups...",
+    "pagination": {
+      "showingResults": "Showing {from}-{to} of {total} results",
+      "pageOf": "Page {current} of {last}",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "tabs": {
+      "allTutees": "All Tutees",
+      "ownedGroups": "Owned Groups",
+      "assignedGroups": "Assigned Groups",
+      "selectGroup": "Select Group"
+    },
+    "notifications": {
+      "structureError": "Unexpected response structure for groups.",
+      "loadFailed": "Failed to load groups.",
+      "confirmDelete": "Are you sure you want to delete the group \"{groupTitle}\"? This action cannot be undone.",
+      "thisGroup": "this group",
+      "deleteSuccess": "Group \"{groupTitle}\" deleted successfully.",
+      "deleteFailed": "Failed to delete group."
+    }
+  },
+  "ownedGroupsPage": {
+    "title": "Owned Groups",
+    "description": "Create and manage groups for your community",
+    "createGroup": "Create Group",
+    "selectGroupDropdown": "Select Group",
+    "searchPlaceholder": "Search groups by title...",
+    "filters": {
+      "dateCreated": "Date Created",
+      "title": "Title"
+    },
+    "card": {
+      "tuteesLabel": "Tutees:",
+      "instituteLabel": "Institute:",
+      "createdLabel": "Created:",
+      "notAvailable": "N/A",
+      "viewGroup": "View Group",
+      "shareTitle": "Share Group",
+      "deleteTitle": "Delete Group"
+    },
+    "empty": {
+      "title": "No groups found",
+      "descriptionWithSearch": "No groups found matching your search criteria.",
+      "description": "Get started by creating a new group.",
+      "create": "+ Create group"
+    },
+    "loading": "Loading groups...",
+    "pagination": {
+      "showingResults": "Showing {from}-{to} of {total} results",
+      "pageOf": "Page {current} of {last}",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "tabs": {
+      "allTutees": "All Tutees",
+      "ownedGroups": "Owned Groups",
+      "assignedGroups": "Assigned Groups",
+      "selectGroup": "Select Group"
+    },
+    "modal": {
+      "title": "Create New Group",
+      "groupTitleLabel": "Group Title",
+      "groupTitlePlaceholder": "Enter group title",
+      "titleRequiredError": "Title is required.",
+      "cancel": "Cancel",
+      "creating": "Creating...",
+      "create": "Create Group"
+    },
+    "notifications": {
+      "structureError": "Unexpected response structure for groups.",
+      "loadFailed": "Failed to load groups.",
+      "confirmDelete": "Are you sure you want to delete the group \"{groupTitle}\"? This action cannot be undone.",
+      "thisGroup": "this group",
+      "deleteSuccess": "Group \"{groupTitle}\" deleted successfully.",
+      "deleteFailed": "Failed to delete group.",
+      "copySuccess": "Invite link for \"{groupTitle}\" copied to clipboard!",
+      "copyFailed": "Could not copy link. Please try again.",
+      "titleRequired": "Group title cannot be empty.",
+      "createSuccess": "Group created successfully!",
+      "createFailedInvalidResponse": "Failed to create group or invalid response.",
+      "createFailed": "Failed to create group."
+    }
+  },
+  "groupTutees": {
+    "selectGroupDropdown": "Select Group",
+    "assignGroup": "Assign Group",
+    "assignModal": {
+      "title": "Assign Group to an Institute",
+      "titleTeacher": "Assign Group to a Teacher",
+      "searchPlaceholder": "Search by institute name or username...",
+      "searchPlaceholderTeacher": "Search by teacher name or username...",
+      "loading": "Loading institutes...",
+      "loadingTeacher": "Loading teachers...",
+      "loadFailed": "Failed to load the list.",
+      "assign": "Assign",
+      "unassign": "Unassign",
+      "noResults": "No institutes found.",
+      "noResultsTeacher": "No teachers found."
+    },
+    "notifications": {
+      "idMissing": "Group ID is missing.",
+      "detailsFetchFailed": "Could not fetch group details.",
+      "loadFailed": "Failed to load group tutees.",
+      "tokenNotAvailable": "Invite token not available for this group.",
+      "copySuccess": "Invitation link has been copied to clipboard.",
+      "copyFailed": "Could not copy invitation link.",
+      "contextMissing": "Group context is missing.",
+      "thisTutee": "this tutee",
+      "confirmRemove": "Are you sure you want to remove {studentName} from the group \"{groupName}\"?",
+      "removeSuccess": "{studentName} removed from {groupName}.",
+      "removeFailed": "Failed to remove tutee from group."
+    },
+    "breadcrumb": {
+      "groups": "Groups"
+    },
+    "header": {
+      "title": "Manage Tutees in {groupName}",
+      "description": "Add or manage tutees for this group."
+    },
+    "filters": {
+      "searchPlaceholder": "Search tutees by name",
+      "dateJoined": "Date Joined",
+      "name": "Name"
+    },
+    "copyInviteLink": "Copy Invite Link",
+    "table": {
+      "header": {
+        "tutee": "Tutee",
+        "joinedAt": "Joined at",
+        "institute": "Institute",
+        "actions": "Actions"
+      },
+      "body": {
+        "notAvailable": "N/A",
+        "viaLink": "Via Link",
+        "selfEducated": "Self-Educated",
+        "studiesIn": "Studies in"
+      },
+      "actions": {
+        "profile": "Profile",
+        "remove": "Remove from group"
+      }
+    },
+    "empty": {
+      "title": "No tutees in this group",
+      "descriptionWithSearch": "No tutees found matching \"{searchTerm}\".",
+      "description": "Get started by inviting a new tutee to this group.",
+      "invite": "+ Copy Invite Link"
+    },
+    "loading": "Loading tutees...",
+    "pagination": {
+      "showingResults": "Showing {from}-{to} of {total} results",
+      "pageOf": "Page {current} of {last}",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "pageTitle": "Tutees in {groupName} | Teacher Dashboard",
+    "unknownGroup": "Unknown Group",
+    "errorLoadingGroup": "Error Loading Group"
+  },
+  "reportPage": {
+    "loading": "Loading Report...",
+    "notAvailable": "N/A",
+    "invalidDate": "Invalid Date",
+    "error": {
+      "title": "Error Loading Report",
+      "retry": "Retry"
+    },
+    "header": {
+      "report": "Report",
+      "download": "Download Report"
+    },
+    "title": {
+      "placeholder": "Enter title for your assignment",
+      "saving": "Saving...",
+      "save": "Save",
+      "cancel": "Cancel",
+      "editTitle": "Edit title"
+    },
+    "info": {
+      "status": "Status",
+      "dueDate": "Due Date",
+      "hostedBy": "Hosted by"
+    },
+    "status": {
+      "unknown": "Unknown",
+      "finished": "Finished",
+      "inProgress": "In Progress"
+    },
+    "tabs": {
+      "summary": "Summary",
+      "players": "Players ({count})",
+      "questions": "Questions ({count})"
+    },
+    "playersSubTabs": {
+      "all": "All ({count})",
+      "notFinished": "Didn't finish ({count})"
+    },
+    "playersTable": {
+      "player": "Player",
+      "rank": "Rank",
+      "score": "Score",
+      "correctAnswers": "Correct Answers",
+      "lastActivity": "Last Activity",
+      "actions": "Actions",
+      "viewAnswers": "View Answers",
+      "hideAnswers": "Hide Answers",
+      "expandAll": "Expand All",
+      "collapseAll": "Collapse All",
+      "searchPlaceholder": "Search players...",
+      "noPlayers": "No players joined this session yet.",
+      "correct": "Correct",
+      "incorrect": "Incorrect",
+      "unanswered": "Unanswered",
+      "studentAnswer": "Student's Answer",
+      "correctAnswer": "Correct Answer",
+      "noAnswerSubmitted": "No answer submitted for this question.",
+      "points": "pts",
+      "time": "Time"
+    },
+    "questionsSubTabs": {
+      "all": "All Questions ({count})"
+    },
+    "notifications": {
+      "idMissing": "Game ID is missing.",
+      "idMissingUrl": "No Game ID provided in the URL.",
+      "fetchFailed": "An unknown error occurred while fetching the report.",
+      "saveTitleFailed": "Failed to save title."
+    }
+  },
+  "reportTabs": {
+    "notAvailable": "N/A",
+    "chart": {
+      "correct": "Correct",
+      "incorrect": "Incorrect"
+    },
+    "players": {
+      "anonymous": "Anonymous",
+      "showResult": "Show Result",
+      "tableHeader": {
+        "tutee": "Tutee",
+        "rank": "Rank",
+        "correctAnswers": "Correct Answers",
+        "unanswered": "Unanswered",
+        "finalScore": "Final Score",
+        "actions": "Actions"
+      },
+      "modal": {
+        "correct": "correct",
+        "rank": "Rank",
+        "score": "Score",
+        "duration": "Duration",
+        "answeredQuestions": "Answered Questions",
+        "question": "Question",
+        "answered": "Answered",
+        "correctIncorrect": "Correct/Incorrect",
+        "points": "Points",
+        "time": "Time",
+        "noAnswer": "No Answer"
+      }
+    },
+    "questions": {
+      "noTitle": "No Title",
+      "showResult": "Show Result",
+      "tableHeader": {
+        "question": "Question",
+        "type": "Type",
+        "correctIncorrect": "Correct/Incorrect",
+        "actions": "Actions"
+      },
+      "modal": {
+        "option": "Option {index}",
+        "order": "Order",
+        "correctAnswers": "Correct Answers",
+        "avgDuration": "Avg. Duration",
+        "noAnswer": "No Answer",
+        "tableHeader": {
+          "tutee": "Tutee",
+          "answered": "Answered",
+          "correctIncorrect": "Correct/Incorrect",
+          "points": "Points",
+          "time": "Time"
+        }
+      }
+    },
+    "notFinished": {
+      "allFinished": "Everyone finished the assignment!"
+    },
+    "summary": {
+      "assignmentLink": {
+        "title": "Assignment Link",
+        "description": "Share this link with tutees",
+        "linkTitle": "Game Link",
+        "copy": "Copy",
+        "copied": "Copied!"
+      },
+      "qrCode": {
+        "title": "Scan QR Code",
+        "description": "Tutees can scan this QR code and enter the assignment",
+        "download": "Download QR"
+      },
+      "actions": {
+        "changeDeadline": "Change Deadline",
+        "endNow": "End Now",
+        "assignToGroup": "Assign to Group"
+      },
+      "mainChart": {
+        "correct": "correct",
+        "feedbackDescription": "Play again and let the same group improve their score or see if new players can beat this result.",
+        "playAgain": "Play Again",
+        "feedback": {
+          "wellDone": "Well Done!",
+          "wellPlayed": "Well Played",
+          "canDoBetter": "You can do better",
+          "tryBetter": "Try better!"
+        }
+      },
+      "stats": {
+        "players": "Players",
+        "questions": "Questions",
+        "time": "Time",
+        "minutes": "{count} mins"
+      },
+      "difficultQuestions": {
+        "title": "Difficult Questions ({count})",
+        "tooltip": "A question is difficult if less than 35% of participants answered correctly.",
+        "empty": "No difficult questions identified.",
+        "stats": "{percent}% correct in {avg} seconds avg"
+      },
+      "needHelp": {
+        "title": "Need Help ({count})",
+        "tooltip": "Participants who answered less than 35% of questions correctly.",
+        "empty": "No one seems to need help."
+      },
+      "didNotFinish": {
+        "title": "Didn't Finish ({count})",
+        "tooltip": "Players with unfinished questions.",
+        "empty": "Everyone finished the Ayhoot!",
+        "unanswered": "{count} unanswered"
+      },
+      "anonymous": "Anonymous",
+      "imageAlt": "Question Image",
+      "deadlineModal": {
+        "title": "Change Assignment Deadline",
+        "dueDate": "Due Date",
+        "time": "Time",
+        "cancel": "Cancel",
+        "save": "Save Changes"
+      },
+      "notifications": {
+        "confirmEndNow": "Are you sure you want to end this assignment now?",
+        "endNowSuccess": "The assignment has ended.",
+        "endNowFailed": "Failed to end the assignment.",
+        "deadlineRequired": "Please set a date and time.",
+        "deadlineUpdateSuccess": "Deadline updated successfully.",
+        "deadlineUpdateFailed": "Failed to update deadline."
+      }
+    }
+  },
+  "myProfile": {
+    "uploadCover": "Upload Cover",
+    "profilePictureAlt": "Profile Picture",
+    "shareProfile": "Share Profile",
+    "stats": {
+      "ayhoots": "Ayhoots",
+      "courses": "Courses",
+      "tutees": "Tutees"
+    },
+    "aboutMe": {
+      "title": "About Me",
+      "namePlaceholder": "Name",
+      "firstNamePlaceholder": "First Name",
+      "lastNamePlaceholder": "Last Name",
+      "descriptionPlaceholder": "Tell us a little about yourself..."
+    },
+    "website": {
+      "title": "Website",
+      "placeholder": "https://yourwebsite.com"
+    },
+    "institutes": {
+      "title": "My Institutes",
+      "add": "Add",
+      "remove": "Remove",
+      "empty": "You are not affiliated with any institutes."
+    },
+    "account": {
+      "title": "Account Settings",
+      "currentPasswordLabel": "Current Password",
+      "currentPasswordPlaceholder": "Enter current password",
+      "newPasswordLabel": "New Password",
+      "newPasswordPlaceholder": "Enter new password",
+      "confirmPasswordLabel": "Confirm New Password",
+      "confirmPasswordPlaceholder": "Confirm new password",
+      "changePassword": "Change Password"
+    },
+    "updateProfile": "Update Profile",
+    "addInstituteModal": {
+      "title": "Add Institute Affiliation",
+      "searchLabel": "Search Institute",
+      "searchPlaceholder": "Type to search institutes...",
+      "emptySearch": "No institutes found.",
+      "emptyInitial": "Start typing to search.",
+      "cancel": "Cancel",
+      "sendRequest": "Send Request"
+    },
+    "notifications": {
+      "dataNotFound": "Teacher data not found in API response.",
+      "loadProfileFailed": "Could not load profile data.",
+      "loadInstitutesFailed": "Could not load institutes.",
+      "updatingProfile": "Updating profile...",
+      "updateSuccess": "Profile updated successfully!",
+      "updateFailed": "Failed to update profile.",
+      "fileTooLarge": "File size cannot exceed 5MB.",
+      "avatarSelected": "Profile image selected. Press \"Update Profile\" to save.",
+      "coverSelected": "Cover image selected. Press \"Update Profile\" to save.",
+      "linkCopied": "Profile link copied to clipboard!",
+      "linkCopyFailed": "Failed to copy link.",
+      "selectInstitute": "Please select an institute.",
+      "requestSent": "Your request to join \"{name}\" has been sent.",
+      "requestFailed": "Failed to send join request.",
+      "removeSuccess": "Institute affiliation removed successfully.",
+      "removeFailed": "Failed to remove institute affiliation.",
+      "passwordFieldsRequired": "Please fill in all password fields.",
+      "passwordsNoMatch": "New passwords do not match.",
+      "passwordTooShort": "Password must be at least 6 characters long.",
+      "passwordChangeSuccess": "Password changed successfully!",
+      "passwordChangeFailed": "Failed to change password."
+    }
+  },
+  "publicProfile": {
+    "coverImageAlt": "{name}'s cover image",
+    "noWebsite": "No website provided",
+    "stats": {
+      "content": "Content",
+      "plays": "Plays",
+      "tutees": "Tutees"
+    },
+    "tabs": {
+      "content": "Content",
+      "about": "About"
+    },
+    "empty": {
+      "title": "No content found",
+      "description": "This user hasn't created any content yet."
+    },
+    "actions": {
+      "addToTutors": "You can invite this creator to your list of tutors.",
+      "add": "Invite",
+      "added": "Invited to your tutors successfully!",
+      "requestToBeTeacher": "Want to join this institute? Send a request to become a teacher.",
+      "request": "Request",
+      "requested": "Your request has been sent successfully!"
+    },
+    "aboutSection": {
+      "title": "About {name}",
+      "noInfo": "No information provided."
+    },
+    "teacher": {
+      "institutesTitle": "Affiliated Institutes",
+      "noInstitutes": "Not affiliated with any institutes."
+    },
+    "institute": {
+      "teachersTitle": "Enrolled Teachers",
+      "noTeachers": "No teachers enrolled in this institute."
+    },
+    "unnamedTeacher": "Unnamed Teacher",
+    "unnamedInstitute": "Unnamed Institute",
+    "error": {
+      "title": "Error",
+      "invalidUrl": "Invalid profile URL",
+      "invalidData": "Profile not found or data is invalid.",
+      "loadFailed": "Could not load the profile. It may not exist or an error occurred."
+    }
+  },
+  "ayhootPreview": {
+    "loading": "Loading Ayhoot...",
+    "purchaseLocked": "You must purchase this ayhoot to view its content.",
+    "loginLocked": "You must login to view its content.",
+    "errorIdMissing": "Exam ID is missing from the URL.",
+    "errorLoading": "Could not load the Ayhoot. Please try again later.",
+    "options": {
+      "button": "Options",
+      "addToCourse": "Add to course",
+      "duplicate": "Duplicate",
+      "share": "Share Ayhoot",
+      "notAllowedTooltip": "This option is not allowed."
+    },
+    "details": {
+      "title": "Ayhoot",
+      "description": "Description",
+      "details": "Details",
+      "category": "Category",
+      "price": "Price",
+      "institute": "Institute",
+      "plays": "plays"
+    },
+    "questionsTitle": "Questions ({count})",
+    "contentLocked": "You must purchase this ayhoot to view its content.",
+    "session": {
+      "title": "Ayhoot Session",
+      "lecture": "Lecture",
+      "assign": "Assign",
+      "play": "Play",
+      "buy": "Buy",
+      "preview": "Preview"
+    },
+    "purchase": {
+      "promptTitle": "Confirm Purchase",
+      "promptText": "Do you want to buy this Ayhoot?",
+      "confirmButton": "Yes, buy it",
+      "cancelButton": "Cancel"
+    },
+    "share": {
+      "success": "Ayhoot link copied to clipboard",
+      "error": "Failed to copy link"
+    },
+    "selfStudy": {
+      "title": "Ayhoot Self-study",
+      "learn": "Learn"
+    },
+    "questionTypes": {
+      "quiz": "Quiz",
+      "poll": "Poll",
+      "puzzle": "Puzzle",
+      "trueOrFalse": "True or False",
+      "typeAnswer": "Type Answer",
+      "slide": "Slide"
+    },
+    "imageAlt": "Question Image",
+    "correctAnswer": "Correct answer:"
+  },
+  "coursePreview": {
+    "loginRequired": {
+      "title": "Login Required",
+      "text": "You need to log in first to purchase and view this course.",
+      "loginButton": "Go to Login",
+      "cancelButton": "Cancel"
+    },
+    "loading": "Loading Course...",
+    "errorLoading": "Could not load the Course. Please try again later.",
+    "header": {
+      "title": "Course",
+      "description": "Description",
+      "details": "Details"
+    },
+    "content": {
+      "title": "Content",
+      "activities": "{count} Activity | {count} Activities",
+      "activityCoverAlt": "Activity cover",
+      "noActivities": "No activities found.",
+      "activityTypes": {
+        "ayhoot": "Ayhoot",
+        "document": "Document",
+        "video": "Video"
+      }
+    },
+    "preview": {
+      "title": "Activity Preview",
+      "previewAyhoot": "Preview Ayhoot",
+      "description": "Description",
+      "startAyhoot": "Start Ayhoot",
+      "questions": "Questions",
+      "googleDocsViewer": "Preview loaded via Google Docs Viewer.",
+      "openOriginal": "Open original",
+      "downloadFile": "Download file",
+      "videoNotSupported": "Your browser does not support the video tag.",
+      "selectActivityPrompt": "Select an activity to see a preview.",
+      "documentPreview": "You must log in to your dashboard to see the document preview.",
+      "videoPreview": "You must log in to your dashboard to see the video preview.",
+      "openInNewTab": "Open in new tab",
+      "question": "Question",
+      "moreOptions": "... and {count} more options",
+      "moreQuestions": "... and {count} more questions",
+      "noQuestions": "No questions available"
+    },
+    "session": {
+      "title": "Course Session",
+      "edit": "Edit Course",
+      "copy": "Copy Course",
+      "start": "Start Course",
+      "buy": "Buy Course",
+      "assign": "Assign",
+      "enroll": "Enroll"
+    },
+    "copy": {
+      "confirmTitle": "Copy Course",
+      "confirmText": "This will create a copy of this course that you can edit. Do you want to continue?",
+      "confirmButton": "Yes, copy it",
+      "cancelButton": "Cancel",
+      "successTitle": "Course Copied!",
+      "successText": "The course has been successfully copied to your account.",
+      "viewCopy": "View Copy",
+      "errorTitle": "Copy Failed",
+      "errorText": "Failed to copy the course. Please try again."
+    },
+    "purchase": {
+      "promptTitle": "Confirm Purchase",
+      "promptText": "Do you want to buy this course?",
+      "confirmButton": "Yes, buy it",
+      "cancelButton": "Cancel"
+    },
+    "contentLocked": "You must purchase this course to view its content."
+  },
+  "ayhootCreate": {
+    "title": "Start creating",
+    "placeholder": "Enter title for your Ayhoot...",
+    "cancel": "Cancel",
+    "update": "Update Exam",
+    "create": "Create Exam",
+    "playMusic": "Play background music",
+    "playMusicSubtitle": "Play background music while student takes the exam"
+  },
+  "courseCreate": {
+    "title": "Start creating",
+    "placeholder": "Enter title for your Course...",
+    "cancel": "Cancel",
+    "update": "Update Course",
+    "create": "Create Course"
+  },
+  "createExamModal": {
+    "title": "Create a new exam",
+    "subtitle": "Give your exam a title to get started. You can add questions next.",
+    "titleLabel": "Exam title",
+    "titlePlaceholder": "e.g. Chapter 1 Quiz",
+    "titleRequired": "Please enter a title.",
+    "playMusicLabel": "Play background music",
+    "playMusicSubtitle": "Play background music while student takes the exam",
+    "create": "Create & add questions",
+    "creating": "Creating…",
+    "cancel": "Cancel",
+    "createFailed": "Could not create the exam. Please try again."
+  },
+  "createCourseModal": {
+    "title": "Create a new course",
+    "subtitle": "Give your course a title to get started.",
+    "titleLabel": "Course title",
+    "titlePlaceholder": "e.g. Algebra Basics",
+    "titleRequired": "Please enter a title.",
+    "create": "Create course",
+    "creating": "Creating…",
+    "cancel": "Cancel",
+    "createFailed": "Could not create the course. Please try again.",
+    "notOwner": "You don't have permission to edit this course."
+  },
+  "createQuestion": {
+    "sidebar": {
+      "addFirstQuestion": "Add your first question",
+      "saveForPreview": "Save for preview",
+      "addQuestion": "Add Question"
+    },
+    "main": {
+      "titlePlaceholder": "Start typing your question here...",
+      "scientificPlaceholder": "Click to edit with Scientific Input"
+    },
+    "modal": {
+      "scientificTitle": "Scientific Input for Title",
+      "cancel": "Cancel",
+      "save": "Save"
+    },
+    "options": {
+      "questionType": "Question Type",
+      "duration": "Duration (seconds)",
+      "points": "Points",
+      "difficulty": "Difficulty Level",
+      "background": "Select Background"
+    },
+    "questionTypes": {
+      "quiz": "Quiz",
+      "trueOrFalse": "True or False",
+      "shortAnswer": "Short Answer",
+      "puzzle": "Puzzle",
+      "slide": "Slide",
+      "shortAnsBadge": "Short Ans"
+    },
+    "pointValues": {
+      "noPoint": "No Point",
+      "standard": "Standard",
+      "doublePoint": "Double Point"
+    },
+    "difficultyLevels": {
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard"
+    },
+    "alerts": {
+      "confirmDelete": "Are you sure you want to delete this question?",
+      "titleEmpty": "Question title cannot be empty.",
+      "saveSuccess": "Question saved successfully!",
+      "saveFailed": "Failed to save question.",
+      "deleteSuccess": "Question deleted successfully.",
+      "deleteFailed": "Failed to delete question.",
+      "loadFailed": "Error loading question.",
+      "examLoadFailed": "Failed to load exam details.",
+      "notOwner": "You don't have permission to edit this exam's questions.",
+      "missingExamId": "Exam ID is missing. Cannot save question.",
+      "mcMinOptions": "Multiple choice questions require at least 2 options.",
+      "mcEmptyOptionText": "All multiple choice options must have text.",
+      "mcNoCorrectAnswer": "Please select a correct answer for the multiple choice question."
+    },
+    "fileUpload": {
+      "title": "Add a picture for your question",
+      "subtitle": "Add a picture to make your Ayhoot easy to catch.",
+      "uploadFile": "Upload a file",
+      "orDragDrop": "or drag and drop",
+      "supportedFileTypes": "PNG, JPG, GIF up to 10MB"
+    },
+    "trueFalse": {
+      "true": "True",
+      "false": "False"
+    },
+    "multipleChoice": {
+      "addAnswerPlaceholder": "Add Answer",
+      "addOption": "Add Option"
+    },
+    "shortAnswer": {
+      "correctAnswerPlaceholder": "Enter the correct answer",
+      "altAnswersLabel": "Alternative Answers (optional)",
+      "altAnswerPlaceholder": "Alternative answer",
+      "addAltAnswer": "Add Alternative Answer",
+      "caseSensitive": "Case sensitive"
+    },
+    "sequence": {
+      "instructionsTitle": "Instructions:",
+      "instructionsText": "Add items in the correct sequence. Students must arrange them in this exact order to get the answer right.",
+      "addItemPlaceholder": "Add item text",
+      "addItemButton": "Add Sequence Item",
+      "allowPartialCredit": "Allow partial credit for partially correct sequences"
+    },
+    "slide": {
+      "placeholder": "Start creating your slide here..."
+    }
+  },
+  "createQuestionHeader": {
+    "openQuestionsList": "Open questions list",
+    "enterAyhootTitle": "Enter Ayhoot title",
+    "settings": "Settings",
+    "preview": "Preview",
+    "exit": "Exit",
+    "insert": "Insert",
+    "save": "Save",
+    "ayhootSettings": "Ayhoot Settings",
+    "cancel": "Cancel",
+    "titleLabel": "Title",
+    "titleSubtitle": "Required. Helps you find your Ayhoot later.",
+    "enterTitlePlaceholder": "Enter Ayhoot title...",
+    "descriptionLabel": "Description",
+    "descriptionSubtitle": "Optional. Add a description to your Ayhoot.",
+    "enterDescriptionPlaceholder": "Enter a description...",
+    "monetizeLabel": "Monetize",
+    "monetizeSubtitle": "Monetize your Ayhoot.",
+    "free": "Free",
+    "paid": "Paid",
+    "enterPriceLabel": "Enter price",
+    "enterPricePlaceholder": "e.g., 10000",
+    "playMusicLabel": "Play background music",
+    "playMusicSubtitle": "Play background music while student takes the exam",
+    "coverImageLabel": "Cover Image",
+    "coverImageSubtitle": "Add a cover image to make your Ayhoot stand out.",
+    "uploadFile": "Upload a file",
+    "orDragDrop": "or drag and drop",
+    "supportedFileTypes": "PNG, JPG, GIF up to 10MB",
+    "categoryLabel": "Category",
+    "categorySubtitle": "Choose a category for your Ayhoot.",
+    "saveToFolderLabel": "Save to Folder",
+    "saveToFolderSubtitle": "Save this Ayhoot to a folder.",
+    "withoutFolder": "Without Folder",
+    "assignToInstituteLabel": "Assign to Institute",
+    "assignToInstituteSubtitle": "Assign this Ayhoot to an institute.",
+    "freelance": "Freelance"
+  },
+  "preview": {
+    "loading": "Loading questions...",
+    "noQuestions": "No questions available.",
+    "teacherModeWarning": "Teacher preview mode. No data is being recorded.",
+    "instituteModeWarning": "Institution preview mode. No data is being recorded.",
+    "correctAnswersLabel": "CORRECT ANSWER(S)",
+    "alternativesLabel": "ALTERNATIVES",
+    "correctOrderLabel": "CORRECT ORDER:",
+    "header": {
+      "defaultTitle": "Exam Preview",
+      "edit": "Edit",
+      "exit": "Exit",
+      "prev": "Prev",
+      "next": "Next",
+      "endOfPreview": "End of Preview"
+    }
+  },
+  "createCourse": {
+    "sidebar": {
+      "closeSidebar": "Close sidebar",
+      "addAyhoot": "Add Ayhoot",
+      "addFile": "Add File",
+      "addVideo": "Add Video",
+      "courseContent": "Course Content",
+      "removeAria": "Remove content item",
+      "emptyCourse": "Your course is empty. Add some content!"
+    },
+    "preview": {
+      "noCover": "No Cover Image",
+      "category": "Category",
+      "questions": "Questions",
+      "videoNotSupported": "Your browser does not support the video tag.",
+      "pendingUpload": "Pending upload - Preview unavailable",
+      "pdfPreviewTitle": "PDF Preview",
+      "pdfPreviewNote": "PDF selected - Preview after save or download",
+      "viewPdf": "View PDF",
+      "download": "Download",
+      "noVideoContent": "No Video Content",
+      "addVideoPrompt": "Upload a video file or add a video URL to get started",
+      "noPreviewAvailable": "Preview for this file type is not available. You can download it if a path exists.",
+      "detailsOnSave": "Content details will appear once the item is fully saved.",
+      "awaitingProcessing": "This item might be newly added or awaiting server processing.",
+      "noContentSelected": "No content selected",
+      "clickToPreview": "Click on an item in the sidebar to preview it here."
+    },
+    "modal": {
+      "edit": "Edit",
+      "add": "Add",
+      "file": "File",
+      "video": "Video",
+      "descriptionLabel": "Description / Title",
+      "descriptionPlaceholder": "Enter description or title",
+      "videoOrFileLabel": "Video File or Embed Code",
+      "fileLabel": "File",
+      "videoUrlSubtitle": "Video URL (e.g., .mp4) or paste embed code (e.g., from Aparat, YouTube)",
+      "fileOrUrlError": "Please provide either a file or a URL/embed code, not both.",
+      "uploadedFile": "Uploaded file",
+      "removeFile": "Remove file",
+      "replaceFile": "Replace file?",
+      "uploadFile": "Upload a file",
+      "orDragDrop": "or drag and drop",
+      "fileTypesHint": "Images, PDF, DOC, PPT, TXT, ZIP",
+      "videoTypesHint": "MP4, AVI, MOV, etc.",
+      "cancel": "Cancel",
+      "saveChanges": "Save Changes",
+      "addToCourse": "Add to Course"
+    },
+    "alerts": {
+      "saveFirstTitle": "Save Course First",
+      "saveFirstToAddAyhoot": "Please save the course first to add Ayhoots. Save now?",
+      "saveFirstToAddContent": "Please save the course first to add content. Save now?",
+      "saveNow": "Save Now",
+      "mustSaveForAyhoot": "Course must be saved before adding Ayhoots.",
+      "mustSaveForContent": "Course must be saved before adding content items.",
+      "mustSaveCourse": "Course must be saved first.",
+      "loadExamsFailed": "Failed to load exams.",
+      "alreadyInCourse": "\"{title}\" is already in the course.",
+      "addAyhootSuccess": "Ayhoot \"{title}\" added successfully.",
+      "addAyhootFailed": "Failed to add Ayhoot.",
+      "editAyhootInfo": "To edit an Ayhoot, please go to the Ayhoots section. You can re-order or remove it here.",
+      "descriptionEmpty": "Description/Title cannot be empty.",
+      "selectAFile": "Please select a file.",
+      "provideVideo": "Please provide a video file or a video URL/embed code.",
+      "contentAddedSuccess": "{type} added successfully. Refreshing...",
+      "contentAddFailed": "Failed to add {type}.",
+      "changesStaged": "Changes staged. Click \"Save Course\" in the header to apply.",
+      "orderChanged": "Content order changed. Click \"Save Course\" to apply.",
+      "confirmRemoveTitle": "Are you sure?",
+      "confirmRemoveText": "You are about to remove \"{description}\".",
+      "confirmRemoveButton": "Yes, remove it!",
+      "removedTitle": "Removed!",
+      "removedText": "The content item has been removed.",
+      "errorTitle": "Error!",
+      "removeFailedText": "Failed to remove content item.",
+      "itemRemovedLocally": "Item removed from the list. Save the course to make it permanent.",
+      "titleEmpty": "Course title cannot be empty.",
+      "courseUpdated": "Course updated successfully!",
+      "courseCreated": "Course created successfully!",
+      "saveFailed": "Failed to save course.",
+      "saveToPreview": "This course is not saved yet. Save now to preview?",
+      "saveFailedPreview": "Failed to save the course. Preview unavailable.",
+      "saveFailedLatestContent": "Failed to save changes. Preview might not reflect the latest content."
+    },
+    "contentTypes": {
+      "ayhoot": "Ayhoot",
+      "file": "File",
+      "video": "Video"
+    },
+    "ayhootModal": {
+      "title": "Add Ayhoot to Course",
+      "searchPlaceholder": "Search ayhoots by title or subject...",
+      "loading": "Loading ayhoots...",
+      "alreadyAdded": "Already Added",
+      "questions": "questions",
+      "noAyhootsAvailable": "No ayhoots available.",
+      "noResults": "No ayhoots found matching your search.",
+      "previous": "Previous",
+      "paginationInfo": "Page {current} of {last} ({from}-{to} of {total})",
+      "next": "Next",
+      "done": "Done"
+    }
+  },
+  "courseHeader": {
+    "openContentList": "Open content list",
+    "enterCourseTitle": "Enter Course Title",
+    "settings": "Settings",
+    "preview": "Preview",
+    "exit": "Exit",
+    "save": "Save",
+    "modal": {
+      "title": "Course Settings",
+      "cancel": "Cancel",
+      "save": "Save",
+      "titleLabel": "Title",
+      "titleSubtitle": "Required. Helps you find your course later.",
+      "enterTitlePlaceholder": "Enter course title...",
+      "descriptionLabel": "Description",
+      "descriptionSubtitle": "Optional. Add a description to your course.",
+      "enterDescriptionPlaceholder": "Enter a description...",
+      "monetizeLabel": "Monetize",
+      "monetizeSubtitle": "Monetize your course.",
+      "free": "Free",
+      "paid": "Paid",
+      "enterPriceLabel": "Enter price",
+      "enterPricePlaceholder": "e.g., 10000",
+      "coverImageLabel": "Cover Image",
+      "coverImageSubtitle": "Add a cover image to make your course stand out.",
+      "uploadFile": "Upload a file",
+      "orDragDrop": "or drag and drop",
+      "supportedFileTypes": "PNG, JPG, GIF up to 10MB",
+      "categoryLabel": "Category",
+      "categorySubtitle": "Choose a category for your course.",
+      "assignToInstituteLabel": "Assign to Institute",
+      "assignToInstituteSubtitle": "Assign this course to an institute.",
+      "freelance": "Freelance"
+    }
+  },
+  "manageTutors": {
+    "tabs": {
+      "all": "All Tutors",
+      "requests": "Tutor Requests"
+    },
+    "allTutors": {
+      "title": "Manage Tutors",
+      "description": "Add or manage all tutors in your institute.",
+      "searchPlaceholder": "Search tutors by name...",
+      "filters": {
+        "dateJoined": "Date Joined",
+        "name": "Name"
+      },
+      "inviteByEmail": "Invite by Email",
+      "table": {
+        "header": {
+          "tutee": "Tutor",
+          "email": "Email",
+          "joinedAt": "Joined at",
+          "actions": "Actions"
+        },
+        "body": {
+          "noEmail": "No email provided",
+          "profile": "Profile",
+          "remove": "Remove",
+          "notAvailable": "N/A"
+        }
+      },
+      "empty": {
+        "title": "No tutors found",
+        "description": "No tutors match your search.",
+        "loading": "Loading tutors..."
+      }
+    },
+    "tutorRequests": {
+      "title": "Tutor Requests",
+      "description": "Accept or reject requests from tutors to join your institute.",
+      "table": {
+        "header": {
+          "tutor": "Tutor",
+          "requestDate": "Request Date",
+          "status": "Status",
+          "actions": "Actions"
+        },
+        "body": {
+          "accept": "Accept",
+          "reject": "Reject"
+        }
+      },
+      "empty": {
+        "title": "No Pending Requests",
+        "description": "There are currently no new tutor requests.",
+        "loading": "Loading requests..."
+      }
+    },
+    "inviteModal": {
+      "title": "Invite a New Tutor",
+      "description": "Enter the email address of the tutor you'd like to invite.",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "tutor{'@'}example.com",
+      "cancel": "Cancel",
+      "send": "Send Invitation",
+      "sending": "Sending...",
+      "copyInviteLink": "Copy Invite Link",
+      "orShareLink": "Or share invitation link directly:",
+      "copyLink": "Copy Link",
+      "copied": "Copied!",
+      "linkNotReady": "Invite link is not ready yet.",
+      "copySuccess": "Invite link copied to clipboard!"
+    },
+    "notifications": {
+      "loadFailed": "Failed to load tutors.",
+      "removeFailed": "Failed to remove tutor.",
+      "loadRequestsFailed": "Failed to load tutor requests.",
+      "acceptSuccess": "Tutor request accepted.",
+      "acceptFailed": "Failed to accept request.",
+      "rejectSuccess": "Tutor request rejected.",
+      "rejectFailed": "Failed to reject request.",
+      "inviteSuccess": "Invitation sent successfully!",
+      "inviteFailed": "Failed to send invitation.",
+      "swal": {
+        "removeTitle": "Are you sure?",
+        "removeText": "You won't be able to revert removing {tuteeName}!",
+        "confirmRemoveButton": "Yes, remove it!",
+        "cancelButton": "Cancel",
+        "removedTitle": "Removed!",
+        "removedText": "{tuteeName} has been removed from your institute.",
+        "rejectTitle": "Are you sure?",
+        "rejectText": "Do you really want to reject this request?",
+        "confirmRejectButton": "Yes, reject it!",
+        "okButton": "OK"
+      }
+    }
+  },
+  "instituteProfile": {
+    "uploadCover": "Upload Cover",
+    "profilePictureAlt": "Institute Logo",
+    "shareProfile": "Share Profile",
+    "updateProfile": "Update Profile",
+    "stats": {
+      "ayhoots": "Ayhoots",
+      "courses": "Courses",
+      "teachers": "Teachers"
+    },
+    "about": {
+      "title": "About Institute",
+      "namePlaceholder": "Institute Name",
+      "descriptionPlaceholder": "Tell us a little about your institute..."
+    },
+    "website": {
+      "title": "Website",
+      "placeholder": "https://your-institute-website.com"
+    },
+    "profitShare": {
+      "title": "Profit Share with Creators",
+      "description": "Set the percentage of revenue you will share with content creators in your institute.",
+      "placeholder": "e.g., 70"
+    },
+    "account": {
+      "title": "Account Settings",
+      "currentPasswordLabel": "Current Password",
+      "currentPasswordPlaceholder": "Enter current password",
+      "newPasswordLabel": "New Password",
+      "newPasswordPlaceholder": "Enter new password",
+      "confirmPasswordLabel": "Confirm New Password",
+      "confirmPasswordPlaceholder": "Confirm new password",
+      "changePassword": "Change Password"
+    },
+    "notifications": {
+      "dataNotFound": "Institute data not found in API response.",
+      "loadProfileFailed": "Could not load profile data.",
+      "updatingProfile": "Updating profile...",
+      "updateSuccess": "Profile updated successfully!",
+      "updateFailed": "Failed to update profile.",
+      "fileTooLarge": "File size cannot exceed 5MB.",
+      "avatarSelected": "Logo image selected. Press 'Update Profile' to save.",
+      "coverSelected": "Cover image selected. Press 'Update Profile' to save.",
+      "linkCopied": "Profile link copied to clipboard!",
+      "linkCopyFailed": "Failed to copy link.",
+      "passwordFieldsRequired": "Please fill in all password fields.",
+      "passwordsNoMatch": "New passwords do not match.",
+      "passwordTooShort": "Password must be at least 6 characters long.",
+      "passwordChangeSuccess": "Password changed successfully!",
+      "passwordChangeFailed": "Failed to change password."
+    }
+  },
+  "quizGame": {
+    "loading": "Loading Quiz...",
+    "empty": "No questions found for this quiiiiz.",
+    "teacherModeWarning": "You are in Teacher Mode. Answers will not be saved.",
+    "waitingForTeacher": "Waiting for Teacher",
+    "waitingForTeacherMessage": "The teacher will start the session soon. Please wait...",
+    "header": {
+      "defaultTitle": "Quiz Game",
+      "questionTime": "Question Time:",
+      "examTime": "Exam Time:",
+      "edit": "Edit",
+      "prev": "Prev",
+      "finish": "Finish",
+      "next": "Next",
+      "mute": "Mute music",
+      "unmute": "Unmute music"
+    },
+    "question": {
+      "altFile": "Question File {index}",
+      "altZoomedImage": "Zoomed Image"
+    },
+    "resetModal": {
+      "title": "Reset previous attempt?",
+      "message": "A previous attempt exists. Do you want to remove previous answers and start over?",
+      "reset": "Reset",
+      "keep": "Keep"
+    },
+    "viewingExisting": "Viewing previous answers",
+    "viewingExistingInfo": "You are viewing your previous answers. To submit new answers, reset the attempt.",
+    "viewOnlyMode": "View Only",
+    "viewingExistingAttempt": "Viewing Your Previous Attempt",
+    "viewingExistingAttemptInfo": "You are reviewing your previous answers. To make new changes, reset and start a fresh attempt.",
+    "options": {
+      "altImage": "Option image",
+      "placeholder": "Type your answer here...",
+      "sequenceTitle": "Drag and drop the items to put them in the correct order."
+    },
+    "results": {
+      "congratulations": "Congratulations!",
+      "completed": "You have completed the quiz.",
+      "yourScore": "Your Score",
+      "scoreDetails": "{correctAnswers} out of {totalQuestions} correct",
+      "backToDashboard": "Go to report",
+      "leaderboardTop": "You're among the top performers!",
+      "rank": "Rank",
+      "feedback": {
+        "great": "Great!",
+        "good": "Good!",
+        "average": "Keep Trying!",
+        "poor": "You need to concentrate."
+      }
+    },
+    "notifications": {
+      "beforeUnload": "Are you sure you want to leave? Your progress may be lost.",
+      "sessionInactive": "This quiz session is no longer active or has already been completed.",
+      "paymentRequired": "Payment is required to access this quiz.",
+      "loadError": "There was an error loading the quiz. Please try again.",
+      "unknownLoadError": "An unknown error occurred while loading the quiz.",
+      "finishMessage": {
+        "timedOut": "Time's up! The quiz has ended.",
+        "completed": "Quiz finished!",
+        "score": "Your score is {score}%. ({correctCount} out of {totalScorable} correct)."
+      }
+    }
+  },
+  "discoverCreators": {
+    "title": "Discover Creators",
+    "filters": {
+      "searchLabel": "Search",
+      "searchPlaceholder": "Search by name...",
+      "sortByLabel": "Sort By",
+      "sortOptions": {
+        "latest": "Latest (Newest)",
+        "oldest": "Oldest",
+        "mostContent": "Most Content",
+        "mostTutees": "Most Tutees"
+      }
+    },
+    "card": {
+      "defaultPlan": "Tutor",
+      "ayhoots": "Ayhoots",
+      "courses": "Courses",
+      "tutees": "Tutees"
+    },
+    "empty": {
+      "title": "No Creators Found",
+      "description": "Try adjusting your search or filters."
+    }
+  },
+  "joinGroup": {
+    "confirm": {
+      "title": "Join Successful",
+      "description": "You have been joined the group \"{groupName}\". ",
+      "joiningButton": "Joining...",
+      "actionButton": "Confirm and Join"
+    },
+    "success": {
+      "title": "Welcome!",
+      "description": "You have successfully joined \"{groupName}\". You can now access all group materials.",
+      "actionButton": "Go to My Dashboard"
+    },
+    "error": {
+      "title": "Invitation Error",
+      "actionButton": "Back to Home"
+    },
+    "notifications": {
+      "invalidToken": "This invitation link is invalid or has expired.",
+      "genericError": "Something went wrong. Please try again later or contact your teacher.",
+      "success": "You are now a member of the group!"
+    }
+  },
+  "joinInstitute": {
+    "success": {
+      "title": "Joined Successfully!",
+      "description": "You have successfully joined the institute \"{instituteName}\".",
+      "actionButton": "Go to Dashboard"
+    },
+    "error": {
+      "title": "Failed to Join Institute",
+      "actionButton": "Back to Home"
+    },
+    "notifications": {
+      "success": "Welcome to the institute!",
+      "invalidToken": "The invitation link is missing or invalid.",
+      "genericError": "An unexpected error occurred. Please try again."
+    }
+  },
+  "joinCommunity": {
+    "success": {
+      "title": "Joined Community!",
+      "description": "You are now a member of {teacherName}'s community.",
+      "actionButton": "Go to Dashboard"
+    },
+    "error": {
+      "title": "Failed to Join Community",
+      "actionButton": "Back to Home"
+    },
+    "notifications": {
+      "success": "Welcome to the community!",
+      "invalidToken": "The invitation link is missing or invalid.",
+      "genericError": "An unexpected error occurred. Please try again."
+    }
+  },
+  "wallet": {
+    "title": "Wallet",
+    "description": "View your balance, manage checkouts, and see transaction history",
+    "loading": "Loading data...",
+    "currency": "Rials",
+    "card": {
+      "currentBalance": "Current Balance",
+      "shabaNo": "SHABA No.",
+      "notSet": "Not set",
+      "editCard": "Edit SHABA No",
+      "addCard": "Add SHABA No",
+      "checkout": "Checkout"
+    },
+    "tabs": {
+      "transactions": "Transactions",
+      "invoices": "Invoices"
+    },
+    "transactions": {
+      "searchPlaceholder": "Search transactions...",
+      "empty": "No transactions found",
+      "notAvailable": "N/A",
+      "system": "System",
+      "header": {
+        "details": "Transaction Details",
+        "amount": "Amount",
+        "user": "User",
+        "date": "Date"
+      }
+    },
+    "invoices": {
+      "empty": "No invoices found",
+      "defaultTitle": "Invoice #{id}",
+      "continuePayment": "Continue Payment",
+      "header": {
+        "title": "Title",
+        "price": "Price",
+        "date": "Date",
+        "status": "Status",
+        "actions": "Actions"
+      }
+    },
+    "modal": {
+      "editTitle": "Edit SHABA Number",
+      "addTitle": "Add SHABA Number",
+      "shabaLabel": "SHABA No.",
+      "shabaPlaceholder": "IR30000010000500035",
+      "cancel": "Cancel",
+      "save": "Save",
+      "savedSuccess": "SHABA number saved successfully"
+    }
+  },
+  "newsIndex": {
+    "title": "Ayhoots Latest News",
+    "description": "Stay updated with the latest articles and announcements.",
+    "empty": {
+      "title": "No News Found",
+      "description": "There are currently no articles to display. Please check back later."
+    },
+    "notifications": {
+      "loadFailed": "Failed to load the news articles."
+    }
+  },
+  "newsDetail": {
+    "loading": "Loading Article...",
+    "contentImageAlt": "Content Image",
+    "error": {
+      "title": "Failed to load article",
+      "loadFailed": "The article could not be found or there was a server error.",
+      "contentParse": "There was an error displaying the content."
+    },
+    "goBack": "Go Back",
+    "stayUpdated": "Stay Updated",
+    "stayUpdatedDesc": "Stay updated with the latest news and updates from Ayhoot.",
+    "emailPlaceholder": "Enter your email address",
+    "subscribe": "Subscribe",
+    "tags": "Tags",
+    "news": "News",
+    "updates": "Updates",
+    "share": "Share"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "description": "View your recent activity and updates from the platform.",
+    "markAsRead": "Mark as Read",
+    "timeGroups": {
+      "today": "Today",
+      "yesterday": "Yesterday",
+      "thisWeek": "This Week",
+      "older": "Older"
+    },
+    "empty": {
+      "title": "No new notifications",
+      "description": "Your notifications will appear here."
+    },
+    "notifications": {
+      "loadFailed": "Could not load notifications.",
+      "updateFailed": "Could not update notification."
+    }
+  },
+  "category": {
+    "allContentTitle": "All Content",
+    "filters": {
+      "contentType": "Content Type",
+      "all": "All",
+      "exams": "Ayhoots",
+      "courses": "Courses"
+    },
+    "badge": {
+      "course": "Course",
+      "ayhoot": "Ayhoot"
+    }
+  },
+  "payment": {
+    "title": "Purchase Confirmation",
+    "price": "Price",
+    "discount": "Discount",
+    "total": "Total",
+    "discountCode": "Discount Code",
+    "discountCodePlaceholder": "Enter discount code",
+    "apply": "Apply",
+    "applying": "Applying...",
+    "cancel": "Cancel",
+    "payNow": "Pay Now",
+    "processing": "Processing...",
+    "redirectingToPayment": "Redirecting to payment gateway...",
+    "paymentError": "Payment failed. Please try again.",
+    "discountWillBeApplied": "Discount code will be applied during payment",
+    "discountError": "Invalid discount code"
+  },
+  "purchase": {
+    "buyNow": "Buy Now",
+    "free": "Free Access",
+    "purchased": "Purchased",
+    "processing": "Processing...",
+    "currency": "Toman",
+    "loginRequired": "Please log in to purchase content",
+    "invalidRole": "Invalid user role for purchase",
+    "freeAccessGranted": "Free access granted!",
+    "accessFailed": "Failed to access content"
+  },
+  "paymentStatus": {
+    "success": {
+      "title": "Payment Successful",
+      "message": "Your purchase has been completed successfully.",
+      "examMessage": "Your exam purchase has been completed successfully.",
+      "examPurchased": "You now have access to this exam and can find it in your purchased exams list."
+    },
+    "failed": {
+      "title": "Payment Failed",
+      "message": "Your payment could not be processed.",
+      "reasons": {
+        "missingParameters": "Missing payment parameters",
+        "transactionNotFound": "Transaction not found",
+        "invoiceNotFound": "Invoice not found",
+        "paymentCanceled": "Payment was canceled"
+      }
+    },
+    "processing": {
+      "title": "Processing Payment",
+      "message": "Please wait while we process your payment..."
+    },
+    "referenceId": "Reference ID",
+    "goToDashboard": "Go to Dashboard",
+    "goToExams": "Go to My Exams",
+    "goToPurchasedExams": "Go to Purchased Exams",
+    "goToPurchasedCourses": "Go to Purchased Courses",
+    "tryAgain": "Try Again"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "description": "Review your order and complete your purchase",
+    "orderSummary": "Order Summary",
+    "paymentSummary": "Payment Summary",
+    "loading": "Loading...",
+    "by": "by",
+    "from": "from",
+    "course": "Course",
+    "exam": "Exam",
+    "plan": "Plan",
+    "payment": "Payment",
+    "paymentDescription": "Complete your payment securely",
+    "questions": "questions",
+    "days": "days",
+    "currency": "Toman",
+    "subtotal": "Subtotal",
+    "discount": "Discount",
+    "total": "Total",
+    "proceedToPayment": "Proceed to Payment",
+    "processing": "Processing...",
+    "goBack": "Go Back",
+    "securePayment": "Secure Payment",
+    "voucher": {
+      "title": "Discount Voucher",
+      "placeholder": "Enter voucher code",
+      "apply": "Apply",
+      "applying": "Applying...",
+      "applied": "Voucher Applied",
+      "discount": "discount",
+      "remove": "Remove",
+      "success": "Voucher applied successfully!",
+      "invalid": "Invalid or expired voucher code",
+      "available": "Available vouchers"
+    },
+    "errors": {
+      "fetchFailed": "Failed to load content details",
+      "paymentFailed": "Failed to initiate payment",
+      "invalidParams": "Invalid checkout parameters",
+      "initializationFailed": "Failed to initialize checkout"
+    }
+  },
+  "contentCard": {
+    "questions": "questions",
+    "exams": "exams",
+    "students": "students",
+    "teacher": "Teacher",
+    "institute": "Institute",
+    "purchased": "Purchased",
+    "startExam": "Start Exam",
+    "viewCourse": "View Course",
+    "view": "View"
+  },
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "pageOf": "Page {current} of {total}"
+  },
+  "paidExams": {
+    "title": "Paid Exams",
+    "description": "Discover and purchase premium exams from other educators",
+    "discover": "Discover",
+    "purchased": "Purchased",
+    "search": "Search",
+    "searchPlaceholder": "Search exams...",
+    "category": "Category",
+    "allCategories": "All Categories",
+    "clearFilters": "Clear Filters",
+    "noExamsFound": "No exams found",
+    "noExamsFoundDesc": "Try adjusting your search criteria",
+    "noPurchasedExams": "No purchased exams",
+    "noPurchasedExamsDesc": "You haven't purchased any exams yet",
+    "loadError": "Failed to load exams",
+    "purchaseSuccess": "Exam purchased successfully",
+    "accessGranted": "Access granted to exam"
+  },
+  "exam": {
+    "access": "Access Exam",
+    "details": "View Details",
+    "questions": "questions",
+    "students": "students",
+    "by": "by",
+    "free": "Free",
+    "hasAccess": "You have access",
+    "startExam": "Start Exam",
+    "viewQuestions": "View Questions",
+    "preview": "Exam Preview",
+    "totalQuestions": "Total Questions",
+    "totalStudents": "Total Students",
+    "purchaseRequired": "Purchase Required",
+    "purchaseRequiredDesc": "Purchase this exam to access all questions and features",
+    "notFound": "Exam Not Found",
+    "notFoundDesc": "The exam you're looking for doesn't exist or has been removed",
+    "loadError": "Failed to load exam",
+    "accessGranted": "Access granted successfully",
+    "owner": "Owner",
+    "editExam": "Edit Exam",
+    "accessExam": "Access Exam",
+    "questionsPreview": "Questions Preview",
+    "andMoreQuestions": "and {count} more questions...",
+    "hostLive": {
+      "title": "Host Live Session",
+      "sessionTitle": "Session Title",
+      "helperText": "Participants will join this room in real time using the Game PIN or QR code.",
+      "gamePin": "Game PIN",
+      "copyPin": "Copy PIN",
+      "pinCopied": "PIN Copied!",
+      "urlCopied": "Join URL copied!",
+      "scanToJoin": "Scan with camera to join",
+      "createSession": "Create Session",
+      "creating": "Creating...",
+      "goToHostPage": "Go to Host Page →",
+      "done": "Done",
+      "cancel": "Cancel",
+      "copied": "Copied",
+      "copy": "Copy"
+    }
+  },
+  "discoverInstitutes": {
+    "title": "Discover Institutes",
+    "filters": {
+      "searchLabel": "Search by name",
+      "searchPlaceholder": "e.g., Ayhoot Academy...",
+      "sortByLabel": "Sort By",
+      "sortOptions": {
+        "latest": "Latest (Newest)",
+        "oldest": "Oldest",
+        "mostContent": "Most Content",
+        "mostTutees": "Most Tutees"
+      }
+    },
+    "card": {
+      "defaultPlan": "Institute",
+      "ayhoots": "Ayhoots",
+      "courses": "Courses",
+      "tutees": "Tutees"
+    },
+    "empty": {
+      "title": "No Institutes Found",
+      "description": "Try adjusting your search or filters."
+    }
+  },
+  "editCourse": {
+    "title": "Edit Course",
+    "courseTitle": "Course Title",
+    "courseTitlePlaceholder": "Enter course title...",
+    "courseDescription": "Course Description",
+    "courseDescriptionPlaceholder": "Enter course description...",
+    "courseCategory": "Course Category",
+    "selectCategory": "Select a category",
+    "courseContent": "Course Content",
+    "uploadFiles": "Upload Files",
+    "uploadVideos": "Upload Videos",
+    "supportedFileTypes": "PDF, DOC, DOCX, PPT, PPTX, TXT, JPG, PNG, GIF, WEBP",
+    "supportedVideoTypes": "MP4, AVI, MOV, WMV, FLV, WEBM",
+    "uploadedFiles": "Uploaded Files",
+    "uploadedVideos": "Uploaded Videos",
+    "existingContent": "Existing Course Content",
+    "contentPreviewNote": "This course contains the following content items:",
+    "showingItems": "Showing {shown} of {total} items",
+    "courseCover": "Course Cover Image",
+    "uploadFile": "Upload a file",
+    "orDragDrop": "or drag and drop",
+    "supportedFormats": "PNG, JPG, GIF up to 2MB",
+    "removeCover": "Remove cover",
+    "cancel": "Cancel",
+    "save": "Save Changes",
+    "saving": "Saving..."
+  },
+  "contentViewer": {
+    "noCover": "No Cover Image",
+    "category": "Category",
+    "questions": "Questions",
+    "videoNotSupported": "Your browser does not support the video tag",
+    "audioNotSupported": "Your browser does not support the audio tag",
+    "pendingUpload": "Pending Upload",
+    "pdfPreviewTitle": "PDF Preview",
+    "officePreviewNote": "Preview loaded via Google Docs Viewer",
+    "openOriginal": "Open Original",
+    "audioFile": "Audio File",
+    "download": "Download",
+    "noPreviewAvailable": "No preview available for this file type",
+    "unknownContentType": "Unknown Content Type"
+  },
+  "plans": {
+    "title": "Choose Your Plan",
+    "subtitle": "Unlock powerful features to create, manage, and analyze your educational content.",
+    "teacherTitle": "Ayhoot for Teachers",
+    "teacherSubtitle": "Everything you need to deliver engaging lessons and track student progress.",
+    "mostPopular": "Most Popular",
+    "month": "month",
+    "freePrice": "Free",
+    "ctaFree": "Get Started for Free",
+    "ctaPaid": "Choose Plan",
+    "ctaChoosePlan": "Choose {name}",
+    "currency": "Rials",
+    "limitedOffer": "Limited Offer",
+    "availableUntil": "Available until {date}",
+    "names": {
+      "Free": "Free",
+      "Bronze Ayhoot!": "Bronze Ayhoot!",
+      "Silver Ayhoot!": "Silver Ayhoot!",
+      "Golden Ayhoot!": "Golden Ayhoot!",
+      "Enterprise": "Enterprise",
+      "Bronze": "Bronze",
+      "Silver": "Silver",
+      "Gold": "Gold",
+      "Golden": "Golden"
+    },
+    "descriptions": {
+      "Basic plan for getting started": "Basic plan for getting started",
+      "Perfect for small educators and tutors": "Perfect for small educators and tutors",
+      "Most popular plan for growing educators": "Most popular plan for growing educators",
+      "Premium plan for large institutions": "Premium plan for large institutions",
+      "Unlimited plan for large organizations": "Unlimited plan for large organizations"
+    },
+    "features": {
+      "ayhootsCount": "{count} Ayhoots (Exams)",
+      "tuteesCount": "{count} Tutees per month",
+      "tutorsCount": "{count} Occupy Tutors",
+      "coursesCount": "{count} Courses",
+      "groupsCount": "{count} Groups",
+      "participantLimit": "{count} Participant Limit",
+      "applyInstituteCount": "{count} Apply to Institute",
+      "reportsBasic": "Reports: Basic",
+      "reportsAdvanced": "Reports: Advanced",
+      "reportsUltimate": "Reports: Ultimate",
+      "reportsUltimatePro": "Reports: Ultimate Pro",
+      "reportsEnterprise": "Reports: Enterprise",
+      "monetizeYes": "Monetize: Yes",
+      "monetizeNo": "Monetize: No",
+      "unlimited": "Unlimited",
+      "unlimitedTutees": "Unlimited Tutees per month",
+      "unlimitedParticipants": "Unlimited Participants",
+      "unlimitedAyhoots": "Unlimited Ayhoots",
+      "unlimitedCourses": "Unlimited Courses",
+      "unlimitedGroups": "Unlimited Groups",
+      "unlimitedTutors": "Unlimited Tutors",
+      "reports": "Ultimate reports",
+      "monetize": "No limit on monetize",
+      "branding": "Personal branding tools",
+      "storeAccess": "Content store access"
+    },
+    "confirm": {
+      "title": "Confirm Your Subscription",
+      "subscribingTo": "You are subscribing to the {name} plan.",
+      "chooseBillingCycle": "Choose Billing Cycle",
+      "savePercent": "Save {percent}%",
+      "basePrice": "Base Price:",
+      "subtotal": "Subtotal ({months} months):",
+      "longTermDiscount": "Long-term Discount:",
+      "voucherDiscount": "Voucher Discount:",
+      "fromWallet": "From Wallet:",
+      "totalAmount": "Total Amount:",
+      "voucherLabel": "Voucher Code (Optional)",
+      "voucherPlaceholder": "Enter your code",
+      "apply": "Apply",
+      "useWallet": "Use wallet balance (Available: {balance})",
+      "processing": "Processing...",
+      "proceedToPay": "Proceed to Pay {amount}",
+      "chooseDifferent": "Choose a different plan",
+      "months1": "1 Month",
+      "months3": "3 Months",
+      "months12": "1 Year"
+    },
+    "alerts": {
+      "loadFailed": "Failed to load plans. Please try again.",
+      "loginRequired": "Please log in to choose a plan.",
+      "subscribeFailed": "Could not subscribe to the plan. Please check your connection."
+    }
+  },
+  "myCourses": {
+    "title": "My Courses",
+    "description": "Courses you are enrolled in or have purchased.",
+    "empty": {
+      "title": "No courses yet",
+      "description": "Browse the catalog to find courses to enroll in.",
+      "browse": "Browse courses"
+    },
+    "searchPlaceholder": "Search courses…",
+    "filters": {
+      "latest": "Latest",
+      "oldest": "Oldest"
+    }
+  }
+}

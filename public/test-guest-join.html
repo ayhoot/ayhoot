@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Guest Join</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <h1>Test Guest Join</h1>
+    <div id="result"></div>
+
+    <script>
+        async function testGuestJoin() {
+            try {
+                const response = await axios.post('http://127.0.0.1:8000/api/live-session/670343/join', {
+                    nickname: 'TestGuest_' + Math.random().toString(36).substr(2, 6),
+                    avatar: '🎮'
+                });
+                
+                document.getElementById('result').innerHTML = '<pre>' + JSON.stringify(response.data, null, 2) + '</pre>';
+                console.log('Guest joined successfully:', response.data);
+            } catch (error) {
+                document.getElementById('result').innerHTML = '<pre style="color:red">' + JSON.stringify(error.response?.data || error.message, null, 2) + '</pre>';
+                console.error('Error:', error);
+            }
+        }
+        
+        testGuestJoin();
+    </script>
+</body>
+</html>
